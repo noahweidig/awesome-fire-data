@@ -1,0 +1,42 @@
+- id: wildfirespreadts
+  title: WildfireSpreadTS
+  icon: lucide/brain-circuit
+  summary: Multi-modal daily time series of active fire, weather, fuels and terrain for next-day fire spread prediction.
+  provider: Gerard et al., Zenodo
+  coverage: Western United States
+  period: 2018 to 2021
+  resolution: 375 m
+  format: [GeoTIFF]
+  license: CC BY 4.0
+  update: Static
+  access: https://zenodo.org/records/8006177
+  docs: https://zenodo.org/records/8006177
+  tags: [United States, Bulk download, Machine learning, GeoTIFF, CC BY 4.0, Static, 375 m]
+- id: next-day-wildfire-spread
+  title: Next Day Wildfire Spread
+  icon: lucide/brain-circuit
+  summary: Earth Engine-derived dataset pairing fire masks with weather, vegetation and topography for next-day spread.
+  provider: Huot et al., Kaggle
+  coverage: United States
+  period: 2012 to 2020
+  resolution: 1 km
+  format: [TFRecord]
+  license: CC BY 4.0
+  update: Static
+  access: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
+  docs: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
+  tags: [United States, Bulk download, Machine learning, TFRecord, CC BY 4.0, Static, 1 km]
+- id: sen2fire
+  title: Sen2Fire
+  icon: lucide/brain-circuit
+  summary: Sentinel-2 and Sentinel-5P patches labelled for wildfire detection and segmentation.
+  provider: Xu et al., Zenodo
+  coverage: Australia
+  period: 2019 to 2020
+  resolution: 10 m to 20 m
+  format: [NumPy]
+  license: CC BY 4.0
+  update: Static
+  access: https://zenodo.org/records/10881058
+  docs: https://zenodo.org/records/10881058
+  tags: [Australia, Bulk download, Machine learning, NumPy, CC BY 4.0, Static, 10 m]

@@ -1,0 +1,42 @@
+- id: cal-fire-dins
+  title: CAL FIRE Damage Inspection (DINS)
+  icon: lucide/house
+  summary: Structure-level damage assessments after California wildfires.
+  provider: CAL FIRE
+  coverage: California
+  period: 2013 to present
+  resolution: Structure point
+  format: [CSV, GeoJSON, Shapefile]
+  license: Open data (see portal)
+  update: Per incident
+  access: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
+  docs: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
+  tags: [United States, California, API, Bulk download, CSV, GeoJSON, Per incident]
+- id: ravg
+  title: RAVG (Rapid Assessment of Vegetation Condition after Wildfire)
+  icon: lucide/layers
+  summary: Rapid post-fire canopy cover loss and basal area mortality maps for US Forest Service lands.
+  provider: USDA Forest Service Geospatial Technology and Applications Center
+  coverage: United States (National Forest System)
+  period: 2012 to present
+  resolution: 30 m
+  format: [GeoTIFF, Shapefile]
+  license: Public domain
+  update: Per fire
+  access: https://burnseverity.cr.usgs.gov/ravg/
+  docs: https://burnseverity.cr.usgs.gov/ravg/
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Per incident, 30 m]
+- id: usgs-debris-flow
+  title: USGS Post-Fire Debris-Flow Hazard Assessments
+  icon: lucide/triangle-alert
+  summary: Likelihood and volume estimates of debris flows in burned basins, with a national assessment portal.
+  provider: USGS Landslide Hazards Program
+  coverage: Western United States
+  period: 2013 to present
+  resolution: Basin and 30 m
+  format: [Shapefile, GeoJSON, Web map]
+  license: Public domain
+  update: Per incident
+  access: https://landslides.usgs.gov/hazards/postfire_debrisflow/
+  docs: https://landslides.usgs.gov/hazards/postfire_debrisflow/
+  tags: [United States, Bulk download, Shapefile, GeoJSON, Public domain, Per incident]

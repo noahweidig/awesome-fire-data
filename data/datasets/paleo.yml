@@ -1,0 +1,28 @@
+- id: global-paleofire-database
+  title: Global Paleofire Database (Global Charcoal Database)
+  icon: lucide/history
+  summary: Sedimentary charcoal records for reconstructing fire history over thousands of years.
+  provider: Global Paleofire Working Group
+  coverage: Global
+  period: Holocene and earlier
+  resolution: Site records
+  format: [CSV, R package]
+  license: Open (see site)
+  update: Periodic
+  access: https://www.paleofire.org/
+  docs: https://www.paleofire.org/
+  tags: [Global, Bulk download, CSV, Periodic]
+- id: noaa-fire-history
+  title: NOAA Paleoclimatology Fire History
+  icon: lucide/history
+  summary: Tree-ring fire scar and charcoal records archived by NOAA NCEI.
+  provider: NOAA NCEI
+  coverage: Global, strongest in North America
+  period: Centuries to millennia
+  resolution: Site records
+  format: [Text, Excel, NOAA templates]
+  license: Public domain
+  update: Ongoing
+  access: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
+  docs: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
+  tags: [Global, North America, Bulk download, Public domain, Ongoing]

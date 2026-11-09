@@ -1,0 +1,42 @@
+- id: landfire
+  title: LANDFIRE
+  icon: lucide/trees
+  summary: Nationally consistent fuel models, canopy attributes, vegetation and fire regime layers.
+  provider: USGS and USDA Forest Service
+  coverage: United States
+  period: Annual updates since 2001 (varies by layer)
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Annual
+  access: https://landfire.gov/
+  docs: https://landfire.gov/
+  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Annual, 30 m]
+- id: usgs-3dep
+  title: USGS 3DEP Elevation
+  icon: lucide/layers-3
+  summary: High-resolution elevation, from lidar-derived DEMs to 1/3 arc-second national coverage.
+  provider: USGS
+  coverage: United States
+  period: Continuously updated
+  resolution: 1 m to 10 m
+  format: [GeoTIFF, LAZ]
+  license: Public domain
+  update: Continuous
+  access: https://www.usgs.gov/3d-elevation-program
+  docs: https://www.usgs.gov/3d-elevation-program
+  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Continuous, 10 m]
+- id: nlcd-tcc
+  title: NLCD (National Land Cover Database) and Tree Canopy Cover
+  icon: lucide/trees
+  summary: Land cover, impervious surface and tree canopy cover for the conterminous US.
+  provider: USGS and MRLC
+  coverage: United States
+  period: 1985 to 2023 (varies by product)
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Periodic
+  access: https://www.mrlc.gov/data
+  docs: https://www.mrlc.gov/
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m]

@@ -1,0 +1,57 @@
+- id: mtbs
+  title: MTBS (Monitoring Trends in Burn Severity)
+  icon: lucide/layers
+  summary: Burn severity mosaics and perimeters for large US fires, mapped from Landsat.
+  provider: USGS EROS and USDA Forest Service
+  coverage: CONUS, Alaska, Hawaii, Puerto Rico
+  period: 1984 to present
+  resolution: 30 m
+  format: [GeoTIFF, Shapefile]
+  license: Public domain
+  update: Annual
+  access: https://www.mtbs.gov/direct-download
+  docs: https://www.mtbs.gov/
+  tags: [United States, Bulk download, GeoTIFF, Shapefile, Public domain, Annual, 30 m]
+  caveat: Covers fires of at least 1,000 acres in the West and 500 acres in the East.
+- id: wfigs-perimeters
+  title: WFIGS Interagency Fire Perimeters
+  icon: lucide/map
+  summary: Current and historical wildland fire perimeters from US interagency sources.
+  provider: NIFC (National Interagency Fire Center)
+  coverage: United States
+  period: Current year and historical archive
+  resolution: Vector
+  format: [ArcGIS feature service, GeoJSON, Shapefile]
+  license: Public domain
+  update: Continuous
+  access: https://data-nifc.opendata.arcgis.com/
+  docs: https://data-nifc.opendata.arcgis.com/
+  tags: [United States, API, GeoJSON, Shapefile, Public domain, Near real time]
+- id: mcd64a1
+  title: MODIS MCD64A1 Burned Area
+  icon: lucide/satellite
+  summary: Global monthly burned-area product with burn date, from MODIS surface reflectance.
+  provider: NASA LP DAAC
+  coverage: Global
+  period: 2000 to present
+  resolution: 500 m
+  format: [HDF4, GeoTIFF]
+  license: NASA open data
+  update: Monthly
+  access: https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061
+  docs: https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061
+  tags: [Global, Bulk download, API, HDF, NASA open data, Monthly, 500 m]
+- id: cnfdb
+  title: Canadian National Fire Database (CNFDB)
+  icon: lucide/map
+  summary: Fire perimeters and point locations reported by Canadian agencies.
+  provider: Canadian Forest Service (NRCan)
+  coverage: Canada
+  period: 1917 to present
+  resolution: Vector
+  format: [Shapefile]
+  license: Open Government Licence - Canada
+  update: Annual
+  access: https://cwfis.cfs.nrcan.gc.ca/datamart
+  docs: https://cwfis.cfs.nrcan.gc.ca/
+  tags: [Canada, Bulk download, Shapefile, Open Government Licence, Annual]

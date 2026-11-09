@@ -1,0 +1,28 @@
+- id: wildfire-risk-to-communities
+  title: Wildfire Risk to Communities
+  icon: lucide/shield-alert
+  summary: Landscape-wide wildfire risk components, including burn probability and exposure, plus a community-level web tool.
+  provider: USDA Forest Service Research Data Archive
+  coverage: United States
+  period: 2020 edition (2nd edition)
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Periodic editions
+  access: https://www.fs.usda.gov/rds/archive/catalog/RDS-2020-0016-2
+  docs: https://wildfirerisk.org/
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m]
+- id: silvis-wui
+  title: SILVIS Lab Wildland-Urban Interface (WUI) Change
+  icon: lucide/house
+  summary: Housing and WUI maps for the conterminous US by census block, from 1990 to 2020.
+  provider: University of Wisconsin-Madison SILVIS Lab
+  coverage: Conterminous United States
+  period: 1990 to 2020
+  resolution: Census block
+  format: [Shapefile, GeoDatabase]
+  license: Open (see site)
+  update: Decennial
+  access: https://silvis.forest.wisc.edu/data/wui-change/
+  docs: https://silvis.forest.wisc.edu/data/wui-change/
+  tags: [United States, Bulk download, Shapefile, GeoDatabase, Decennial]
