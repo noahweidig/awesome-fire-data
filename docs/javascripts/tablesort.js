@@ -1,6 +1,7 @@
 document$.subscribe(function () {
+  var sorters = [];
   document.querySelectorAll("article .sortable table").forEach(function (table) {
-    new Tablesort(table);
+    sorters.push(new Tablesort(table));
   });
   var input = document.getElementById("dataset-filter");
   if (!input) return;
