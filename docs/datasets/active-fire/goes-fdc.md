@@ -1,6 +1,7 @@
 ---
 title: "GOES-R Fire/Hot Spot Characterization on AWS"
 icon: lucide/satellite
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/active-fire.yml
 tags:
   - Americas
   - Cloud bucket
@@ -28,5 +29,7 @@ Geostationary fire detection with fire power and temperature, updated every 5 to
 | :lucide-file:{ title="File and service formats" } Format | NetCDF |
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | 5 to 15 minutes |
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "GOES-R Fire/Hot Spot Characterization on AWS", "description": "Geostationary fire detection with fire power and temperature, updated every 5 to 15 minutes.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/goes-fdc/", "creator": {"@type": "Organization", "name": "NOAA / NESDIS"}, "spatialCoverage": "Americas", "temporalCoverage": "2017 to present", "keywords": ["Americas", "Cloud bucket", "NetCDF", "Public domain", "Near real time", "2 km"], "license": "Public domain", "sameAs": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/goes-r-series-data-products", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-goes/", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Active fire & detection](index.md){ .md-button }

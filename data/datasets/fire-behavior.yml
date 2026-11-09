@@ -23,10 +23,28 @@
   period: 2001 to 2019 (US)
   resolution: 500 m
   format: [Shapefile, GeoPackage]
-  license: See dataset record
+  license: "CC BY-SA 4.0 per the preprint. Check each CU Scholar record."
   update: Static
   access: https://scholar.colorado.edu/concern/datasets/v405sc03w
   docs: https://doi.org/10.3390/rs12213498
   tags: [United States, Bulk download, Shapefile, Static, 500 m]
   related: [mcd64a1, global-fire-atlas]
   caveat: Event parameters differ between regional releases. Check the record for the version and MODIS collection used.
+  verified: "2026-11-09"
+- id: feds
+  title: FEDS (Fire Event Data Suite)
+  icon: lucide/wind-arrow-down
+  summary: Fire event perimeters, new fire pixels and active fire lines updated about every 12 hours from VIIRS 375 m detections.
+  provider: NASA Earth Information System
+  coverage: CONUS and Canada (Alaska and Hawaii through FIRMS when released)
+  period: Near real time, with static outputs tied to publications
+  resolution: 375 m detections, vector events
+  format: [GeoJSON, ArcGIS REST service]
+  license: NASA open data
+  update: Near real time
+  access: https://earth-information-system.github.io/fireatlas/docs/data.html
+  docs: https://earth-information-system.github.io/fireatlas/docs/data_overview.html
+  tags: [North America, API, GeoJSON, NASA open data, Near real time, 375 m]
+  related: [firms, wfigs-perimeters]
+  caveat: Satellite-derived perimeters are less accurate than operational ones. For US incidents the official incident data give a more precise perimeter. Vector output arrives about 4 hours after VIIRS data reach FIRMS.
+  verified: "2026-11-09"

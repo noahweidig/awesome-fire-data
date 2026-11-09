@@ -18,14 +18,15 @@
   summary: Housing and WUI maps for the conterminous US by census block, from 1990 to 2020.
   provider: University of Wisconsin-Madison SILVIS Lab
   coverage: Conterminous United States
-  period: 1990 to 2020
+  period: "1990 to 2020 (4th edition)"
   resolution: Census block
   format: [Shapefile, GeoDatabase]
-  license: Open (see site)
+  license: "Free to use, no fees (US Government funded). See the archive record."
   update: Decennial
   access: https://silvis.forest.wisc.edu/data/wui-change/
   docs: https://silvis.forest.wisc.edu/data/wui-change/
   tags: [United States, Bulk download, Shapefile, GeoDatabase, Decennial]
+  verified: "2026-11-09"
 - id: building-based-wui
   title: Building-based WUI maps (CONUS)
   icon: lucide/house
@@ -35,13 +36,15 @@
   period: Buildings from a 2018 release; vegetation from NLCD 2016
   resolution: 30 m
   format: [GeoTIFF]
-  license: See ScienceBase record
+  license: "Public domain"
   update: Static
   access: https://doi.org/10.5066/P94BT6Q7
   docs: https://doi.org/10.1002/eap.2597
-  tags: [United States, Bulk download, GeoTIFF, Static, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Static, 30 m, Public domain]
   related: [silvis-wui, global-wui]
   caveat: Single 16.9 GB zip. Building locations come from a Microsoft 2018 product, so newer construction is missing. Check the record for the file format.
+  doi: "10.5066/P94BT6Q7"
+  verified: "2026-11-09"
 - id: global-wui
   title: Global WUI map 2020
   icon: lucide/house

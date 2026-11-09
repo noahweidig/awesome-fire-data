@@ -1,6 +1,7 @@
 ---
 title: "TreeMap"
 icon: lucide/tree-pine
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/fuels-terrain.yml
 tags:
   - United States
   - Bulk download
@@ -38,5 +39,7 @@ Tree-level model of US forests, made by imputing FIA plot data onto a 30 m grid.
 
 - [FIA DataMart](../fuels-terrain/fia-datamart.md)
 - [LANDFIRE](../fuels-terrain/landfire.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "TreeMap", "description": "Tree-level model of US forests, made by imputing FIA plot data onto a 30 m grid.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/treemap/", "creator": {"@type": "Organization", "name": "USDA Forest Service Rocky Mountain Research Station"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "Editions for 2014, 2016, 2020 and 2022", "keywords": ["United States", "Bulk download", "GeoTIFF", "CSV", "Public domain", "Periodic", "30 m"], "license": "Public domain", "sameAs": "https://doi.org/10.2737/RDS-2025-0032", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.2737/RDS-2025-0032", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://doi.org/10.2737/RDS-2025-0032", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

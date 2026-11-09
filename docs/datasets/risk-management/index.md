@@ -1,5 +1,6 @@
 ---
 icon: lucide/shield-alert
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Risk, WUI & management

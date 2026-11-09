@@ -1,5 +1,6 @@
 ---
 icon: lucide/trees
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Fuels, vegetation & terrain
@@ -23,6 +24,14 @@ Fuel models, canopy, land cover and elevation inputs for fire behavior and risk.
     Lidar footprints with canopy height, cover, vertical structure and biomass from the International Space Station.
 
     [:lucide-arrow-right: Details](gedi.md)
+
+-   :lucide-droplets:{ .lg .middle } __[Globe-LFMC 2.0](globe-lfmc.md)__
+
+    ---
+
+    More than 280,000 field measurements of live fuel moisture content from sites worldwide.
+
+    [:lucide-arrow-right: Details](globe-lfmc.md)
 
 -   :lucide-bug:{ .lg .middle } __[Insect and Disease Detection Survey](ids-survey.md)__
 
@@ -60,7 +69,7 @@ Fuel models, canopy, land cover and elevation inputs for fire behavior and risk.
 
     ---
 
-    Land cover, impervious surface and tree canopy cover for the conterminous US.
+    Annual land cover, impervious surface and tree canopy cover for the conterminous US.
 
     [:lucide-arrow-right: Details](nlcd-tcc.md)
 

@@ -1,6 +1,7 @@
 ---
 title: "USGS Landsat Burned Area (Collection 2 Level-3)"
 icon: lucide/flame
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/perimeters.yml
 tags:
   - United States
   - Bulk download
@@ -37,5 +38,7 @@ Scene-level burn classification and burn probability rasters from Landsat 4 to 9
 
 - [MTBS](../perimeters/mtbs.md)
 - [Southeast FireMap Burned Area](../prescribed-fire/se-firemap.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USGS Landsat Burned Area (Collection 2 Level-3)", "description": "Scene-level burn classification and burn probability rasters from Landsat 4 to 9.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/landsat-burned-area/", "creator": {"@type": "Organization", "name": "USGS EROS"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1984 to present", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Near real time", "30 m"], "license": "Public domain", "sameAs": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

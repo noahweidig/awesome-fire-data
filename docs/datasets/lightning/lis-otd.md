@@ -1,6 +1,7 @@
 ---
 title: "LIS/OTD Gridded Lightning Climatology"
 icon: lucide/cloud-lightning
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/lightning.yml
 tags:
   - Global
   - Bulk download
@@ -32,5 +33,7 @@ Space-based lightning climatologies from the TRMM Lightning Imaging Sensor and t
 !!! warning "Caveat"
 
     A climatology, not event-level data. Use GLM for recent individual strikes.
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "LIS/OTD Gridded Lightning Climatology", "description": "Space-based lightning climatologies from the TRMM Lightning Imaging Sensor and the Optical Transient Detector.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/lightning/lis-otd/", "creator": {"@type": "Organization", "name": "NASA GHRC DAAC"}, "spatialCoverage": "Global (about 38 degrees N to S for LIS)", "temporalCoverage": "May 1995 to 2013 (V2.3.2015)", "keywords": ["Global", "Bulk download", "HDF", "NetCDF", "NASA open data", "Static"], "license": "NASA open data", "sameAs": "https://ghrc.nsstc.nasa.gov/uso/ds_details/collections/loCv2.3.2015.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://ghrc.nsstc.nasa.gov/pub/lis/climatology/", "encodingFormat": "HDF"}, {"@type": "DataDownload", "contentUrl": "https://ghrc.nsstc.nasa.gov/pub/lis/climatology/", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Lightning & ignition drivers](index.md){ .md-button }

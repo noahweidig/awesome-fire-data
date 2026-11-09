@@ -12,6 +12,8 @@
   access: https://firms.modaps.eosdis.nasa.gov/active_fire/
   docs: https://firms.modaps.eosdis.nasa.gov/
   tags: [Global, API, Bulk download, CSV, Shapefile, NASA open data, Near real time, 375 m]
+  caveat: "MODIS detections depend on Terra and Aqua, which NASA expects to shut down in late 2026 to early 2027. VIIRS detections continue."
+  verified: "2026-11-09"
 - id: goes-fdc
   title: GOES-R Fire/Hot Spot Characterization on AWS
   icon: lucide/satellite

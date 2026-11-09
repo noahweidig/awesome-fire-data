@@ -1,6 +1,7 @@
 ---
 title: "Prescribed Fire Permit Records for Georgia and Florida"
 icon: lucide/file-check
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/prescribed-fire.yml
 tags:
   - United States
   - Bulk download
@@ -36,5 +37,7 @@ Permit records for prescribed burns in Georgia and Florida with weather conditio
 ## Related datasets
 
 - [Southeast FireMap Burned Area](../prescribed-fire/se-firemap.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Prescribed Fire Permit Records for Georgia and Florida", "description": "Permit records for prescribed burns in Georgia and Florida with weather conditions on permitted days.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/rx-permits-ga-fl/", "creator": {"@type": "Organization", "name": "USGS"}, "spatialCoverage": "Georgia and Florida", "temporalCoverage": "2006 to 2016", "keywords": ["United States", "Bulk download", "CSV", "Shapefile", "Public domain", "Static"], "license": "Public domain", "sameAs": "https://doi.org/10.5066/P9YNSQZ2", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5066/P9YNSQZ2", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://doi.org/10.5066/P9YNSQZ2", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Prescribed fire & fuel treatments](index.md){ .md-button }

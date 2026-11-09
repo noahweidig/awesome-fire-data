@@ -1,5 +1,6 @@
 ---
 icon: lucide/brain-circuit
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Benchmarks & ML-ready

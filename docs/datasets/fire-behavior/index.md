@@ -1,5 +1,6 @@
 ---
 icon: lucide/wind-arrow-down
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Fire behavior & spread
@@ -7,6 +8,14 @@ icon: lucide/wind-arrow-down
 Individual fire events with daily spread, speed and direction.
 
 <div class="grid cards" markdown>
+
+-   :lucide-wind-arrow-down:{ .lg .middle } __[FEDS](feds.md)__
+
+    ---
+
+    Fire event perimeters, new fire pixels and active fire lines updated about every 12 hours from VIIRS 375 m detections.
+
+    [:lucide-arrow-right: Details](feds.md)
 
 -   :lucide-flame:{ .lg .middle } __[FIRED](fired.md)__
 

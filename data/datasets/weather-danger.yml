@@ -12,6 +12,13 @@
   access: https://www.climatologylab.org/gridmet.html
   docs: https://www.climatologylab.org/gridmet.html
   tags: [United States, API, Bulk download, NetCDF, Public domain, Daily, 4 km]
+  snippets:
+    - label: Earth Engine (Python)
+      lang: python
+      code: |
+        import ee
+        ee.Initialize()
+        erc = ee.ImageCollection("IDAHO_EPSCOR/GRIDMET").filterDate("2024-07-01", "2024-07-08").select("erc")
 - id: daymet
   title: Daymet
   icon: lucide/cloud-rain
@@ -115,4 +122,46 @@
   docs: https://rapidrefresh.noaa.gov/hrrr/
   tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km]
   related: [hrrr-smoke, gridmet]
-  caveat: The Herbie Python package simplifies retrieval of individual fields.
+  caveat: "The Herbie Python package simplifies retrieval of individual fields. NOAA says HRRR is not retired with the RRFS v1 implementation. A retirement date has not been announced."
+  verified: "2026-11-09"
+  snippets:
+    - label: Python
+      lang: python
+      code: |
+        from herbie import Herbie
+        H = Herbie("2024-07-01 12:00", model="hrrr", product="sfc", fxx=0)
+        ds = H.xarray("TMP:2 m")
+- id: us-drought-monitor
+  title: US Drought Monitor
+  icon: lucide/sun
+  summary: Weekly drought category maps for the US, with polygon, grid and statistics downloads.
+  provider: National Drought Mitigation Center (University of Nebraska-Lincoln), USDA and NOAA
+  coverage: United States
+  period: 2000 to present
+  resolution: Vector (500 m grid also offered)
+  format: [Shapefile, KMZ, GML, GeoJSON, WMS]
+  license: See NDMC terms
+  update: Weekly
+  access: https://droughtmonitor.unl.edu/DmData/GISData.aspx
+  docs: https://droughtmonitor.unl.edu/
+  tags: [United States, API, Bulk download, Shapefile, GeoJSON, Weekly]
+  related: [gridmet, wfas]
+  caveat: NDMC says its shapefiles were modified from the originals. Use a vector dataset to match official statistics. Community GeoParquet mirrors exist.
+  verified: "2026-11-09"
+- id: raws
+  title: RAWS (Remote Automatic Weather Stations)
+  icon: lucide/thermometer-sun
+  summary: Hourly fire weather observations from interagency stations, archived by the Western Regional Climate Center.
+  provider: Western Regional Climate Center (Desert Research Institute) for NWCG agencies
+  coverage: United States
+  period: Varies by station
+  resolution: Station
+  format: [Tabular web download]
+  license: See WRCC terms
+  update: Continuous
+  access: https://raws.dri.edu/
+  docs: https://raws.dri.edu/
+  tags: [United States, Tabular, Continuous]
+  related: [gridmet, wfas]
+  caveat: Public data are not quality controlled. A 2025 mailing-list post quoting WRCC says raw public access is limited to the prior 30 days, with older data on request and possibly for a fee. I could not confirm that on an official page. The R package RAWSmet downloads and parses WRCC data.
+  verified: "2026-11-09"

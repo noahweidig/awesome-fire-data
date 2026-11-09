@@ -1,5 +1,6 @@
 ---
 icon: lucide/zap
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Lightning & ignition drivers

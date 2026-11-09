@@ -1,6 +1,7 @@
 ---
 title: "NASA Black Marble Nighttime Lights"
 icon: lucide/moon
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/impacts.yml
 tags:
   - Global
   - API
@@ -38,5 +39,7 @@ Daily, monthly and annual nighttime lights from VIIRS, used to track power loss 
 
 - [NASA FIRMS](../active-fire/firms.md)
 - [CAL FIRE Damage Inspection](../impacts/cal-fire-dins.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NASA Black Marble Nighttime Lights", "description": "Daily, monthly and annual nighttime lights from VIIRS, used to track power loss and recovery after disasters.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/black-marble/", "creator": {"@type": "Organization", "name": "NASA Goddard (Black Marble)"}, "spatialCoverage": "Global", "temporalCoverage": "2012 to present", "keywords": ["Global", "API", "Bulk download", "HDF", "NASA open data", "Daily", "500 m"], "license": "NASA open data", "sameAs": "https://blackmarble.gsfc.nasa.gov/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://blackmarble.gsfc.nasa.gov/", "encodingFormat": "HDF"}]}</script>
 
 [:lucide-arrow-left: Back to Impacts & post-fire](index.md){ .md-button }

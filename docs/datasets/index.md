@@ -1,5 +1,6 @@
 ---
 icon: lucide/database
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/scripts/generate.py
 ---
 
 # Datasets
@@ -15,7 +16,7 @@ icon: lucide/database
 
     Mapped fire footprints and burn severity, from agency perimeters to satellite burned-area products.
 
-    8 datasets
+    13 datasets
 
     [:lucide-arrow-right: Explore](perimeters/index.md)
 
@@ -65,7 +66,7 @@ icon: lucide/database
 
     Individual fire events with daily spread, speed and direction.
 
-    2 datasets
+    3 datasets
 
     [:lucide-arrow-right: Explore](fire-behavior/index.md)
 
@@ -75,7 +76,7 @@ icon: lucide/database
 
     Fuel models, canopy, land cover and elevation inputs for fire behavior and risk.
 
-    11 datasets
+    12 datasets
 
     [:lucide-arrow-right: Explore](fuels-terrain/index.md)
 
@@ -85,7 +86,7 @@ icon: lucide/database
 
     Gridded weather, drought and fire danger indices, historical and forecast.
 
-    8 datasets
+    10 datasets
 
     [:lucide-arrow-right: Explore](weather-danger/index.md)
 
@@ -135,7 +136,7 @@ icon: lucide/database
 
     Community vulnerability and national hazard risk indices for fire exposure studies.
 
-    2 datasets
+    3 datasets
 
     [:lucide-arrow-right: Explore](social-vulnerability/index.md)
 
@@ -145,7 +146,7 @@ icon: lucide/database
 
     Administrative, ecological and protected-area boundaries for joining and summarizing fire data.
 
-    5 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](boundaries/index.md)
 

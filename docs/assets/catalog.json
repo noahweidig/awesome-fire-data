@@ -1,0 +1,2480 @@
+[
+ {
+  "id": "alaska-fire-history",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/alaska-fire-history/",
+  "title": "Alaska Fire History (BLM AFS)",
+  "summary": "Statewide Alaska fire perimeter polygons and ignition points from the BLM Alaska Fire Service.",
+  "provider": "BLM Alaska Fire Service and Alaska Interagency Coordination Center",
+  "coverage": "Alaska",
+  "period": "1940 to 2025",
+  "resolution": "Vector",
+  "format": [
+   "ArcGIS feature service",
+   "Shapefile"
+  ],
+  "license": "See BLM AFS terms",
+  "update": "Annual",
+  "access": "https://fire.ak.blm.gov/predsvcs/maps.php",
+  "docs": "https://fire.ak.blm.gov/predsvcs/maps.php",
+  "tags": [
+   "United States",
+   "API",
+   "Annual"
+  ],
+  "related": [
+   "wfigs-perimeters",
+   "mtbs"
+  ],
+  "caveat": "The record does not include every fire, and polygons are less complete than points. Some older polygons were flagged for geospatial inaccuracies. Check the download page for current file formats.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "frap-perimeters",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/frap-perimeters/",
+  "title": "CAL FIRE FRAP Historical Fire Perimeters",
+  "summary": "California fire perimeters from 1878 to the latest fire season, from CAL FIRE's Fire and Resource Assessment Program.",
+  "provider": "CAL FIRE FRAP",
+  "coverage": "California",
+  "period": "1878 to present",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile",
+   "GeoDatabase",
+   "GeoJSON",
+   "CSV"
+  ],
+  "license": "CC BY (per catalog metadata)",
+  "update": "Annual",
+  "access": "https://catalog.data.gov/dataset/california-fire-perimeters-all",
+  "docs": "https://lab.data.ca.gov/dataset/california-fire-perimeters-all",
+  "tags": [
+   "California",
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "GeoJSON",
+   "GeoDatabase",
+   "CSV",
+   "Annual"
+  ],
+  "related": [
+   "wfigs-perimeters",
+   "mtbs",
+   "cal-fire-dins"
+  ],
+  "caveat": "Updated each spring with the prior fire season. CAL FIRE says the record is the most complete digital one for California but still incomplete, especially before 1950. Inclusion thresholds can differ from NIFC data.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "cnfdb",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/cnfdb/",
+  "title": "Canadian National Fire Database (CNFDB)",
+  "summary": "Fire perimeters and point locations reported by Canadian agencies.",
+  "provider": "Canadian Forest Service (NRCan)",
+  "coverage": "Canada",
+  "period": "1917 to present",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "Open Government Licence - Canada",
+  "update": "Annual",
+  "access": "https://cwfis.cfs.nrcan.gc.ca/datamart",
+  "docs": "https://cwfis.cfs.nrcan.gc.ca/",
+  "tags": [
+   "Canada",
+   "Bulk download",
+   "Shapefile",
+   "Open Government Licence",
+   "Annual"
+  ]
+ },
+ {
+  "id": "fire-cci51",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/fire-cci51/",
+  "title": "ESA Fire_cci MODIS Burned Area (v5.1)",
+  "summary": "Global burned area pixel product with date of burn and confidence, from MODIS.",
+  "provider": "ESA Climate Change Initiative",
+  "coverage": "Global",
+  "period": "2001 to 2020",
+  "resolution": "250 m",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "ESA CCI data policy",
+  "update": "Static",
+  "access": "https://catalogue.ceda.ac.uk/uuid/58f00d8814064b79a0c49662ad3af537",
+  "docs": "https://climate.esa.int/en/projects/fire/",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "NetCDF",
+   "Static",
+   "250 m"
+  ],
+  "related": [
+   "mcd64a1",
+   "fire-cci-s3syn"
+  ],
+  "caveat": "Also available as an Earth Engine collection. For recent years use the Sentinel-3 SYN product (2019 to 2024, about 300 m).",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "fire-cci-s3syn",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/fire-cci-s3syn/",
+  "title": "ESA Fire_cci Sentinel-3 SYN Burned Area (v1.1)",
+  "summary": "Global burned area pixel product at about 300 m from Sentinel-3 SYN, with date of burn and confidence.",
+  "provider": "ESA Climate Change Initiative",
+  "coverage": "Global",
+  "period": "2019 to 2024",
+  "resolution": "About 300 m",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "ESA CCI data policy",
+  "update": "Periodic",
+  "access": "https://climate.esa.int/en/catalogue/d441079fc77f49fabeb41330612b252f/",
+  "docs": "https://climate.esa.int/en/projects/fire/",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "NetCDF",
+   "Periodic"
+  ],
+  "related": [
+   "fire-cci51",
+   "mcd64a1"
+  ],
+  "caveat": "FireCCIS311. The v1.1 user guide lists 2019 to 2022 while the ESA catalogue lists 2019 to 2024, so confirm the years you need. Version 1.0 is superseded.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "gabam",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/gabam/",
+  "title": "GABAM Global Annual Burned Area Map",
+  "summary": "30 m annual burned area from Landsat for the globe, built in Google Earth Engine.",
+  "provider": "Aerospace Information Research Institute, Chinese Academy of Sciences",
+  "coverage": "Global",
+  "period": "2014 to 2024 (Zenodo v3, December 2025)",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "CC0 per community catalog. Confirm on the Zenodo record.",
+  "update": "Annual",
+  "access": "https://zenodo.org/records/17707433",
+  "docs": "https://doi.org/10.3390/rs11050489",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "GeoTIFF",
+   "Annual",
+   "30 m"
+  ],
+  "related": [
+   "mcd64a1"
+  ],
+  "caveat": "Year ranges differ between releases. Confirm coverage on the Zenodo record before use.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "globfire",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/globfire/",
+  "title": "GlobFire",
+  "summary": "Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.",
+  "provider": "JRC Global Wildfire Information System",
+  "coverage": "Global",
+  "period": "2001 to 2020",
+  "resolution": "Event polygons (from 500 m MODIS)",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters",
+  "docs": "https://doi.org/10.1038/s41597-019-0312-2",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "Shapefile",
+   "CC BY 4.0",
+   "Static"
+  ],
+  "related": [
+   "mcd64a1",
+   "fired"
+  ],
+  "caveat": "Based on 500 m MODIS, so small fires are missed. A GWIS download page also exists. Earth Engine lists v2 through 2020. Check GWIS for later releases.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "mcd64a1",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/mcd64a1/",
+  "title": "MODIS MCD64A1 Burned Area",
+  "summary": "Global monthly burned-area product with burn date, from MODIS surface reflectance.",
+  "provider": "NASA LP DAAC",
+  "coverage": "Global",
+  "period": "2000 to present",
+  "resolution": "500 m",
+  "format": [
+   "HDF4",
+   "GeoTIFF"
+  ],
+  "license": "NASA open data",
+  "update": "Monthly",
+  "access": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061",
+  "docs": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "API",
+   "HDF",
+   "NASA open data",
+   "Monthly",
+   "500 m"
+  ],
+  "caveat": "NASA says the Terra and Aqua platforms begin shutting down in late 2026 to early 2027. Both orbits are drifting. For continuity see VIIRS VNP64A1.",
+  "related": [
+   "vnp64a1",
+   "fire-cci51"
+  ],
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "mtbs",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/mtbs/",
+  "title": "MTBS (Monitoring Trends in Burn Severity)",
+  "summary": "Burn severity mosaics and perimeters for large US fires, mapped from Landsat.",
+  "provider": "USGS EROS and USDA Forest Service",
+  "coverage": "CONUS, Alaska, Hawaii, Puerto Rico",
+  "period": "1984 to present",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF",
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://www.mtbs.gov/direct-download",
+  "docs": "https://www.mtbs.gov/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Shapefile",
+   "Public domain",
+   "Annual",
+   "30 m"
+  ],
+  "caveat": "Covers fires of at least 1,000 acres in the West and 500 acres in the East. Includes prescribed fire perimeters. See Prescribed fire & fuel treatments for other prescribed burn sources.",
+  "related": [
+   "se-firemap",
+   "facts-hazardous-fuels"
+  ]
+ },
+ {
+  "id": "nbac",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/nbac/",
+  "title": "NBAC (National Burned Area Composite)",
+  "summary": "Annual Canadian burned area polygons compiled from provincial, territorial, Parks Canada and satellite sources.",
+  "provider": "Canadian Forest Service (NRCan) with provincial, territorial and Parks Canada agencies",
+  "coverage": "Canada",
+  "period": "1972 to 2024",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "Free with attribution (see CWFIS Datamart)",
+  "update": "Annual",
+  "access": "https://cwfis.cfs.nrcan.gc.ca/datamart/download/nbac",
+  "docs": "https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac",
+  "tags": [
+   "Canada",
+   "Bulk download",
+   "Shapefile",
+   "Annual"
+  ],
+  "related": [
+   "cnfdb",
+   "mcd64a1"
+  ],
+  "caveat": "The Canadian Forest Service asks users to cite the NBAC paper. Confirm the licence on the Datamart metadata. Year coverage and file names change with each release.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "landsat-burned-area",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/landsat-burned-area/",
+  "title": "USGS Landsat Burned Area (Collection 2 Level-3)",
+  "summary": "Scene-level burn classification and burn probability rasters from Landsat 4 to 9.",
+  "provider": "USGS EROS",
+  "coverage": "Conterminous US",
+  "period": "1984 to present",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Continuous",
+  "access": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product",
+  "docs": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Near real time",
+   "30 m"
+  ],
+  "caveat": "Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. Alaska coverage is not confirmed.",
+  "related": [
+   "mtbs",
+   "se-firemap"
+  ]
+ },
+ {
+  "id": "vnp64a1",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/vnp64a1/",
+  "title": "VIIRS VNP64A1 Burned Area",
+  "summary": "Global monthly 500 m burned area with burn date from Suomi NPP VIIRS, designed as the successor to MCD64A1.",
+  "provider": "NASA LP DAAC",
+  "coverage": "Global",
+  "period": "2012 to present",
+  "resolution": "500 m",
+  "format": [
+   "HDF5"
+  ],
+  "license": "NASA open data",
+  "update": "Monthly",
+  "access": "https://doi.org/10.5067/VIIRS/VNP64A1.002",
+  "docs": "https://doi.org/10.5067/VIIRS/VNP64A1.002",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "API",
+   "NASA open data",
+   "Monthly",
+   "500 m"
+  ],
+  "related": [
+   "mcd64a1",
+   "fire-cci51"
+  ],
+  "caveat": "Version 2 was released in October 2024. Uses 750 m VIIRS imagery with 750 m active fire detections. Earth Engine and the DAAC list different end dates, so check current coverage.",
+  "doi": "10.5067/VIIRS/VNP64A1.002",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "wfigs-perimeters",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/wfigs-perimeters/",
+  "title": "WFIGS Interagency Fire Perimeters",
+  "summary": "Current and historical wildland fire perimeters from US interagency sources.",
+  "provider": "NIFC (National Interagency Fire Center)",
+  "coverage": "United States",
+  "period": "Current year and historical archive",
+  "resolution": "Vector",
+  "format": [
+   "ArcGIS feature service",
+   "GeoJSON",
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Continuous",
+  "access": "https://data-nifc.opendata.arcgis.com/",
+  "docs": "https://data-nifc.opendata.arcgis.com/",
+  "tags": [
+   "United States",
+   "API",
+   "GeoJSON",
+   "Shapefile",
+   "Public domain",
+   "Near real time"
+  ],
+  "related": [
+   "mtbs",
+   "fireline-engagement"
+  ]
+ },
+ {
+  "id": "goes-fdc",
+  "theme": "Active fire & detection",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/goes-fdc/",
+  "title": "GOES-R Fire/Hot Spot Characterization on AWS",
+  "summary": "Geostationary fire detection with fire power and temperature, updated every 5 to 15 minutes.",
+  "provider": "NOAA / NESDIS",
+  "coverage": "Americas",
+  "period": "2017 to present",
+  "resolution": "2 km",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "Public domain",
+  "update": "5 to 15 minutes",
+  "access": "https://registry.opendata.aws/noaa-goes/",
+  "docs": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/goes-r-series-data-products",
+  "tags": [
+   "Americas",
+   "Cloud bucket",
+   "NetCDF",
+   "Public domain",
+   "Near real time",
+   "2 km"
+  ]
+ },
+ {
+  "id": "firms",
+  "theme": "Active fire & detection",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/firms/",
+  "title": "NASA FIRMS (Fire Information for Resource Management System)",
+  "summary": "Near-real-time active fire detections from MODIS and VIIRS, with map, download and API access.",
+  "provider": "NASA",
+  "coverage": "Global",
+  "period": "2000 to present (MODIS), 2012 to present (VIIRS)",
+  "resolution": "375 m to 1 km",
+  "format": [
+   "CSV",
+   "Shapefile",
+   "GeoJSON",
+   "KML"
+  ],
+  "license": "NASA open data",
+  "update": "Near real time",
+  "access": "https://firms.modaps.eosdis.nasa.gov/active_fire/",
+  "docs": "https://firms.modaps.eosdis.nasa.gov/",
+  "tags": [
+   "Global",
+   "API",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "NASA open data",
+   "Near real time",
+   "375 m"
+  ],
+  "caveat": "MODIS detections depend on Terra and Aqua, which NASA expects to shut down in late 2026 to early 2027. VIIRS detections continue.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "noaa-hms",
+  "theme": "Active fire & detection",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/noaa-hms/",
+  "title": "NOAA Hazard Mapping System (HMS) Fire and Smoke",
+  "summary": "Analyst-reviewed fire detections and smoke plume polygons for North America.",
+  "provider": "NOAA OSPO",
+  "coverage": "North America",
+  "period": "2003 to present",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile",
+   "KML",
+   "GIS data"
+  ],
+  "license": "Public domain",
+  "update": "Daily",
+  "access": "https://www.ospo.noaa.gov/products/land/hms.html",
+  "docs": "https://www.ospo.noaa.gov/products/land/hms.html",
+  "tags": [
+   "North America",
+   "Bulk download",
+   "Shapefile",
+   "KML",
+   "Public domain",
+   "Daily"
+  ]
+ },
+ {
+  "id": "effis",
+  "theme": "Occurrence & ignitions",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/effis/",
+  "title": "EFFIS (European Forest Fire Information System)",
+  "summary": "Burnt area, fire danger and statistics for Europe and surrounding regions.",
+  "provider": "European Commission JRC",
+  "coverage": "Europe, Middle East, North Africa",
+  "period": "2000 to present",
+  "resolution": "Vector and 250 m",
+  "format": [
+   "Shapefile",
+   "GeoJSON",
+   "WMS"
+  ],
+  "license": "Copernicus open data",
+  "update": "Daily",
+  "access": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services",
+  "docs": "https://forest-fire.emergency.copernicus.eu/",
+  "tags": [
+   "Europe",
+   "API",
+   "Shapefile",
+   "GeoJSON",
+   "Copernicus open data",
+   "Daily"
+  ]
+ },
+ {
+  "id": "fpa-fod",
+  "theme": "Occurrence & ignitions",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/fpa-fod/",
+  "title": "FPA-FOD (Fire Program Analysis Fire-Occurrence Database)",
+  "summary": "Point locations, discovery dates, causes and sizes of 2.66 million US wildfires from federal, state and local records.",
+  "provider": "USDA Forest Service Research Data Archive",
+  "coverage": "United States",
+  "period": "1992 to 2024",
+  "resolution": "Point",
+  "format": [
+   "Access",
+   "GeoDatabase",
+   "GeoPackage",
+   "SQLite"
+  ],
+  "license": "US Government data, free to use. See the archive Conditions of Use.",
+  "update": "Periodic editions",
+  "access": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7",
+  "docs": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoDatabase",
+   "SQLite",
+   "Custom terms",
+   "Periodic",
+   "GeoPackage"
+  ],
+  "caveat": "7th edition (FPA_FOD_20260615), published 2026. It replaces the 6th edition (1992 to 2020), which the archive marks as out of date. The archive page states no license, only that the data can be used without permissions or fees.",
+  "doi": "10.2737/RDS-2013-0009.7",
+  "citation": "Short, K.C. 2026. Spatial wildfire occurrence data for the United States, 1992-2024 [FPA_FOD_20260615]. 7th Edition. Fort Collins, CO: Forest Service Research Data Archive.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "nifc-statistics",
+  "theme": "Occurrence & ignitions",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/nifc-statistics/",
+  "title": "NIFC Wildfire Statistics",
+  "summary": "Annual US fire counts and acres burned by year, agency and state.",
+  "provider": "NIFC",
+  "coverage": "United States",
+  "period": "1983 to present",
+  "resolution": "Tabular",
+  "format": [
+   "HTML",
+   "PDF"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://www.nifc.gov/fire-information/statistics",
+  "docs": "https://www.nifc.gov/fire-information/statistics",
+  "tags": [
+   "United States",
+   "Tabular",
+   "Public domain",
+   "Annual"
+  ]
+ },
+ {
+  "id": "ca-rx-monitoring",
+  "theme": "Prescribed fire & fuel treatments",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/ca-rx-monitoring/",
+  "title": "California Prescribed Fire Monitoring Program",
+  "summary": "Plot-level forest structure, fuel load and recovery measurements before and after prescribed fire at 36 California sites.",
+  "provider": "CAL FIRE and UC Davis",
+  "coverage": "California",
+  "period": "2019 to 2024",
+  "resolution": "Plots (972 plots)",
+  "format": [
+   "CSV"
+  ],
+  "license": "CC0",
+  "update": "Static",
+  "access": "https://doi.org/10.5061/dryad.612jm64gw",
+  "docs": "https://doi.org/10.1038/s41597-025-06509-0",
+  "tags": [
+   "California",
+   "Bulk download",
+   "CSV",
+   "CC0",
+   "Static"
+  ],
+  "caveat": "Check the Dryad record for current license terms."
+ },
+ {
+  "id": "globalrx",
+  "theme": "Prescribed fire & fuel treatments",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/globalrx/",
+  "title": "GlobalRx",
+  "summary": "204,517 georeferenced prescribed burn records from 16 countries, with weather and environmental context for each burn.",
+  "provider": "Hsu et al. (University of East Anglia and collaborators)",
+  "coverage": "16 countries",
+  "period": "1979 to 2023",
+  "resolution": "Burn records (points)",
+  "format": [
+   "CSV",
+   "Shapefile"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://doi.org/10.5281/zenodo.13379462",
+  "docs": "https://doi.org/10.1038/s41597-025-04941-w",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "CC BY 4.0",
+   "Static"
+  ],
+  "caveat": "Coverage is uneven across countries because each source database differs in reporting."
+ },
+ {
+  "id": "rx-permits-ga-fl",
+  "theme": "Prescribed fire & fuel treatments",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/rx-permits-ga-fl/",
+  "title": "Prescribed Fire Permit Records for Georgia and Florida",
+  "summary": "Permit records for prescribed burns in Georgia and Florida with weather conditions on permitted days.",
+  "provider": "USGS",
+  "coverage": "Georgia and Florida",
+  "period": "2006 to 2016",
+  "resolution": "Permit records",
+  "format": [
+   "CSV",
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Static",
+  "access": "https://doi.org/10.5066/P9YNSQZ2",
+  "docs": "https://doi.org/10.5066/P9YNSQZ2",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "Public domain",
+   "Static"
+  ],
+  "related": [
+   "se-firemap"
+  ],
+  "caveat": "Tall Timbers maintains a larger 12-state permit database (2010 to 2020) that is not publicly downloadable."
+ },
+ {
+  "id": "se-firemap",
+  "theme": "Prescribed fire & fuel treatments",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/se-firemap/",
+  "title": "Southeast FireMap Burned Area (SE FireMap)",
+  "summary": "Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.",
+  "provider": "USGS and Tall Timbers Research Station",
+  "coverage": "Southeastern US",
+  "period": "1994 to 2025",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "CC0",
+  "update": "Annual",
+  "access": "https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0",
+  "docs": "https://doi.org/10.5066/P1PVDTVK",
+  "tags": [
+   "Southeast US",
+   "Bulk download",
+   "GeoTIFF",
+   "CC0",
+   "Annual",
+   "30 m"
+  ],
+  "related": [
+   "mtbs",
+   "rx-permits-ga-fl"
+  ],
+  "caveat": "Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately."
+ },
+ {
+  "id": "facts-hazardous-fuels",
+  "theme": "Prescribed fire & fuel treatments",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/facts-hazardous-fuels/",
+  "title": "USFS Hazardous Fuel Treatment Reduction (FACTS)",
+  "summary": "Polygon and line records of Forest Service hazardous fuel treatments, including prescribed burning, from the FACTS activity tracking system.",
+  "provider": "USDA Forest Service",
+  "coverage": "United States (Forest Service activities)",
+  "period": "Ongoing",
+  "resolution": "Polygons and lines",
+  "format": [
+   "GeoDatabase",
+   "Shapefile",
+   "GeoJSON",
+   "KML",
+   "CSV"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Ongoing",
+  "access": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+  "docs": "https://catalog.data.gov/dataset/hazardous-fuel-treatment-reduction-polygon-feature-layer",
+  "tags": [
+   "United States",
+   "API",
+   "Bulk download",
+   "GeoDatabase",
+   "Shapefile",
+   "GeoJSON",
+   "KML",
+   "CSV",
+   "CC BY 4.0",
+   "Ongoing"
+  ],
+  "related": [
+   "mtbs",
+   "wfigs-perimeters"
+  ],
+  "caveat": "Records planned and accomplished treatments reported by the Forest Service. Other agencies are not included."
+ },
+ {
+  "id": "fireline-engagement",
+  "theme": "Suppression & resources",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/suppression/fireline-engagement/",
+  "title": "Fireline Engagement from the NIFC Feature Service",
+  "summary": "Quality-checked fireline locations, verified perimeters and containment success or failure for large US fires.",
+  "provider": "USDA Forest Service Rocky Mountain Research Station",
+  "coverage": "United States",
+  "period": "2017 to 2024",
+  "resolution": "Vector (fires over 1,000 acres)",
+  "format": [
+   "GIS data"
+  ],
+  "license": "Public domain",
+  "update": "Static",
+  "access": "https://doi.org/10.2737/RDS-2025-0011",
+  "docs": "https://doi.org/10.1038/s41597-025-05208-0",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Public domain",
+   "Static"
+  ],
+  "related": [
+   "wfigs-perimeters"
+  ],
+  "caveat": "Fires under 1,000 acres are excluded."
+ },
+ {
+  "id": "ics209-plus",
+  "theme": "Suppression & resources",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/suppression/ics209-plus/",
+  "title": "ICS-209-PLUS",
+  "summary": "Cleaned incident status reports from the US National Incident Management System, with wildfire-only and all-hazards packages.",
+  "provider": "Tall Timbers, USDA Forest Service and collaborators (figshare)",
+  "coverage": "United States",
+  "period": "1999 to 2020",
+  "resolution": "Incident reports",
+  "format": [
+   "CSV"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927",
+  "docs": "https://doi.org/10.1038/s41597-023-01955-0",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "CC BY 4.0",
+   "Static"
+  ],
+  "related": [
+   "fpa-fod",
+   "nifc-statistics"
+  ],
+  "caveat": "Reports are self-reported by incident teams, so costs and sizes carry reporting error."
+ },
+ {
+  "id": "feds",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/feds/",
+  "title": "FEDS (Fire Event Data Suite)",
+  "summary": "Fire event perimeters, new fire pixels and active fire lines updated about every 12 hours from VIIRS 375 m detections.",
+  "provider": "NASA Earth Information System",
+  "coverage": "CONUS and Canada (Alaska and Hawaii through FIRMS when released)",
+  "period": "Near real time, with static outputs tied to publications",
+  "resolution": "375 m detections, vector events",
+  "format": [
+   "GeoJSON",
+   "ArcGIS REST service"
+  ],
+  "license": "NASA open data",
+  "update": "Near real time",
+  "access": "https://earth-information-system.github.io/fireatlas/docs/data.html",
+  "docs": "https://earth-information-system.github.io/fireatlas/docs/data_overview.html",
+  "tags": [
+   "North America",
+   "API",
+   "GeoJSON",
+   "NASA open data",
+   "Near real time",
+   "375 m"
+  ],
+  "related": [
+   "firms",
+   "wfigs-perimeters"
+  ],
+  "caveat": "Satellite-derived perimeters are less accurate than operational ones. For US incidents the official incident data give a more precise perimeter. Vector output arrives about 4 hours after VIIRS data reach FIRMS.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "fired",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/fired/",
+  "title": "FIRED (Fire Events Delineation)",
+  "summary": "Fire event polygons with daily spread estimates built by grouping MODIS burned area pixels in space and time.",
+  "provider": "Earth Lab, University of Colorado Boulder",
+  "coverage": "United States, with regional releases elsewhere",
+  "period": "2001 to 2019 (US)",
+  "resolution": "500 m",
+  "format": [
+   "Shapefile",
+   "GeoPackage"
+  ],
+  "license": "CC BY-SA 4.0 per the preprint. Check each CU Scholar record.",
+  "update": "Static",
+  "access": "https://scholar.colorado.edu/concern/datasets/v405sc03w",
+  "docs": "https://doi.org/10.3390/rs12213498",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "Static",
+   "500 m"
+  ],
+  "related": [
+   "mcd64a1",
+   "global-fire-atlas"
+  ],
+  "caveat": "Event parameters differ between regional releases. Check the record for the version and MODIS collection used.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "global-fire-atlas",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/global-fire-atlas/",
+  "title": "Global Fire Atlas",
+  "summary": "Individual fire size, duration, daily expansion, speed and direction derived from MODIS burned area.",
+  "provider": "NASA ORNL DAAC (CMS)",
+  "coverage": "Global",
+  "period": "2003 to 2016",
+  "resolution": "500 m (annual grids), 0.25 degrees (monthly)",
+  "format": [
+   "GeoTIFF",
+   "Shapefile"
+  ],
+  "license": "NASA open data",
+  "update": "Static",
+  "access": "https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1642",
+  "docs": "https://doi.org/10.3334/ORNLDAAC/1642",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "GeoTIFF",
+   "Shapefile",
+   "NASA open data",
+   "Static",
+   "500 m"
+  ],
+  "related": [
+   "mcd64a1",
+   "fired"
+  ],
+  "caveat": "Fires smaller than 21 ha are not included. Direction is only given for multiday fires."
+ },
+ {
+  "id": "fia-datamart",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/fia-datamart/",
+  "title": "FIA DataMart",
+  "summary": "Forest Inventory and Analysis plot, tree, fuel and down woody material measurements for US forests.",
+  "provider": "USDA Forest Service FIA program",
+  "coverage": "United States",
+  "period": "Varies by state",
+  "resolution": "Plots",
+  "format": [
+   "CSV",
+   "SQLite"
+  ],
+  "license": "Free to use, no fees (US Government data). Cite FIA.",
+  "update": "Annual",
+  "access": "https://apps.fs.usda.gov/fia/datamart/datamart.html",
+  "docs": "https://research.fs.usda.gov/products/dataandtools/fia-datamart",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "SQLite",
+   "Annual"
+  ],
+  "related": [
+   "treemap"
+  ],
+  "caveat": "Public plot coordinates are fuzzed and swapped for privacy. The R packages rFIA and FIESTA download from DataMart. No license is stated on DataMart itself. Some catalogs label it CC BY 4.0.",
+  "verified": "2026-11-09",
+  "snippets": [
+   {
+    "label": "R",
+    "lang": "r",
+    "code": "library(rFIA)\ngetFIA(states = \"CA\", dir = \"fia_data\")\ndb <- readFIA(\"fia_data\")\n"
+   }
+  ]
+ },
+ {
+  "id": "gedi",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/gedi/",
+  "title": "GEDI Spaceborne Lidar",
+  "summary": "Lidar footprints with canopy height, cover, vertical structure and biomass from the International Space Station.",
+  "provider": "NASA, University of Maryland",
+  "coverage": "Global, between 51.6 degrees N and S",
+  "period": "2019 to present",
+  "resolution": "25 m footprints",
+  "format": [
+   "HDF"
+  ],
+  "license": "NASA open data",
+  "update": "Ongoing",
+  "access": "https://lpdaac.usgs.gov/products/gedi02_av002/",
+  "docs": "https://gedi.umd.edu/data/products/",
+  "tags": [
+   "Global",
+   "API",
+   "Bulk download",
+   "HDF",
+   "NASA open data",
+   "Ongoing"
+  ],
+  "related": [
+   "landfire",
+   "treemap"
+  ],
+  "caveat": "Footprints are sparse samples along orbit tracks, not wall-to-wall maps."
+ },
+ {
+  "id": "globe-lfmc",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/globe-lfmc/",
+  "title": "Globe-LFMC 2.0",
+  "summary": "More than 280,000 field measurements of live fuel moisture content from sites worldwide.",
+  "provider": "Yebra et al. (research community)",
+  "coverage": "Global",
+  "period": "1977 to 2023",
+  "resolution": "Site records",
+  "format": [
+   "Spreadsheet"
+  ],
+  "license": "See the Figshare record",
+  "update": "Static",
+  "access": "https://doi.org/10.1038/s41597-024-03159-6",
+  "docs": "https://doi.org/10.1038/s41597-024-03159-6",
+  "tags": [
+   "Global",
+   "Tabular",
+   "Static"
+  ],
+  "related": [
+   "gridmet",
+   "wfas"
+  ],
+  "caveat": "Version 2.0 adds more than 120,000 entries and more than 800 sites over the first release. Use the 2.0 Figshare record, not the 2019 one. Sampling is uneven across regions.",
+  "doi": "10.1038/s41597-024-03159-6",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "ids-survey",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/ids-survey/",
+  "title": "Insect and Disease Detection Survey (IDS)",
+  "summary": "Aerial survey polygons of tree damage from insects, disease and other agents.",
+  "provider": "USDA Forest Service Forest Health Protection",
+  "coverage": "United States",
+  "period": "Annual surveys",
+  "resolution": "Polygons and points",
+  "format": [
+   "Maps",
+   "GIS data"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+  "docs": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InsectandDiseaseSurvey_01/MapServer",
+  "tags": [
+   "United States",
+   "API",
+   "Maps",
+   "Public domain",
+   "Annual"
+  ],
+  "related": [
+   "lcms"
+  ],
+  "caveat": "Aerial sketch mapping is subjective and survey coverage varies by year and region."
+ },
+ {
+  "id": "landfire",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/landfire/",
+  "title": "LANDFIRE",
+  "summary": "Nationally consistent fuel models, canopy attributes, vegetation and fire regime layers.",
+  "provider": "USGS and USDA Forest Service",
+  "coverage": "United States",
+  "period": "Annual updates since 2001 (varies by layer)",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://landfire.gov/",
+  "docs": "https://landfire.gov/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "API",
+   "GeoTIFF",
+   "Public domain",
+   "Annual",
+   "30 m"
+  ]
+ },
+ {
+  "id": "lcmap",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcmap/",
+  "title": "LCMAP Land Cover and Change",
+  "summary": "Annual land cover, land cover change and spectral change products from Landsat time series (Collection 1.3).",
+  "provider": "USGS EROS",
+  "coverage": "Conterminous US",
+  "period": "1985 to 2021",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Static",
+  "access": "https://www.usgs.gov/special-topics/lcmap/lcmap-data-access",
+  "docs": "https://www.usgs.gov/special-topics/lcmap/collection-13-conus-science-products",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Static",
+   "30 m"
+  ],
+  "related": [
+   "lcms",
+   "nlcd-tcc"
+  ],
+  "caveat": "USGS advises against mixing Collection 1.x versions in one analysis. 2021 is provisional."
+ },
+ {
+  "id": "lcms",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcms/",
+  "title": "LCMS Landscape Change Monitoring System",
+  "summary": "Annual landscape change, land cover and land use from Landsat and Sentinel-2 time series.",
+  "provider": "USDA Forest Service GTAC",
+  "coverage": "CONUS, Alaska, Hawaii, Puerto Rico and US Virgin Islands",
+  "period": "1985 to 2024",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/",
+  "docs": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/LCMS-Project-Overview.pdf",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Annual",
+   "30 m"
+  ],
+  "related": [
+   "lcmap",
+   "mtbs"
+  ],
+  "caveat": "Also on Earth Engine and in the LCMS Data Explorer. Extent and years differ between versions."
+ },
+ {
+  "id": "nlcd-tcc",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/nlcd-tcc/",
+  "title": "NLCD (National Land Cover Database) and Tree Canopy Cover",
+  "summary": "Annual land cover, impervious surface and tree canopy cover for the conterminous US.",
+  "provider": "USGS and MRLC",
+  "coverage": "United States (Annual NLCD: conterminous US)",
+  "period": "1985 to 2024 (land cover); tree canopy cover to 2023",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://www.mrlc.gov/data",
+  "docs": "https://www.mrlc.gov/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "30 m",
+   "Annual"
+  ],
+  "caveat": "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "rap",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rap/",
+  "title": "Rangeland Analysis Platform",
+  "summary": "30 m annual cover and annual or 16-day biomass for herbaceous, shrub, tree and bare ground.",
+  "provider": "University of Montana, USDA ARS and partners",
+  "coverage": "Conterminous US",
+  "period": "1986 to present",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Listings conflict: public domain (USDA) or CC BY-NC 4.0 (community catalog). Confirm at rangelands.app.",
+  "update": "Annual",
+  "access": "https://rangelands.app/products",
+  "docs": "https://rangelands.app/products",
+  "tags": [
+   "United States",
+   "API",
+   "Bulk download",
+   "GeoTIFF",
+   "Annual",
+   "30 m"
+  ],
+  "related": [
+   "rcmap",
+   "landfire"
+  ],
+  "caveat": "Also on Earth Engine and through the rapr R package. Check the site for known processing issues in recent years.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "rcmap",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rcmap/",
+  "title": "RCMAP Rangeland Condition Monitoring",
+  "summary": "Yearly fractional cover of shrub, sagebrush, herbaceous, litter, bare ground and tree for western rangelands.",
+  "provider": "USGS and BLM",
+  "coverage": "Western US",
+  "period": "1985 to 2025",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://www.mrlc.gov/data",
+  "docs": "https://doi.org/10.5066/P138CYEL",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Annual",
+   "30 m"
+  ],
+  "related": [
+   "rap",
+   "lcmap"
+  ],
+  "caveat": "Newer releases replace older ones. Do not mix versions in one time series."
+ },
+ {
+  "id": "treemap",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/treemap/",
+  "title": "TreeMap",
+  "summary": "Tree-level model of US forests, made by imputing FIA plot data onto a 30 m grid.",
+  "provider": "USDA Forest Service Rocky Mountain Research Station",
+  "coverage": "Conterminous US",
+  "period": "Editions for 2014, 2016, 2020 and 2022",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF",
+   "CSV"
+  ],
+  "license": "Public domain",
+  "update": "Periodic",
+  "access": "https://doi.org/10.2737/RDS-2025-0032",
+  "docs": "https://doi.org/10.2737/RDS-2025-0032",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "CSV",
+   "Public domain",
+   "Periodic",
+   "30 m"
+  ],
+  "related": [
+   "fia-datamart",
+   "landfire"
+  ],
+  "caveat": "Each pixel holds an imputed plot ID. Test fit before using it for applications the publication does not list."
+ },
+ {
+  "id": "usgs-3dep",
+  "theme": "Fuels, vegetation & terrain",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/usgs-3dep/",
+  "title": "USGS 3DEP Elevation",
+  "summary": "High-resolution elevation, from lidar-derived DEMs to 1/3 arc-second national coverage.",
+  "provider": "USGS",
+  "coverage": "United States",
+  "period": "Continuously updated",
+  "resolution": "1 m to 10 m",
+  "format": [
+   "GeoTIFF",
+   "LAZ"
+  ],
+  "license": "Public domain",
+  "update": "Continuous",
+  "access": "https://www.usgs.gov/3d-elevation-program",
+  "docs": "https://www.usgs.gov/3d-elevation-program",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "API",
+   "GeoTIFF",
+   "Public domain",
+   "Continuous",
+   "10 m"
+  ]
+ },
+ {
+  "id": "cems-fire-historical",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cems-fire-historical/",
+  "title": "CEMS Fire Danger Indices (ERA5-based)",
+  "summary": "Global daily fire danger indices, including the Canadian Fire Weather Index, from ERA5 reanalysis.",
+  "provider": "Copernicus Emergency Management Service",
+  "coverage": "Global",
+  "period": "1940 to present",
+  "resolution": "0.25 degrees",
+  "format": [
+   "GRIB",
+   "NetCDF"
+  ],
+  "license": "Copernicus licence",
+  "update": "Daily",
+  "access": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1",
+  "docs": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1",
+  "tags": [
+   "Global",
+   "API",
+   "NetCDF",
+   "GRIB",
+   "Copernicus licence",
+   "Daily"
+  ]
+ },
+ {
+  "id": "cwfis",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cwfis/",
+  "title": "CWFIS (Canadian Wildland Fire Information System)",
+  "summary": "Daily Fire Weather Index maps, hotspots, and downloadable fire weather and danger data for Canada.",
+  "provider": "Canadian Forest Service (NRCan)",
+  "coverage": "Canada",
+  "period": "Current and archive",
+  "resolution": "2.5 km to 10 km",
+  "format": [
+   "GeoTIFF",
+   "Shapefile",
+   "CSV"
+  ],
+  "license": "Open Government Licence - Canada",
+  "update": "Daily",
+  "access": "https://cwfis.cfs.nrcan.gc.ca/datamart",
+  "docs": "https://cwfis.cfs.nrcan.gc.ca/",
+  "tags": [
+   "Canada",
+   "Bulk download",
+   "GeoTIFF",
+   "CSV",
+   "Open Government Licence",
+   "Daily"
+  ]
+ },
+ {
+  "id": "daymet",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/daymet/",
+  "title": "Daymet",
+  "summary": "Daily 1 km gridded surface weather (temperature, precipitation, radiation, humidity, snow water equivalent) for North America.",
+  "provider": "NASA ORNL DAAC",
+  "coverage": "North America",
+  "period": "1980 to present",
+  "resolution": "1 km",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "NASA open data",
+  "update": "Annual",
+  "access": "https://daymet.ornl.gov/getdata",
+  "docs": "https://daymet.ornl.gov/overview",
+  "tags": [
+   "North America",
+   "API",
+   "Bulk download",
+   "NetCDF",
+   "NASA open data",
+   "Daily",
+   "1 km"
+  ],
+  "caveat": "Covers weather variables only. Fire danger indices must be derived."
+ },
+ {
+  "id": "era5-land",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/era5-land/",
+  "title": "ERA5-Land",
+  "summary": "Hourly global land surface reanalysis of temperature, soil moisture, wind, radiation and precipitation.",
+  "provider": "ECMWF, Copernicus Climate Change Service",
+  "coverage": "Global",
+  "period": "1950 to present",
+  "resolution": "0.1 degrees",
+  "format": [
+   "GRIB",
+   "NetCDF"
+  ],
+  "license": "Copernicus licence",
+  "update": "Daily",
+  "access": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+  "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+  "tags": [
+   "Global",
+   "API",
+   "GRIB",
+   "NetCDF",
+   "Copernicus licence",
+   "Hourly"
+  ],
+  "related": [
+   "cems-fire-historical"
+  ],
+  "caveat": "Needs a free Copernicus account and API key."
+ },
+ {
+  "id": "gridmet",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/gridmet/",
+  "title": "gridMET",
+  "summary": "Daily gridded surface meteorology, fuel moisture and fire danger indices for the contiguous US.",
+  "provider": "University of Idaho / Climatology Lab",
+  "coverage": "CONUS",
+  "period": "1979 to present",
+  "resolution": "4 km",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "Public domain",
+  "update": "Daily",
+  "access": "https://www.climatologylab.org/gridmet.html",
+  "docs": "https://www.climatologylab.org/gridmet.html",
+  "tags": [
+   "United States",
+   "API",
+   "Bulk download",
+   "NetCDF",
+   "Public domain",
+   "Daily",
+   "4 km"
+  ],
+  "snippets": [
+   {
+    "label": "Earth Engine (Python)",
+    "lang": "python",
+    "code": "import ee\nee.Initialize()\nerc = ee.ImageCollection(\"IDAHO_EPSCOR/GRIDMET\").filterDate(\"2024-07-01\", \"2024-07-08\").select(\"erc\")\n"
+   }
+  ]
+ },
+ {
+  "id": "hrrr",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/hrrr/",
+  "title": "HRRR (High-Resolution Rapid Refresh)",
+  "summary": "Hourly 3 km convection-allowing weather analyses and forecasts, including wind, humidity and temperature.",
+  "provider": "NOAA NCEP and ESRL/GSL",
+  "coverage": "Conterminous US and Alaska",
+  "period": "2014 to present (AWS archive)",
+  "resolution": "3 km",
+  "format": [
+   "GRIB"
+  ],
+  "license": "Public domain",
+  "update": "Hourly",
+  "access": "https://registry.opendata.aws/noaa-hrrr-pds/",
+  "docs": "https://rapidrefresh.noaa.gov/hrrr/",
+  "tags": [
+   "United States",
+   "Cloud bucket",
+   "GRIB",
+   "Public domain",
+   "Hourly",
+   "3 km"
+  ],
+  "related": [
+   "hrrr-smoke",
+   "gridmet"
+  ],
+  "caveat": "The Herbie Python package simplifies retrieval of individual fields. NOAA says HRRR is not retired with the RRFS v1 implementation. A retirement date has not been announced.",
+  "verified": "2026-11-09",
+  "snippets": [
+   {
+    "label": "Python",
+    "lang": "python",
+    "code": "from herbie import Herbie\nH = Herbie(\"2024-07-01 12:00\", model=\"hrrr\", product=\"sfc\", fxx=0)\nds = H.xarray(\"TMP:2 m\")\n"
+   }
+  ]
+ },
+ {
+  "id": "prism",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/prism/",
+  "title": "PRISM Climate Data",
+  "summary": "Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.",
+  "provider": "PRISM Climate Group, Oregon State University",
+  "coverage": "Conterminous US",
+  "period": "1981 to present",
+  "resolution": "4 km",
+  "format": [
+   "BIL"
+  ],
+  "license": "PRISM terms of use",
+  "update": "Daily",
+  "access": "https://prism.oregonstate.edu/downloads/",
+  "docs": "https://prism.oregonstate.edu/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Custom terms",
+   "Daily",
+   "4 km"
+  ],
+  "related": [
+   "gridmet",
+   "daymet"
+  ]
+ },
+ {
+  "id": "raws",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/raws/",
+  "title": "RAWS (Remote Automatic Weather Stations)",
+  "summary": "Hourly fire weather observations from interagency stations, archived by the Western Regional Climate Center.",
+  "provider": "Western Regional Climate Center (Desert Research Institute) for NWCG agencies",
+  "coverage": "United States",
+  "period": "Varies by station",
+  "resolution": "Station",
+  "format": [
+   "Tabular web download"
+  ],
+  "license": "See WRCC terms",
+  "update": "Continuous",
+  "access": "https://raws.dri.edu/",
+  "docs": "https://raws.dri.edu/",
+  "tags": [
+   "United States",
+   "Tabular",
+   "Continuous"
+  ],
+  "related": [
+   "gridmet",
+   "wfas"
+  ],
+  "caveat": "Public data are not quality controlled. A 2025 mailing-list post quoting WRCC says raw public access is limited to the prior 30 days, with older data on request and possibly for a fee. I could not confirm that on an official page. The R package RAWSmet downloads and parses WRCC data.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "us-drought-monitor",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/us-drought-monitor/",
+  "title": "US Drought Monitor",
+  "summary": "Weekly drought category maps for the US, with polygon, grid and statistics downloads.",
+  "provider": "National Drought Mitigation Center (University of Nebraska-Lincoln), USDA and NOAA",
+  "coverage": "United States",
+  "period": "2000 to present",
+  "resolution": "Vector (500 m grid also offered)",
+  "format": [
+   "Shapefile",
+   "KMZ",
+   "GML",
+   "GeoJSON",
+   "WMS"
+  ],
+  "license": "See NDMC terms",
+  "update": "Weekly",
+  "access": "https://droughtmonitor.unl.edu/DmData/GISData.aspx",
+  "docs": "https://droughtmonitor.unl.edu/",
+  "tags": [
+   "United States",
+   "API",
+   "Bulk download",
+   "Shapefile",
+   "GeoJSON",
+   "Weekly"
+  ],
+  "related": [
+   "gridmet",
+   "wfas"
+  ],
+  "caveat": "NDMC says its shapefiles were modified from the originals. Use a vector dataset to match official statistics. Community GeoParquet mirrors exist.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "wfas",
+  "theme": "Weather, climate & danger",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/wfas/",
+  "title": "WFAS (Wildland Fire Assessment System)",
+  "summary": "National fire danger, fuel moisture and weather maps and forecasts from the USDA Forest Service.",
+  "provider": "USDA Forest Service",
+  "coverage": "United States",
+  "period": "Current and recent",
+  "resolution": "Varies",
+  "format": [
+   "Maps",
+   "GIS data"
+  ],
+  "license": "Public domain",
+  "update": "Daily",
+  "access": "https://www.wfas.net/",
+  "docs": "https://www.wfas.net/",
+  "tags": [
+   "United States",
+   "Maps",
+   "Public domain",
+   "Daily"
+  ]
+ },
+ {
+  "id": "goes-glm",
+  "theme": "Lightning & ignition drivers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/lightning/goes-glm/",
+  "title": "GOES Geostationary Lightning Mapper (GLM) on AWS",
+  "summary": "Lightning flash, group and event detections over the Americas from GOES-R satellites.",
+  "provider": "NOAA and NASA",
+  "coverage": "Americas and adjacent oceans",
+  "period": "2017 to present",
+  "resolution": "Flash-level detections",
+  "format": [
+   "NetCDF"
+  ],
+  "license": "Public domain",
+  "update": "Continuous",
+  "access": "https://registry.opendata.aws/noaa-goes/",
+  "docs": "https://registry.opendata.aws/noaa-goes/",
+  "tags": [
+   "Americas",
+   "Cloud bucket",
+   "NetCDF",
+   "Public domain",
+   "Near real time"
+  ],
+  "related": [
+   "goes-fdc"
+  ],
+  "caveat": "Detection efficiency varies with flash energy and viewing angle."
+ },
+ {
+  "id": "lis-otd",
+  "theme": "Lightning & ignition drivers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/lightning/lis-otd/",
+  "title": "LIS/OTD Gridded Lightning Climatology",
+  "summary": "Space-based lightning climatologies from the TRMM Lightning Imaging Sensor and the Optical Transient Detector.",
+  "provider": "NASA GHRC DAAC",
+  "coverage": "Global (about 38 degrees N to S for LIS)",
+  "period": "May 1995 to 2013 (V2.3.2015)",
+  "resolution": "0.5 and 2.5 degrees",
+  "format": [
+   "HDF",
+   "NetCDF"
+  ],
+  "license": "NASA open data",
+  "update": "Static",
+  "access": "https://ghrc.nsstc.nasa.gov/pub/lis/climatology/",
+  "docs": "https://ghrc.nsstc.nasa.gov/uso/ds_details/collections/loCv2.3.2015.html",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "HDF",
+   "NetCDF",
+   "NASA open data",
+   "Static"
+  ],
+  "caveat": "A climatology, not event-level data. Use GLM for recent individual strikes."
+ },
+ {
+  "id": "cams-gfas",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/cams-gfas/",
+  "title": "CAMS GFAS (Global Fire Assimilation System)",
+  "summary": "Daily global fire radiative power and emissions of trace gases and aerosols.",
+  "provider": "Copernicus Atmosphere Monitoring Service",
+  "coverage": "Global",
+  "period": "2003 to present",
+  "resolution": "0.1 degrees",
+  "format": [
+   "GRIB",
+   "NetCDF"
+  ],
+  "license": "Copernicus licence",
+  "update": "Daily",
+  "access": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas",
+  "docs": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas",
+  "tags": [
+   "Global",
+   "API",
+   "NetCDF",
+   "GRIB",
+   "Copernicus licence",
+   "Daily"
+  ]
+ },
+ {
+  "id": "airnow",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/airnow/",
+  "title": "EPA AirNow API",
+  "summary": "Real-time and historical air quality observations and forecasts, including PM2.5 during smoke events.",
+  "provider": "US EPA",
+  "coverage": "United States, Canada, Mexico (partial)",
+  "period": "Current and historical",
+  "resolution": "Station",
+  "format": [
+   "JSON",
+   "CSV"
+  ],
+  "license": "Public domain",
+  "update": "Hourly",
+  "access": "https://docs.airnowapi.org/",
+  "docs": "https://docs.airnowapi.org/",
+  "tags": [
+   "North America",
+   "API",
+   "JSON",
+   "CSV",
+   "Public domain",
+   "Hourly"
+  ]
+ },
+ {
+  "id": "finn",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/finn/",
+  "title": "FINN (Fire INventory from NCAR)",
+  "summary": "Daily, high-resolution fire emissions estimates for chemical transport models.",
+  "provider": "NCAR Atmospheric Chemistry Observations and Modeling",
+  "coverage": "Global",
+  "period": "2002 to present",
+  "resolution": "1 km",
+  "format": [
+   "CSV",
+   "Text"
+  ],
+  "license": "Free for research (see site)",
+  "update": "Daily",
+  "access": "https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar",
+  "docs": "https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "CSV",
+   "Daily",
+   "1 km"
+  ]
+ },
+ {
+  "id": "gfed",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/gfed/",
+  "title": "GFED (Global Fire Emissions Database)",
+  "summary": "Burned area, fuel consumption and fire emissions of carbon and trace gases, globally.",
+  "provider": "GFED team (Vrije Universiteit Amsterdam and partners)",
+  "coverage": "Global",
+  "period": "1997 to 2020 (GFED5 burned area)",
+  "resolution": "0.25 degrees (1 degree for 1997 to 2000)",
+  "format": [
+   "HDF5",
+   "ASCII"
+  ],
+  "license": "Free for research (see site)",
+  "update": "Periodic",
+  "access": "https://www.globalfiredata.org/data.html",
+  "docs": "https://www.globalfiredata.org/",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "HDF",
+   "Periodic"
+  ],
+  "caveat": "GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. Emissions years differ by version.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "hrrr-smoke",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/hrrr-smoke/",
+  "title": "HRRR-Smoke",
+  "summary": "Hourly smoke forecasts from the HRRR model, run with satellite fire radiative power as the emissions source.",
+  "provider": "NOAA GSL and NCEP",
+  "coverage": "Conterminous US",
+  "period": "2020 to present (operational)",
+  "resolution": "3 km",
+  "format": [
+   "GRIB"
+  ],
+  "license": "Public domain",
+  "update": "Hourly",
+  "access": "https://registry.opendata.aws/noaa-hrrr-pds/",
+  "docs": "https://rapidrefresh.noaa.gov/hrrr/",
+  "tags": [
+   "United States",
+   "Cloud bucket",
+   "GRIB",
+   "Public domain",
+   "Hourly",
+   "3 km"
+  ],
+  "related": [
+   "hrrr",
+   "firms"
+  ],
+  "caveat": "Smoke fields are variables inside the HRRR GRIB2 files. A forecast is not an observation."
+ },
+ {
+  "id": "purpleair",
+  "theme": "Smoke, emissions & air quality",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/purpleair/",
+  "title": "PurpleAir",
+  "summary": "Real-time PM2.5 readings from a crowd-sourced network of low-cost sensors.",
+  "provider": "PurpleAir, Inc.",
+  "coverage": "Global",
+  "period": "Continuous",
+  "resolution": "Sensor points",
+  "format": [
+   "JSON"
+  ],
+  "license": "PurpleAir terms of use",
+  "update": "Continuous",
+  "access": "https://api.purpleair.com/",
+  "docs": "https://api.purpleair.com/",
+  "tags": [
+   "Global",
+   "API",
+   "JSON",
+   "Custom terms",
+   "Near real time"
+  ],
+  "related": [
+   "airnow"
+  ],
+  "caveat": "Needs an API key. Raw PM2.5 reads high in smoke, so apply a correction such as the EPA US-wide one."
+ },
+ {
+  "id": "cal-fire-dins",
+  "theme": "Impacts & post-fire",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/cal-fire-dins/",
+  "title": "CAL FIRE Damage Inspection (DINS)",
+  "summary": "Structure-level damage assessments after California wildfires.",
+  "provider": "CAL FIRE",
+  "coverage": "California",
+  "period": "2013 to present",
+  "resolution": "Structure point",
+  "format": [
+   "CSV",
+   "GeoJSON",
+   "Shapefile"
+  ],
+  "license": "CC BY (see data.ca.gov terms)",
+  "update": "Per incident",
+  "access": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+  "docs": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+  "tags": [
+   "United States",
+   "California",
+   "API",
+   "Bulk download",
+   "CSV",
+   "GeoJSON",
+   "Per incident"
+  ],
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "black-marble",
+  "theme": "Impacts & post-fire",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/black-marble/",
+  "title": "NASA Black Marble Nighttime Lights",
+  "summary": "Daily, monthly and annual nighttime lights from VIIRS, used to track power loss and recovery after disasters.",
+  "provider": "NASA Goddard (Black Marble)",
+  "coverage": "Global",
+  "period": "2012 to present",
+  "resolution": "500 m",
+  "format": [
+   "HDF"
+  ],
+  "license": "NASA open data",
+  "update": "Daily",
+  "access": "https://blackmarble.gsfc.nasa.gov/",
+  "docs": "https://blackmarble.gsfc.nasa.gov/",
+  "tags": [
+   "Global",
+   "API",
+   "Bulk download",
+   "HDF",
+   "NASA open data",
+   "Daily",
+   "500 m"
+  ],
+  "related": [
+   "firms",
+   "cal-fire-dins"
+  ],
+  "caveat": "Cloud cover and smoke can hide lights on a given night."
+ },
+ {
+  "id": "ravg",
+  "theme": "Impacts & post-fire",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/ravg/",
+  "title": "RAVG (Rapid Assessment of Vegetation Condition after Wildfire)",
+  "summary": "Rapid post-fire canopy cover loss and basal area mortality maps for US Forest Service lands.",
+  "provider": "USDA Forest Service Geospatial Technology and Applications Center",
+  "coverage": "United States (National Forest System)",
+  "period": "2012 to present",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF",
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Per fire",
+  "access": "https://burnseverity.cr.usgs.gov/ravg/",
+  "docs": "https://burnseverity.cr.usgs.gov/ravg/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Per incident",
+   "30 m"
+  ]
+ },
+ {
+  "id": "usgs-debris-flow",
+  "theme": "Impacts & post-fire",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/usgs-debris-flow/",
+  "title": "USGS Post-Fire Debris-Flow Hazard Assessments",
+  "summary": "Likelihood and volume estimates of debris flows in burned basins, with a national assessment portal.",
+  "provider": "USGS Landslide Hazards Program",
+  "coverage": "Western United States",
+  "period": "2013 to present",
+  "resolution": "Basin and 30 m",
+  "format": [
+   "Shapefile",
+   "GeoJSON",
+   "Web map"
+  ],
+  "license": "Public domain",
+  "update": "Per incident",
+  "access": "https://landslides.usgs.gov/hazards/postfire_debrisflow/",
+  "docs": "https://landslides.usgs.gov/hazards/postfire_debrisflow/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "GeoJSON",
+   "Public domain",
+   "Per incident"
+  ]
+ },
+ {
+  "id": "building-based-wui",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/building-based-wui/",
+  "title": "Building-based WUI maps (CONUS)",
+  "summary": "Intermix and interface WUI maps for the conterminous US built from 125 million building point locations, at several neighborhood radii.",
+  "provider": "USGS, with University of Wisconsin-Madison SILVIS Lab",
+  "coverage": "Conterminous United States",
+  "period": "Buildings from a 2018 release; vegetation from NLCD 2016",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Static",
+  "access": "https://doi.org/10.5066/P94BT6Q7",
+  "docs": "https://doi.org/10.1002/eap.2597",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Static",
+   "30 m",
+   "Public domain"
+  ],
+  "related": [
+   "silvis-wui",
+   "global-wui"
+  ],
+  "caveat": "Single 16.9 GB zip. Building locations come from a Microsoft 2018 product, so newer construction is missing. Check the record for the file format.",
+  "doi": "10.5066/P94BT6Q7",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "global-wui",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/global-wui/",
+  "title": "Global WUI map 2020",
+  "summary": "Global map of intermix and interface WUI classes at 10 m, with tables of WUI area, population and wildfire area by country, region and biome.",
+  "provider": "University of Wisconsin-Madison SILVIS Lab",
+  "coverage": "Global",
+  "period": "ca. 2020",
+  "resolution": "10 m",
+  "format": [
+   "GeoTIFF",
+   "CSV"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://doi.org/10.5281/zenodo.7941460",
+  "docs": "https://doi.org/10.1038/s41586-023-06320-0",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "GeoTIFF",
+   "CSV",
+   "CC BY 4.0",
+   "Static",
+   "10 m"
+  ],
+  "related": [
+   "silvis-wui",
+   "building-based-wui"
+  ],
+  "caveat": "Version 1.1 on Zenodo. Tiles are 100 km on the EQUI7 grid. Overall accuracy is 79.6 to 82.0 percent."
+ },
+ {
+  "id": "silvis-wui",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/silvis-wui/",
+  "title": "SILVIS Lab Wildland-Urban Interface (WUI) Change",
+  "summary": "Housing and WUI maps for the conterminous US by census block, from 1990 to 2020.",
+  "provider": "University of Wisconsin-Madison SILVIS Lab",
+  "coverage": "Conterminous United States",
+  "period": "1990 to 2020 (4th edition)",
+  "resolution": "Census block",
+  "format": [
+   "Shapefile",
+   "GeoDatabase"
+  ],
+  "license": "Free to use, no fees (US Government funded). See the archive record.",
+  "update": "Decennial",
+  "access": "https://silvis.forest.wisc.edu/data/wui-change/",
+  "docs": "https://silvis.forest.wisc.edu/data/wui-change/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "GeoDatabase",
+   "Decennial"
+  ],
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "whp",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/whp/",
+  "title": "Wildfire Hazard Potential (WHP)",
+  "summary": "Relative index of wildfire likelihood and intensity for prioritizing fuel treatments.",
+  "provider": "USDA Forest Service Fire Modeling Institute",
+  "coverage": "United States",
+  "period": "Editions 2014, 2018, 2020, 2023",
+  "resolution": "270 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Periodic",
+  "access": "https://doi.org/10.2737/RDS-2015-0047-4",
+  "docs": "https://doi.org/10.2737/RDS-2015-0047-4",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Periodic"
+  ],
+  "related": [
+   "wildfire-risk-to-communities"
+  ],
+  "caveat": "Edition numbering and archive IDs differ. RDS-2015-0047-4 is version 2023. Confirm the newest version on the FireLab project page."
+ },
+ {
+  "id": "wildfire-risk-to-communities",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/wildfire-risk-to-communities/",
+  "title": "Wildfire Risk to Communities",
+  "summary": "Landscape-wide wildfire risk components, including burn probability and exposure, plus a community-level web tool.",
+  "provider": "USDA Forest Service Research Data Archive",
+  "coverage": "United States",
+  "period": "2020 edition (2nd edition)",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "Public domain",
+  "update": "Periodic editions",
+  "access": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2020-0016-2",
+  "docs": "https://wildfirerisk.org/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoTIFF",
+   "Public domain",
+   "Periodic",
+   "30 m"
+  ]
+ },
+ {
+  "id": "cdc-svi",
+  "theme": "Social vulnerability & communities",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/cdc-svi/",
+  "title": "CDC/ATSDR Social Vulnerability Index",
+  "summary": "Census tract and county rankings of social vulnerability from US Census variables.",
+  "provider": "CDC/ATSDR",
+  "coverage": "United States",
+  "period": "Biennial editions (latest found: 2022)",
+  "resolution": "Census tract and county",
+  "format": [
+   "CSV",
+   "Shapefile",
+   "GeoDatabase"
+  ],
+  "license": "Public domain",
+  "update": "Periodic",
+  "access": "https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html",
+  "docs": "https://www.atsdr.cdc.gov/place-health/php/svi/index.html",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "GeoDatabase",
+   "Public domain",
+   "Periodic"
+  ],
+  "related": [
+   "wildfire-risk-to-communities",
+   "fema-nri"
+  ],
+  "caveat": "Rankings are relative within the US, not absolute measures. The 2022 edition uses ACS 2018 to 2022 data and adds ZIP Code Tabulation Areas.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "fema-nri",
+  "theme": "Social vulnerability & communities",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/fema-nri/",
+  "title": "FEMA National Risk Index",
+  "summary": "Expected annual loss, social vulnerability and community resilience for 18 natural hazards, including wildfire.",
+  "provider": "FEMA",
+  "coverage": "United States",
+  "period": "Periodic releases",
+  "resolution": "Census tract and county",
+  "format": [
+   "CSV",
+   "Shapefile",
+   "GeoDatabase"
+  ],
+  "license": "See FEMA terms",
+  "update": "Periodic",
+  "access": "https://hazards.fema.gov/nri/data-resources",
+  "docs": "https://hazards.fema.gov/nri/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "GeoDatabase",
+   "Periodic"
+  ],
+  "related": [
+   "cdc-svi",
+   "wildfire-risk-to-communities"
+  ],
+  "caveat": "The wildfire score comes from a modeled hazard layer. Check the technical documentation before comparing with local risk assessments. In December 2025 FEMA said NRI data moves into the Resilience Analysis and Planning Tool, so links on hazards.fema.gov may change. Confirm the current download location.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "globpop",
+  "theme": "Social vulnerability & communities",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/globpop/",
+  "title": "GlobPOP",
+  "summary": "Global gridded population counts and density at 30 arc-seconds, fused from five population datasets.",
+  "provider": "Beijing Normal University (Liu et al.)",
+  "coverage": "Global",
+  "period": "1990 to 2022 (v2.0); the 1990 to 2020 release is v1.0",
+  "resolution": "1 km (30 arc-seconds)",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://zenodo.org/records/11179644",
+  "docs": "https://doi.org/10.1038/s41597-024-02913-0",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "GeoTIFF",
+   "CC BY 4.0",
+   "Static",
+   "1 km"
+  ],
+  "related": [
+   "global-wui",
+   "silvis-wui"
+  ],
+  "caveat": "Built by fusing GHS-POP, GRUMP, GPWv4, LandScan and WorldPop. Count and density versions are separate files. Confirm the current version on Zenodo.",
+  "doi": "10.1038/s41597-024-02913-0",
+  "citation": "Liu, L., Cao, X., Li, S. and Jie, N. 2024. A 31-year (1990-2020) global gridded population dataset generated by cluster analysis and statistical learning. Scientific Data.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "baileys-ecoregions",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/baileys-ecoregions/",
+  "title": "Bailey's Ecoregions and Subregions",
+  "summary": "Hierarchical ecoregion domains, divisions, provinces and sections for the US, Puerto Rico and the US Virgin Islands.",
+  "provider": "USDA Forest Service and USGS",
+  "coverage": "United States",
+  "period": "Static (based on 1994 conditions)",
+  "resolution": "Vector (national scale)",
+  "format": [
+   "Shapefile",
+   "GeoDatabase"
+  ],
+  "license": "CC0",
+  "update": "Static",
+  "access": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BaileysEcoregionsSubregions_01/MapServer",
+  "docs": "https://www.sciencebase.gov/catalog/folder/508f036ee4b0b59cf7f5a812",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "GeoDatabase",
+   "CC0",
+   "Static"
+  ],
+  "related": [
+   "epa-ecoregions"
+  ],
+  "caveat": "Intended for national and large regional display, around 1:7,500,000."
+ },
+ {
+  "id": "epa-ecoregions",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/epa-ecoregions/",
+  "title": "EPA Level III and IV Ecoregions",
+  "summary": "Ecoregion boundaries at Level III and Level IV for the conterminous US, with regional and state extracts.",
+  "provider": "US EPA",
+  "coverage": "United States",
+  "period": "Periodic",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Periodic",
+  "access": "https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states",
+  "docs": "https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "Public domain",
+   "Periodic"
+  ],
+  "related": [
+   "baileys-ecoregions"
+  ],
+  "caveat": "Download shapefiles rather than relying on the PDF maps, which can differ."
+ },
+ {
+  "id": "nifc-gacc",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/nifc-gacc/",
+  "title": "NIFC Geographic Area Coordination Center (GACC) Boundaries",
+  "summary": "Polygons of the 10 US geographic areas used to coordinate wildland fire resources and report fire statistics.",
+  "provider": "NIFC and National Wildfire Coordinating Group",
+  "coverage": "United States",
+  "period": "Current boundaries (layer dated 2025-01-13)",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile",
+   "GeoJSON",
+   "ArcGIS feature service"
+  ],
+  "license": "See NIFC Open Data item page",
+  "update": "Periodic",
+  "access": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0",
+  "docs": "https://data-nifc.opendata.arcgis.com/",
+  "tags": [
+   "United States",
+   "API",
+   "GeoJSON",
+   "Shapefile",
+   "Periodic"
+  ],
+  "related": [
+   "nifc-statistics",
+   "wfigs-perimeters"
+  ],
+  "caveat": "The service returns at most 2,000 records per query. A border area between Utah and Colorado changed in September 2024. The list of coordination centers is in the National Interagency Mobilization Guide. A separate simplified copy exists for zooming only, not for mapping.",
+  "verified": "2026-11-09"
+ },
+ {
+  "id": "pad-us",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/pad-us/",
+  "title": "PAD-US Protected Areas Database",
+  "summary": "Public land ownership, management, designation and protection status for US lands and waters.",
+  "provider": "USGS Gap Analysis Project",
+  "coverage": "United States",
+  "period": "Versioned releases (4.x current)",
+  "resolution": "Vector",
+  "format": [
+   "GeoDatabase"
+  ],
+  "license": "CC0",
+  "update": "Periodic",
+  "access": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download",
+  "docs": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "GeoDatabase",
+   "CC0",
+   "Periodic"
+  ],
+  "related": [
+   "usfs-admin-boundaries"
+  ],
+  "caveat": "Check the DOI page before citing a specific release number."
+ },
+ {
+  "id": "census-tiger",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/census-tiger/",
+  "title": "US Census TIGER/Line Shapefiles",
+  "summary": "States, counties, tracts, block groups, places, roads and water boundaries for the US.",
+  "provider": "US Census Bureau",
+  "coverage": "United States and territories",
+  "period": "2007 to present (annual)",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "Public domain",
+  "update": "Annual",
+  "access": "https://www2.census.gov/geo/tiger/",
+  "docs": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "Public domain",
+   "Annual"
+  ],
+  "related": [
+   "cdc-svi",
+   "fema-nri"
+  ],
+  "caveat": "Boundaries change each year. Use the vintage that matches your attribute data."
+ },
+ {
+  "id": "usfs-admin-boundaries",
+  "theme": "Boundaries & reference layers",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/usfs-admin-boundaries/",
+  "title": "USFS Administrative Forest Boundaries",
+  "summary": "National Forest and Ranger District administrative boundaries.",
+  "provider": "USDA Forest Service",
+  "coverage": "United States",
+  "period": "Ongoing",
+  "resolution": "Vector",
+  "format": [
+   "GeoDatabase",
+   "Maps"
+  ],
+  "license": "Public domain",
+  "update": "Ongoing",
+  "access": "https://data.fs.usda.gov/geodata/edw/datasets.php",
+  "docs": "https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.AdministrativeForest.xml",
+  "tags": [
+   "United States",
+   "API",
+   "Bulk download",
+   "GeoDatabase",
+   "Maps",
+   "Public domain",
+   "Ongoing"
+  ],
+  "related": [
+   "pad-us"
+  ],
+  "caveat": "Not a legal land description. Boundaries can differ from other layers because of update timing."
+ },
+ {
+  "id": "next-day-wildfire-spread",
+  "theme": "Benchmarks & ML-ready",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/benchmarks-ml/next-day-wildfire-spread/",
+  "title": "Next Day Wildfire Spread",
+  "summary": "Earth Engine-derived dataset pairing fire masks with weather, vegetation and topography for next-day spread.",
+  "provider": "Huot et al., Kaggle",
+  "coverage": "United States",
+  "period": "2012 to 2020",
+  "resolution": "1 km",
+  "format": [
+   "TFRecord"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread",
+  "docs": "https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Machine learning",
+   "TFRecord",
+   "CC BY 4.0",
+   "Static",
+   "1 km"
+  ]
+ },
+ {
+  "id": "sen2fire",
+  "theme": "Benchmarks & ML-ready",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/benchmarks-ml/sen2fire/",
+  "title": "Sen2Fire",
+  "summary": "Sentinel-2 and Sentinel-5P patches labelled for wildfire detection and segmentation.",
+  "provider": "Xu et al., Zenodo",
+  "coverage": "Australia",
+  "period": "2019 to 2020",
+  "resolution": "10 m to 20 m",
+  "format": [
+   "NumPy"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://zenodo.org/records/10881058",
+  "docs": "https://zenodo.org/records/10881058",
+  "tags": [
+   "Australia",
+   "Bulk download",
+   "Machine learning",
+   "NumPy",
+   "CC BY 4.0",
+   "Static",
+   "10 m"
+  ]
+ },
+ {
+  "id": "wildfirespreadts",
+  "theme": "Benchmarks & ML-ready",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/benchmarks-ml/wildfirespreadts/",
+  "title": "WildfireSpreadTS",
+  "summary": "Multi-modal daily time series of active fire, weather, fuels and terrain for next-day fire spread prediction.",
+  "provider": "Gerard et al., Zenodo",
+  "coverage": "Western United States",
+  "period": "2018 to 2021",
+  "resolution": "375 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://zenodo.org/records/8006177",
+  "docs": "https://zenodo.org/records/8006177",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "Machine learning",
+   "GeoTIFF",
+   "CC BY 4.0",
+   "Static",
+   "375 m"
+  ]
+ },
+ {
+  "id": "global-paleofire-database",
+  "theme": "Paleo & historical",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/paleo/global-paleofire-database/",
+  "title": "Global Paleofire Database (Global Charcoal Database)",
+  "summary": "Sedimentary charcoal records for reconstructing fire history over thousands of years.",
+  "provider": "Global Paleofire Working Group",
+  "coverage": "Global",
+  "period": "Holocene and earlier",
+  "resolution": "Site records",
+  "format": [
+   "CSV",
+   "R package"
+  ],
+  "license": "Open (see site)",
+  "update": "Periodic",
+  "access": "https://www.paleofire.org/",
+  "docs": "https://www.paleofire.org/",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "CSV",
+   "Periodic"
+  ]
+ },
+ {
+  "id": "noaa-fire-history",
+  "theme": "Paleo & historical",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/paleo/noaa-fire-history/",
+  "title": "NOAA Paleoclimatology Fire History",
+  "summary": "Tree-ring fire scar and charcoal records archived by NOAA NCEI.",
+  "provider": "NOAA NCEI",
+  "coverage": "Global, strongest in North America",
+  "period": "Centuries to millennia",
+  "resolution": "Site records",
+  "format": [
+   "Text",
+   "Excel",
+   "NOAA templates"
+  ],
+  "license": "Public domain",
+  "update": "Ongoing",
+  "access": "https://www.ncei.noaa.gov/products/paleoclimatology/fire-history",
+  "docs": "https://www.ncei.noaa.gov/products/paleoclimatology/fire-history",
+  "tags": [
+   "Global",
+   "North America",
+   "Bulk download",
+   "Public domain",
+   "Ongoing"
+  ]
+ }
+]

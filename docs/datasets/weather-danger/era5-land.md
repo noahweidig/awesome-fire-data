@@ -1,6 +1,7 @@
 ---
 title: "ERA5-Land"
 icon: lucide/cloud-sun
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/weather-danger.yml
 tags:
   - Global
   - API
@@ -36,5 +37,7 @@ Hourly global land surface reanalysis of temperature, soil moisture, wind, radia
 ## Related datasets
 
 - [CEMS Fire Danger Indices](../weather-danger/cems-fire-historical.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "ERA5-Land", "description": "Hourly global land surface reanalysis of temperature, soil moisture, wind, radiation and precipitation.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/era5-land/", "creator": {"@type": "Organization", "name": "ECMWF, Copernicus Climate Change Service"}, "spatialCoverage": "Global", "temporalCoverage": "1950 to present", "keywords": ["Global", "API", "GRIB", "NetCDF", "Copernicus licence", "Hourly"], "license": "Copernicus licence", "sameAs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land", "distribution": [{"@type": "DataDownload", "contentUrl": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land", "encodingFormat": "GRIB"}, {"@type": "DataDownload", "contentUrl": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

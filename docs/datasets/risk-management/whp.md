@@ -1,6 +1,7 @@
 ---
 title: "Wildfire Hazard Potential (WHP)"
 icon: lucide/shield-alert
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/risk-management.yml
 tags:
   - United States
   - Bulk download
@@ -35,5 +36,7 @@ Relative index of wildfire likelihood and intensity for prioritizing fuel treatm
 ## Related datasets
 
 - [Wildfire Risk to Communities](../risk-management/wildfire-risk-to-communities.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Wildfire Hazard Potential (WHP)", "description": "Relative index of wildfire likelihood and intensity for prioritizing fuel treatments.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/whp/", "creator": {"@type": "Organization", "name": "USDA Forest Service Fire Modeling Institute"}, "spatialCoverage": "United States", "temporalCoverage": "Editions 2014, 2018, 2020, 2023", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Periodic"], "license": "Public domain", "sameAs": "https://doi.org/10.2737/RDS-2015-0047-4", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.2737/RDS-2015-0047-4", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Risk, WUI & management](index.md){ .md-button }

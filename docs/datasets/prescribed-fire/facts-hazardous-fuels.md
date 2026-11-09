@@ -1,6 +1,7 @@
 ---
 title: "USFS Hazardous Fuel Treatment Reduction (FACTS)"
 icon: lucide/trees
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/prescribed-fire.yml
 tags:
   - United States
   - API
@@ -41,5 +42,7 @@ Polygon and line records of Forest Service hazardous fuel treatments, including 
 
 - [MTBS](../perimeters/mtbs.md)
 - [WFIGS Interagency Fire Perimeters](../perimeters/wfigs-perimeters.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USFS Hazardous Fuel Treatment Reduction (FACTS)", "description": "Polygon and line records of Forest Service hazardous fuel treatments, including prescribed burning, from the FACTS activity tracking system.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/facts-hazardous-fuels/", "creator": {"@type": "Organization", "name": "USDA Forest Service"}, "spatialCoverage": "United States (Forest Service activities)", "temporalCoverage": "Ongoing", "keywords": ["United States", "API", "Bulk download", "GeoDatabase", "Shapefile", "GeoJSON", "KML", "CSV", "CC BY 4.0", "Ongoing"], "license": "CC BY 4.0", "sameAs": "https://catalog.data.gov/dataset/hazardous-fuel-treatment-reduction-polygon-feature-layer", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "GeoDatabase"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "KML"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Prescribed fire & fuel treatments](index.md){ .md-button }

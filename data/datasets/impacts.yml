@@ -7,11 +7,12 @@
   period: 2013 to present
   resolution: Structure point
   format: [CSV, GeoJSON, Shapefile]
-  license: Open data (see portal)
+  license: "CC BY (see data.ca.gov terms)"
   update: Per incident
   access: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
   docs: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
   tags: [United States, California, API, Bulk download, CSV, GeoJSON, Per incident]
+  verified: "2026-11-09"
 - id: ravg
   title: RAVG (Rapid Assessment of Vegetation Condition after Wildfire)
   icon: lucide/layers
