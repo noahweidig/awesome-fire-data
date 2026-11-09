@@ -6,7 +6,7 @@ hide:
 
 # All datasets
 
-68 datasets, grouped by theme.
+69 datasets, grouped by theme.
 
 | Dataset | Theme | Coverage | Period | Resolution | License |
 | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ hide:
 | [GlobFire](../datasets/perimeters/globfire.md) | Perimeters & burned area | Global | 2001 to 2020 | Event polygons (from 500 m MODIS) | CC BY 4.0 |
 | [MODIS MCD64A1 Burned Area](../datasets/perimeters/mcd64a1.md) | Perimeters & burned area | Global | 2000 to present | 500 m | NASA open data |
 | [MTBS](../datasets/perimeters/mtbs.md) | Perimeters & burned area | CONUS, Alaska, Hawaii, Puerto Rico | 1984 to present | 30 m | Public domain |
+| [USGS Landsat Burned Area](../datasets/perimeters/landsat-burned-area.md) | Perimeters & burned area | Conterminous US | 1984 to present | 30 m | Public domain |
 | [WFIGS Interagency Fire Perimeters](../datasets/perimeters/wfigs-perimeters.md) | Perimeters & burned area | United States | Current year and historical archive | Vector | Public domain |
 | [GOES-R Fire/Hot Spot Characterization on AWS](../datasets/active-fire/goes-fdc.md) | Active fire & detection | Americas | 2017 to present | 2 km | Public domain |
 | [NASA FIRMS](../datasets/active-fire/firms.md) | Active fire & detection | Global | 2000 to present (MODIS), 2012 to present (VIIRS) | 375 m to 1 km | NASA open data |

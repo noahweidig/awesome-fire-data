@@ -56,6 +56,14 @@ Mapped fire footprints and burn severity, from agency perimeters to satellite bu
 
     [:lucide-arrow-right: Details](mtbs.md)
 
+-   :lucide-flame:{ .lg .middle } __[USGS Landsat Burned Area](landsat-burned-area.md)__
+
+    ---
+
+    Scene-level burn classification and burn probability rasters from Landsat 4 to 9.
+
+    [:lucide-arrow-right: Details](landsat-burned-area.md)
+
 -   :lucide-map:{ .lg .middle } __[WFIGS Interagency Fire Perimeters](wfigs-perimeters.md)__
 
     ---

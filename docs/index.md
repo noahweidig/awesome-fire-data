@@ -25,7 +25,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Mapped fire footprints and burn severity, from agency perimeters to satellite burned-area products.
 
-    7 datasets
+    8 datasets
 
     [:lucide-arrow-right: Explore](datasets/perimeters/index.md)
 

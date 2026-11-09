@@ -105,3 +105,19 @@
   tags: [Global, Bulk download, GeoTIFF, Annual, 30 m]
   related: [mcd64a1]
   caveat: Year ranges differ between releases. Confirm coverage on the Zenodo record before use.
+- id: landsat-burned-area
+  title: USGS Landsat Burned Area (Collection 2 Level-3)
+  icon: lucide/flame
+  summary: Scene-level burn classification and burn probability rasters from Landsat 4 to 9.
+  provider: USGS EROS
+  coverage: Conterminous US
+  period: 1984 to present
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Continuous
+  access: https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product
+  docs: https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Near real time, 30 m]
+  caveat: 'Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. Alaska coverage is not confirmed.'
+  related: [mtbs, se-firemap]

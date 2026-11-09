@@ -15,7 +15,7 @@ icon: lucide/database
 
     Mapped fire footprints and burn severity, from agency perimeters to satellite burned-area products.
 
-    7 datasets
+    8 datasets
 
     [:lucide-arrow-right: Explore](perimeters/index.md)
 

@@ -23,6 +23,7 @@ nav = [
           { "GlobFire" = "datasets/perimeters/globfire.md" },
           { "MODIS MCD64A1 Burned Area" = "datasets/perimeters/mcd64a1.md" },
           { "MTBS" = "datasets/perimeters/mtbs.md" },
+          { "USGS Landsat Burned Area" = "datasets/perimeters/landsat-burned-area.md" },
           { "WFIGS Interagency Fire Perimeters" = "datasets/perimeters/wfigs-perimeters.md" },
       ] },
       { "Active fire & detection" = [
