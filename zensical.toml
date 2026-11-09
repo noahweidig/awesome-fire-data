@@ -134,7 +134,7 @@ nav = [
       ] },
   ] },
   { "Browse" = ["browse/index.md", "browse/all-datasets.md", "browse/tags.md"] },
-  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", "learn/compare-datasets.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/glossary.md"] },
+  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", "learn/compare-datasets.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/software-and-models.md", "learn/glossary.md"] },
   { "Contribute" = ["contribute/index.md"] },
   { "About" = ["about/index.md", "about/changelog.md"] },
 ]
