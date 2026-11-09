@@ -104,6 +104,8 @@ nav = [
       ] },
       { "Risk, WUI & management" = [
           "datasets/risk-management/index.md",
+          { "Building-based WUI maps" = "datasets/risk-management/building-based-wui.md" },
+          { "Global WUI map 2020" = "datasets/risk-management/global-wui.md" },
           { "SILVIS Lab Wildland-Urban Interface Change" = "datasets/risk-management/silvis-wui.md" },
           { "Wildfire Hazard Potential" = "datasets/risk-management/whp.md" },
           { "Wildfire Risk to Communities" = "datasets/risk-management/wildfire-risk-to-communities.md" },

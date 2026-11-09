@@ -135,7 +135,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Community wildfire risk, wildland-urban interface maps and land management layers.
 
-    3 datasets
+    5 datasets
 
     [:lucide-arrow-right: Explore](datasets/risk-management/index.md)
 

@@ -6,7 +6,7 @@ hide:
 
 # All datasets
 
-69 datasets, grouped by theme.
+71 datasets, grouped by theme.
 
 | Dataset | Theme | Coverage | Period | Resolution | License |
 | --- | --- | --- | --- | --- | --- |
@@ -64,6 +64,8 @@ hide:
 | [NASA Black Marble Nighttime Lights](../datasets/impacts/black-marble.md) | Impacts & post-fire | Global | 2012 to present | 500 m | NASA open data |
 | [RAVG](../datasets/impacts/ravg.md) | Impacts & post-fire | United States (National Forest System) | 2012 to present | 30 m | Public domain |
 | [USGS Post-Fire Debris-Flow Hazard Assessments](../datasets/impacts/usgs-debris-flow.md) | Impacts & post-fire | Western United States | 2013 to present | Basin and 30 m | Public domain |
+| [Building-based WUI maps](../datasets/risk-management/building-based-wui.md) | Risk, WUI & management | Conterminous United States | Buildings from a 2018 release; vegetation from NLCD 2016 | 30 m | See ScienceBase record |
+| [Global WUI map 2020](../datasets/risk-management/global-wui.md) | Risk, WUI & management | Global | ca. 2020 | 10 m | CC BY 4.0 |
 | [SILVIS Lab Wildland-Urban Interface Change](../datasets/risk-management/silvis-wui.md) | Risk, WUI & management | Conterminous United States | 1990 to 2020 | Census block | Open (see site) |
 | [Wildfire Hazard Potential](../datasets/risk-management/whp.md) | Risk, WUI & management | United States | Editions 2014, 2018, 2020, 2023 | 270 m | Public domain |
 | [Wildfire Risk to Communities](../datasets/risk-management/wildfire-risk-to-communities.md) | Risk, WUI & management | United States | 2020 edition (2nd edition) | 30 m | Public domain |
