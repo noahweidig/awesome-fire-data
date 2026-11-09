@@ -1,0 +1,42 @@
+- id: fpa-fod
+  title: FPA-FOD (Fire Program Analysis Fire-Occurrence Database)
+  icon: lucide/map-pin
+  summary: Point locations, discovery dates, causes and sizes of 2.3 million US wildfires from federal, state and local records.
+  provider: USDA Forest Service Research Data Archive
+  coverage: United States
+  period: 1992 to 2020
+  resolution: Point
+  format: [GeoDatabase, SQLite]
+  license: Public domain
+  update: Periodic editions
+  access: https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6
+  docs: https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6
+  tags: [United States, Bulk download, GeoDatabase, SQLite, Public domain, Periodic]
+- id: effis
+  title: EFFIS (European Forest Fire Information System)
+  icon: lucide/globe
+  summary: Burnt area, fire danger and statistics for Europe and surrounding regions.
+  provider: European Commission JRC
+  coverage: Europe, Middle East, North Africa
+  period: 2000 to present
+  resolution: Vector and 250 m
+  format: [Shapefile, GeoJSON, WMS]
+  license: Copernicus open data
+  update: Daily
+  access: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
+  docs: https://forest-fire.emergency.copernicus.eu/
+  tags: [Europe, API, Shapefile, GeoJSON, Copernicus open data, Daily]
+- id: nifc-statistics
+  title: NIFC Wildfire Statistics
+  icon: lucide/database
+  summary: Annual US fire counts and acres burned by year, agency and state.
+  provider: NIFC
+  coverage: United States
+  period: 1983 to present
+  resolution: Tabular
+  format: [HTML, PDF]
+  license: Public domain
+  update: Annual
+  access: https://www.nifc.gov/fire-information/statistics
+  docs: https://www.nifc.gov/fire-information/statistics
+  tags: [United States, Tabular, Public domain, Annual]

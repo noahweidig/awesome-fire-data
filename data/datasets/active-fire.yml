@@ -1,0 +1,42 @@
+- id: firms
+  title: NASA FIRMS (Fire Information for Resource Management System)
+  icon: lucide/satellite
+  summary: Near-real-time active fire detections from MODIS and VIIRS, with map, download and API access.
+  provider: NASA
+  coverage: Global
+  period: 2000 to present (MODIS), 2012 to present (VIIRS)
+  resolution: 375 m to 1 km
+  format: [CSV, Shapefile, GeoJSON, KML]
+  license: NASA open data
+  update: Near real time
+  access: https://firms.modaps.eosdis.nasa.gov/active_fire/
+  docs: https://firms.modaps.eosdis.nasa.gov/
+  tags: [Global, API, Bulk download, CSV, Shapefile, NASA open data, Near real time, 375 m]
+- id: goes-fdc
+  title: GOES-R Fire/Hot Spot Characterization on AWS
+  icon: lucide/satellite
+  summary: Geostationary fire detection with fire power and temperature, updated every 5 to 15 minutes.
+  provider: NOAA / NESDIS
+  coverage: Americas
+  period: 2017 to present
+  resolution: 2 km
+  format: [NetCDF]
+  license: Public domain
+  update: 5 to 15 minutes
+  access: https://registry.opendata.aws/noaa-goes/
+  docs: https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/goes-r-series-data-products
+  tags: [Americas, Cloud bucket, NetCDF, Public domain, Near real time, 2 km]
+- id: noaa-hms
+  title: NOAA Hazard Mapping System (HMS) Fire and Smoke
+  icon: lucide/wind
+  summary: Analyst-reviewed fire detections and smoke plume polygons for North America.
+  provider: NOAA OSPO
+  coverage: North America
+  period: 2003 to present
+  resolution: Vector
+  format: [Shapefile, KML, GIS data]
+  license: Public domain
+  update: Daily
+  access: https://www.ospo.noaa.gov/products/land/hms.html
+  docs: https://www.ospo.noaa.gov/products/land/hms.html
+  tags: [North America, Bulk download, Shapefile, KML, Public domain, Daily]

@@ -1,0 +1,56 @@
+- id: gridmet
+  title: gridMET
+  icon: lucide/thermometer-sun
+  summary: Daily gridded surface meteorology, fuel moisture and fire danger indices for the contiguous US.
+  provider: University of Idaho / Climatology Lab
+  coverage: CONUS
+  period: 1979 to present
+  resolution: 4 km
+  format: [NetCDF]
+  license: Public domain
+  update: Daily
+  access: https://www.climatologylab.org/gridmet.html
+  docs: https://www.climatologylab.org/gridmet.html
+  tags: [United States, API, Bulk download, NetCDF, Public domain, Daily, 4 km]
+- id: cems-fire-historical
+  title: CEMS Fire Danger Indices (ERA5-based)
+  icon: lucide/cloud-sun
+  summary: Global daily fire danger indices, including the Canadian Fire Weather Index, from ERA5 reanalysis.
+  provider: Copernicus Emergency Management Service
+  coverage: Global
+  period: 1940 to present
+  resolution: 0.25 degrees
+  format: [GRIB, NetCDF]
+  license: Copernicus licence
+  update: Daily
+  access: https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1
+  docs: https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1
+  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily]
+- id: cwfis
+  title: CWFIS (Canadian Wildland Fire Information System)
+  icon: lucide/compass
+  summary: Daily Fire Weather Index maps, hotspots, and downloadable fire weather and danger data for Canada.
+  provider: Canadian Forest Service (NRCan)
+  coverage: Canada
+  period: Current and archive
+  resolution: 2.5 km to 10 km
+  format: [GeoTIFF, Shapefile, CSV]
+  license: Open Government Licence - Canada
+  update: Daily
+  access: https://cwfis.cfs.nrcan.gc.ca/datamart
+  docs: https://cwfis.cfs.nrcan.gc.ca/
+  tags: [Canada, Bulk download, GeoTIFF, CSV, Open Government Licence, Daily]
+- id: wfas
+  title: WFAS (Wildland Fire Assessment System)
+  icon: lucide/thermometer-sun
+  summary: National fire danger, fuel moisture and weather maps and forecasts from the USDA Forest Service.
+  provider: USDA Forest Service
+  coverage: United States
+  period: Current and recent
+  resolution: Varies
+  format: [Maps, GIS data]
+  license: Public domain
+  update: Daily
+  access: https://www.wfas.net/
+  docs: https://www.wfas.net/
+  tags: [United States, Maps, Public domain, Daily]

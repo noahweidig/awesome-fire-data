@@ -1,0 +1,56 @@
+- id: gfed
+  title: GFED (Global Fire Emissions Database)
+  icon: lucide/wind
+  summary: Burned area, fuel consumption and fire emissions of carbon and trace gases, globally.
+  provider: GFED team (Vrije Universiteit Amsterdam and partners)
+  coverage: Global
+  period: 1997 to present
+  resolution: 0.25 degrees
+  format: [HDF5, ASCII]
+  license: Free for research (see site)
+  update: Annual
+  access: https://www.globalfiredata.org/data.html
+  docs: https://www.globalfiredata.org/
+  tags: [Global, Bulk download, HDF, Annual]
+- id: cams-gfas
+  title: CAMS GFAS (Global Fire Assimilation System)
+  icon: lucide/wind
+  summary: Daily global fire radiative power and emissions of trace gases and aerosols.
+  provider: Copernicus Atmosphere Monitoring Service
+  coverage: Global
+  period: 2003 to present
+  resolution: 0.1 degrees
+  format: [GRIB, NetCDF]
+  license: Copernicus licence
+  update: Daily
+  access: https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas
+  docs: https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas
+  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily]
+- id: finn
+  title: FINN (Fire INventory from NCAR)
+  icon: lucide/wind
+  summary: Daily, high-resolution fire emissions estimates for chemical transport models.
+  provider: NCAR Atmospheric Chemistry Observations and Modeling
+  coverage: Global
+  period: 2002 to present
+  resolution: 1 km
+  format: [CSV, Text]
+  license: Free for research (see site)
+  update: Daily
+  access: https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar
+  docs: https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar
+  tags: [Global, Bulk download, CSV, Daily, 1 km]
+- id: airnow
+  title: EPA AirNow API
+  icon: lucide/wind
+  summary: Real-time and historical air quality observations and forecasts, including PM2.5 during smoke events.
+  provider: US EPA
+  coverage: United States, Canada, Mexico (partial)
+  period: Current and historical
+  resolution: Station
+  format: [JSON, CSV]
+  license: Public domain
+  update: Hourly
+  access: https://docs.airnowapi.org/
+  docs: https://docs.airnowapi.org/
+  tags: [North America, API, JSON, CSV, Public domain, Hourly]
