@@ -8,6 +8,22 @@ Community wildfire risk, wildland-urban interface maps and land management layer
 
 <div class="grid cards" markdown>
 
+-   :lucide-house:{ .lg .middle } __[Building-based WUI maps](building-based-wui.md)__
+
+    ---
+
+    Intermix and interface WUI maps for the conterminous US built from 125 million building point locations, at several neighborhood radii.
+
+    [:lucide-arrow-right: Details](building-based-wui.md)
+
+-   :lucide-house:{ .lg .middle } __[Global WUI map 2020](global-wui.md)__
+
+    ---
+
+    Global map of intermix and interface WUI classes at 10 m, with tables of WUI area, population and wildfire area by country, region and biome.
+
+    [:lucide-arrow-right: Details](global-wui.md)
+
 -   :lucide-house:{ .lg .middle } __[SILVIS Lab Wildland-Urban Interface Change](silvis-wui.md)__
 
     ---
