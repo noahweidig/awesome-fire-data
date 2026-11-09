@@ -150,7 +150,7 @@ def main():
         ds.append(f'      {{ "{q(th["title"])}" = [\n' + "\n".join(sub) + "\n      ] },")
     nav_items.append('  { "Datasets" = [\n' + "\n".join(ds) + "\n  ] },")
     nav_items.append('  { "Browse" = ["browse/index.md", "browse/all-datasets.md", "browse/tags.md"] },')
-    nav_items.append('  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", '
+    nav_items.append('  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", "learn/fire-triangles.md", '
                      '"learn/compare-datasets.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/software-and-models.md", "learn/glossary.md"] },')
     nav_items.append('  { "Contribute" = ["contribute/index.md"] },')
     nav_items.append('  { "About" = ["about/index.md", "about/changelog.md"] },')

@@ -4,7 +4,7 @@ icon: lucide/flame
 
 # Fire science primer
 
-Fire behavior depends on three inputs: fuel, weather and terrain. Most fire datasets describe one of them or a result of them.
+Fire behavior depends on three inputs: fuel, weather and terrain. Most fire datasets describe one of them or a result of them. See [Fire triangles](fire-triangles.md) for the three triangles at different scales.
 
 Fuel
 :   Vegetation that can burn, described by type, load, moisture and structure. See [Fuels, vegetation & terrain](../datasets/fuels-terrain/index.md).
