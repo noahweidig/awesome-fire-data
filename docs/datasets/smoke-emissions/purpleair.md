@@ -1,6 +1,7 @@
 ---
 title: "PurpleAir"
 icon: lucide/gauge
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/smoke-emissions.yml
 tags:
   - Global
   - API
@@ -35,5 +36,7 @@ Real-time PM2.5 readings from a crowd-sourced network of low-cost sensors.
 ## Related datasets
 
 - [EPA AirNow API](../smoke-emissions/airnow.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "PurpleAir", "description": "Real-time PM2.5 readings from a crowd-sourced network of low-cost sensors.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/purpleair/", "creator": {"@type": "Organization", "name": "PurpleAir, Inc."}, "spatialCoverage": "Global", "temporalCoverage": "Continuous", "keywords": ["Global", "API", "JSON", "Custom terms", "Near real time"], "license": "PurpleAir terms of use", "sameAs": "https://api.purpleair.com/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://api.purpleair.com/", "encodingFormat": "JSON"}]}</script>
 
 [:lucide-arrow-left: Back to Smoke, emissions & air quality](index.md){ .md-button }

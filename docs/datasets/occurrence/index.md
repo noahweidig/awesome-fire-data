@@ -1,5 +1,6 @@
 ---
 icon: lucide/map-pin
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Occurrence & ignitions
@@ -20,7 +21,7 @@ Point records of wildfire events, causes, sizes and national statistics.
 
     ---
 
-    Point locations, discovery dates, causes and sizes of 2.3 million US wildfires from federal, state and local records.
+    Point locations, discovery dates, causes and sizes of 2.66 million US wildfires from federal, state and local records.
 
     [:lucide-arrow-right: Details](fpa-fod.md)
 

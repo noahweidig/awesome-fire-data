@@ -22,6 +22,16 @@
       "docs": {"type": "string", "pattern": "^https?://"},
       "tags": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
       "caveat": {"type": "string"},
+      "doi": {"type": "string", "pattern": "^10\\.\\d{4,9}/\\S+$"},
+      "citation": {"type": "string", "minLength": 10},
+      "verified": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+      "snippets": {
+        "type": "array", "minItems": 1,
+        "items": {
+          "type": "object", "additionalProperties": false, "required": ["label", "lang", "code"],
+          "properties": {"label": {"type": "string"}, "lang": {"type": "string"}, "code": {"type": "string"}}
+        }
+      },
       "related": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
     }
   }

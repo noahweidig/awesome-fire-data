@@ -1,5 +1,6 @@
 ---
 icon: lucide/map-pinned
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Boundaries & reference layers
@@ -23,6 +24,14 @@ Administrative, ecological and protected-area boundaries for joining and summari
     Ecoregion boundaries at Level III and Level IV for the conterminous US, with regional and state extracts.
 
     [:lucide-arrow-right: Details](epa-ecoregions.md)
+
+-   :lucide-map-pinned:{ .lg .middle } __[NIFC Geographic Area Coordination Center Boundaries](nifc-gacc.md)__
+
+    ---
+
+    Polygons of the 10 US geographic areas used to coordinate wildland fire resources and report fire statistics.
+
+    [:lucide-arrow-right: Details](nifc-gacc.md)
 
 -   :lucide-shield:{ .lg .middle } __[PAD-US Protected Areas Database](pad-us.md)__
 

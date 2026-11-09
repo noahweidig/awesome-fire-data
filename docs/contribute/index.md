@@ -40,6 +40,13 @@ Add to the file for the matching theme, for example `data/datasets/perimeters.ym
 
 Tags must exist in `data/tag-vocab.yml`. To add a tag, add it there under a category.
 
+Optional fields:
+
+- `doi`: bare DOI such as `10.2737/RDS-2013-0009.7`. Shown under Cite and in the structured data.
+- `citation`: preferred citation text.
+- `verified`: `YYYY-MM-DD` date you last checked the entry against the provider. Shown in the table.
+- `snippets`: list of `{label, lang, code}` shown as tabs under Quick start.
+
 `related` is an optional list of dataset `id` values that overlap with this one. The page shows them under Related datasets.
 
 `python scripts/validate.py` checks entries against `data/schema.json`. CI runs it on every pull request. See [CONTRIBUTING.md](https://github.com/noahweidig/awesome-fire-data/blob/main/CONTRIBUTING.md).

@@ -6,13 +6,13 @@ access:
   tags: [API, Bulk download, Cloud bucket, Maps, Tabular]
 format:
   icon: lucide/file
-  tags: [GeoTIFF, Shapefile, GeoJSON, NetCDF, GRIB, HDF, CSV, JSON, KML, GeoDatabase, SQLite, TFRecord, NumPy]
+  tags: [GeoTIFF, Shapefile, GeoJSON, NetCDF, GRIB, HDF, CSV, JSON, KML, GeoDatabase, SQLite, TFRecord, NumPy, GeoPackage]
 license:
   icon: lucide/scale
   tags: [Public domain, NASA open data, Copernicus open data, Copernicus licence, Open Government Licence, CC BY 4.0, CC0, Custom terms]
 cadence:
   icon: lucide/clock
-  tags: [Near real time, Continuous, Hourly, Daily, Monthly, Annual, Periodic, Decennial, Per incident, Static, Ongoing]
+  tags: [Near real time, Continuous, Hourly, Daily, Weekly, Monthly, Annual, Periodic, Decennial, Per incident, Static, Ongoing]
 resolution:
   icon: lucide/ruler
   tags: [10 m, 30 m, 375 m, 500 m, 1 km, 2 km, 4 km, 25 m, 250 m, 3 km]

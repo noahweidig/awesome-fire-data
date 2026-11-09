@@ -1,6 +1,7 @@
 ---
 title: "Global Fire Atlas"
 icon: lucide/globe
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/fire-behavior.yml
 tags:
   - Global
   - Bulk download
@@ -38,5 +39,7 @@ Individual fire size, duration, daily expansion, speed and direction derived fro
 
 - [MODIS MCD64A1 Burned Area](../perimeters/mcd64a1.md)
 - [FIRED](../fire-behavior/fired.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Global Fire Atlas", "description": "Individual fire size, duration, daily expansion, speed and direction derived from MODIS burned area.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/global-fire-atlas/", "creator": {"@type": "Organization", "name": "NASA ORNL DAAC (CMS)"}, "spatialCoverage": "Global", "temporalCoverage": "2003 to 2016", "keywords": ["Global", "Bulk download", "GeoTIFF", "Shapefile", "NASA open data", "Static", "500 m"], "license": "NASA open data", "sameAs": "https://doi.org/10.3334/ORNLDAAC/1642", "distribution": [{"@type": "DataDownload", "contentUrl": "https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1642", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1642", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Fire behavior & spread](index.md){ .md-button }

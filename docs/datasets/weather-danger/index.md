@@ -1,5 +1,6 @@
 ---
 icon: lucide/thermometer-sun
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/themes.yml
 ---
 
 # Weather, climate & danger
@@ -63,6 +64,22 @@ Gridded weather, drought and fire danger indices, historical and forecast.
     Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.
 
     [:lucide-arrow-right: Details](prism.md)
+
+-   :lucide-thermometer-sun:{ .lg .middle } __[RAWS](raws.md)__
+
+    ---
+
+    Hourly fire weather observations from interagency stations, archived by the Western Regional Climate Center.
+
+    [:lucide-arrow-right: Details](raws.md)
+
+-   :lucide-sun:{ .lg .middle } __[US Drought Monitor](us-drought-monitor.md)__
+
+    ---
+
+    Weekly drought category maps for the US, with polygon, grid and statistics downloads.
+
+    [:lucide-arrow-right: Details](us-drought-monitor.md)
 
 -   :lucide-thermometer-sun:{ .lg .middle } __[WFAS](wfas.md)__
 

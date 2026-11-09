@@ -29,17 +29,19 @@
 - id: nlcd-tcc
   title: NLCD (National Land Cover Database) and Tree Canopy Cover
   icon: lucide/trees
-  summary: Land cover, impervious surface and tree canopy cover for the conterminous US.
+  summary: "Annual land cover, impervious surface and tree canopy cover for the conterminous US."
   provider: USGS and MRLC
-  coverage: United States
-  period: 1985 to 2023 (varies by product)
+  coverage: "United States (Annual NLCD: conterminous US)"
+  period: "1985 to 2024 (land cover); tree canopy cover to 2023"
   resolution: 30 m
   format: [GeoTIFF]
   license: Public domain
-  update: Periodic
+  update: "Annual"
   access: https://www.mrlc.gov/data
   docs: https://www.mrlc.gov/
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, 30 m, Annual]
+  caveat: "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series."
+  verified: "2026-11-09"
 - id: gedi
   title: GEDI Spaceborne Lidar
   icon: lucide/radar
@@ -65,13 +67,14 @@
   period: 1986 to present
   resolution: 30 m
   format: [GeoTIFF]
-  license: See provider terms
+  license: "Listings conflict: public domain (USDA) or CC BY-NC 4.0 (community catalog). Confirm at rangelands.app."
   update: Annual
   access: https://rangelands.app/products
   docs: https://rangelands.app/products
   tags: [United States, API, Bulk download, GeoTIFF, Annual, 30 m]
   related: [rcmap, landfire]
   caveat: Also on Earth Engine and through the rapr R package. Check the site for known processing issues in recent years.
+  verified: "2026-11-09"
 - id: rcmap
   title: RCMAP Rangeland Condition Monitoring
   icon: lucide/chart-area
@@ -145,13 +148,21 @@
   period: Varies by state
   resolution: Plots
   format: [CSV, SQLite]
-  license: Creative Commons Attribution
+  license: "Free to use, no fees (US Government data). Cite FIA."
   update: Annual
   access: https://apps.fs.usda.gov/fia/datamart/datamart.html
   docs: https://research.fs.usda.gov/products/dataandtools/fia-datamart
   tags: [United States, Bulk download, CSV, SQLite, Annual]
   related: [treemap]
-  caveat: Public plot coordinates are fuzzed and swapped for privacy. The R packages rFIA and FIESTA download from DataMart.
+  caveat: "Public plot coordinates are fuzzed and swapped for privacy. The R packages rFIA and FIESTA download from DataMart. No license is stated on DataMart itself. Some catalogs label it CC BY 4.0."
+  verified: "2026-11-09"
+  snippets:
+    - label: R
+      lang: r
+      code: |
+        library(rFIA)
+        getFIA(states = "CA", dir = "fia_data")
+        db <- readFIA("fia_data")
 - id: ids-survey
   title: Insect and Disease Detection Survey (IDS)
   icon: lucide/bug
@@ -168,3 +179,21 @@
   tags: [United States, API, Maps, Public domain, Annual]
   related: [lcms]
   caveat: Aerial sketch mapping is subjective and survey coverage varies by year and region.
+- id: globe-lfmc
+  title: Globe-LFMC 2.0
+  icon: lucide/droplets
+  summary: More than 280,000 field measurements of live fuel moisture content from sites worldwide.
+  provider: Yebra et al. (research community)
+  coverage: Global
+  period: 1977 to 2023
+  resolution: Site records
+  format: [Spreadsheet]
+  license: See the Figshare record
+  update: Static
+  access: https://doi.org/10.1038/s41597-024-03159-6
+  docs: https://doi.org/10.1038/s41597-024-03159-6
+  tags: [Global, Tabular, Static]
+  related: [gridmet, wfas]
+  caveat: Version 2.0 adds more than 120,000 entries and more than 800 sites over the first release. Use the 2.0 Figshare record, not the 2019 one. Sampling is uneven across regions.
+  doi: 10.1038/s41597-024-03159-6
+  verified: "2026-11-09"

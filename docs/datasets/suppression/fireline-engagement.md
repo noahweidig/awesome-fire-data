@@ -1,6 +1,7 @@
 ---
 title: "Fireline Engagement from the NIFC Feature Service"
 icon: lucide/route
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/suppression.yml
 tags:
   - United States
   - Bulk download
@@ -34,5 +35,7 @@ Quality-checked fireline locations, verified perimeters and containment success 
 ## Related datasets
 
 - [WFIGS Interagency Fire Perimeters](../perimeters/wfigs-perimeters.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Fireline Engagement from the NIFC Feature Service", "description": "Quality-checked fireline locations, verified perimeters and containment success or failure for large US fires.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/suppression/fireline-engagement/", "creator": {"@type": "Organization", "name": "USDA Forest Service Rocky Mountain Research Station"}, "spatialCoverage": "United States", "temporalCoverage": "2017 to 2024", "keywords": ["United States", "Bulk download", "Public domain", "Static"], "license": "Public domain", "sameAs": "https://doi.org/10.1038/s41597-025-05208-0", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.2737/RDS-2025-0011", "encodingFormat": "GIS data"}]}</script>
 
 [:lucide-arrow-left: Back to Suppression & resources](index.md){ .md-button }

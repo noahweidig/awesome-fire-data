@@ -1,6 +1,7 @@
 ---
 title: "PAD-US Protected Areas Database"
 icon: lucide/shield
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/boundaries.yml
 tags:
   - United States
   - Bulk download
@@ -35,5 +36,7 @@ Public land ownership, management, designation and protection status for US land
 ## Related datasets
 
 - [USFS Administrative Forest Boundaries](../boundaries/usfs-admin-boundaries.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "PAD-US Protected Areas Database", "description": "Public land ownership, management, designation and protection status for US lands and waters.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/pad-us/", "creator": {"@type": "Organization", "name": "USGS Gap Analysis Project"}, "spatialCoverage": "United States", "temporalCoverage": "Versioned releases (4.x current)", "keywords": ["United States", "Bulk download", "GeoDatabase", "CC0", "Periodic"], "license": "CC0", "sameAs": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download", "encodingFormat": "GeoDatabase"}]}</script>
 
 [:lucide-arrow-left: Back to Boundaries & reference layers](index.md){ .md-button }

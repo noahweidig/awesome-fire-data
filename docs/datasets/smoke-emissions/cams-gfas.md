@@ -1,6 +1,7 @@
 ---
 title: "CAMS GFAS (Global Fire Assimilation System)"
 icon: lucide/wind
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/smoke-emissions.yml
 tags:
   - Global
   - API
@@ -28,5 +29,7 @@ Daily global fire radiative power and emissions of trace gases and aerosols.
 | :lucide-file:{ title="File and service formats" } Format | GRIB, NetCDF |
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Copernicus licence |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Daily |
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CAMS GFAS (Global Fire Assimilation System)", "description": "Daily global fire radiative power and emissions of trace gases and aerosols.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/cams-gfas/", "creator": {"@type": "Organization", "name": "Copernicus Atmosphere Monitoring Service"}, "spatialCoverage": "Global", "temporalCoverage": "2003 to present", "keywords": ["Global", "API", "NetCDF", "GRIB", "Copernicus licence", "Daily"], "license": "Copernicus licence", "sameAs": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas", "distribution": [{"@type": "DataDownload", "contentUrl": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas", "encodingFormat": "GRIB"}, {"@type": "DataDownload", "contentUrl": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Smoke, emissions & air quality](index.md){ .md-button }

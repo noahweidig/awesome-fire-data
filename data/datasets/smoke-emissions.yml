@@ -4,14 +4,16 @@
   summary: Burned area, fuel consumption and fire emissions of carbon and trace gases, globally.
   provider: GFED team (Vrije Universiteit Amsterdam and partners)
   coverage: Global
-  period: 1997 to present
-  resolution: 0.25 degrees
+  period: "1997 to 2020 (GFED5 burned area)"
+  resolution: "0.25 degrees (1 degree for 1997 to 2000)"
   format: [HDF5, ASCII]
   license: Free for research (see site)
-  update: Annual
+  update: "Periodic"
   access: https://www.globalfiredata.org/data.html
   docs: https://www.globalfiredata.org/
-  tags: [Global, Bulk download, HDF, Annual]
+  tags: [Global, Bulk download, HDF, Periodic]
+  caveat: "GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. Emissions years differ by version."
+  verified: "2026-11-09"
 - id: cams-gfas
   title: CAMS GFAS (Global Fire Assimilation System)
   icon: lucide/wind

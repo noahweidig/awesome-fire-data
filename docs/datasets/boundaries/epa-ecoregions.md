@@ -1,6 +1,7 @@
 ---
 title: "EPA Level III and IV Ecoregions"
 icon: lucide/trees
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/boundaries.yml
 tags:
   - United States
   - Bulk download
@@ -35,5 +36,7 @@ Ecoregion boundaries at Level III and Level IV for the conterminous US, with reg
 ## Related datasets
 
 - [Bailey's Ecoregions and Subregions](../boundaries/baileys-ecoregions.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "EPA Level III and IV Ecoregions", "description": "Ecoregion boundaries at Level III and Level IV for the conterminous US, with regional and state extracts.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/epa-ecoregions/", "creator": {"@type": "Organization", "name": "US EPA"}, "spatialCoverage": "United States", "temporalCoverage": "Periodic", "keywords": ["United States", "Bulk download", "Shapefile", "Public domain", "Periodic"], "license": "Public domain", "sameAs": "https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Boundaries & reference layers](index.md){ .md-button }

@@ -78,3 +78,20 @@
   tags: [United States, API, Bulk download, GeoDatabase, Maps, Public domain, Ongoing]
   related: [pad-us]
   caveat: Not a legal land description. Boundaries can differ from other layers because of update timing.
+- id: nifc-gacc
+  title: NIFC Geographic Area Coordination Center (GACC) Boundaries
+  icon: lucide/map-pinned
+  summary: Polygons of the 10 US geographic areas used to coordinate wildland fire resources and report fire statistics.
+  provider: NIFC and National Wildfire Coordinating Group
+  coverage: United States
+  period: Current boundaries (layer dated 2025-01-13)
+  resolution: Vector
+  format: [Shapefile, GeoJSON, ArcGIS feature service]
+  license: See NIFC Open Data item page
+  update: Periodic
+  access: https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0
+  docs: https://data-nifc.opendata.arcgis.com/
+  tags: [United States, API, GeoJSON, Shapefile, Periodic]
+  related: [nifc-statistics, wfigs-perimeters]
+  caveat: The service returns at most 2,000 records per query. A border area between Utah and Colorado changed in September 2024. The list of coordination centers is in the National Interagency Mobilization Guide. A separate simplified copy exists for zooming only, not for mapping.
+  verified: "2026-11-09"

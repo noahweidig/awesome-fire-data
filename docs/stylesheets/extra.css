@@ -36,3 +36,10 @@
   .ft-card { grid-template-columns: minmax(0, 1fr); }
   .ft-card > p:last-child { grid-column: 1; }
 }
+
+.dataset-filter { width: 100%; max-width: 24rem; padding: .4rem .7rem; margin-bottom: 1rem; font: inherit;
+  color: var(--md-default-fg-color); background: var(--md-default-bg-color);
+  border: .05rem solid var(--md-default-fg-color--lighter); border-radius: .3rem; }
+.sortable th { cursor: pointer; }
+.sortable th[aria-sort="ascending"]::after { content: " \25B2"; font-size: .6rem; }
+.sortable th[aria-sort="descending"]::after { content: " \25BC"; font-size: .6rem; }

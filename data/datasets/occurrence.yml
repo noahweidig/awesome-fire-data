@@ -1,17 +1,21 @@
 - id: fpa-fod
   title: FPA-FOD (Fire Program Analysis Fire-Occurrence Database)
   icon: lucide/map-pin
-  summary: Point locations, discovery dates, causes and sizes of 2.3 million US wildfires from federal, state and local records.
+  summary: "Point locations, discovery dates, causes and sizes of 2.66 million US wildfires from federal, state and local records."
   provider: USDA Forest Service Research Data Archive
   coverage: United States
-  period: 1992 to 2020
+  period: "1992 to 2024"
   resolution: Point
-  format: [GeoDatabase, SQLite]
-  license: Public domain
+  format: [Access, GeoDatabase, GeoPackage, SQLite]
+  license: US Government data, free to use. See the archive Conditions of Use.
   update: Periodic editions
-  access: https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6
-  docs: https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6
-  tags: [United States, Bulk download, GeoDatabase, SQLite, Public domain, Periodic]
+  access: "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7"
+  docs: "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7"
+  tags: [United States, Bulk download, GeoDatabase, SQLite, Custom terms, Periodic, GeoPackage]
+  caveat: "7th edition (FPA_FOD_20260615), published 2026. It replaces the 6th edition (1992 to 2020), which the archive marks as out of date. The archive page states no license, only that the data can be used without permissions or fees."
+  doi: "10.2737/RDS-2013-0009.7"
+  citation: "Short, K.C. 2026. Spatial wildfire occurrence data for the United States, 1992-2024 [FPA_FOD_20260615]. 7th Edition. Fort Collins, CO: Forest Service Research Data Archive."
+  verified: "2026-11-09"
 - id: effis
   title: EFFIS (European Forest Fire Information System)
   icon: lucide/globe

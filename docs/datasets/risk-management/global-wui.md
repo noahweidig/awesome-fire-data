@@ -1,6 +1,7 @@
 ---
 title: "Global WUI map 2020"
 icon: lucide/house
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/risk-management.yml
 tags:
   - Global
   - Bulk download
@@ -38,5 +39,7 @@ Global map of intermix and interface WUI classes at 10 m, with tables of WUI are
 
 - [SILVIS Lab Wildland-Urban Interface Change](../risk-management/silvis-wui.md)
 - [Building-based WUI maps](../risk-management/building-based-wui.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Global WUI map 2020", "description": "Global map of intermix and interface WUI classes at 10 m, with tables of WUI area, population and wildfire area by country, region and biome.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/global-wui/", "creator": {"@type": "Organization", "name": "University of Wisconsin-Madison SILVIS Lab"}, "spatialCoverage": "Global", "temporalCoverage": "ca. 2020", "keywords": ["Global", "Bulk download", "GeoTIFF", "CSV", "CC BY 4.0", "Static", "10 m"], "license": "CC BY 4.0", "sameAs": "https://doi.org/10.1038/s41586-023-06320-0", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5281/zenodo.7941460", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://doi.org/10.5281/zenodo.7941460", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Risk, WUI & management](index.md){ .md-button }

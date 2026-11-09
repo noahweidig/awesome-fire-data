@@ -25,7 +25,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Mapped fire footprints and burn severity, from agency perimeters to satellite burned-area products.
 
-    8 datasets
+    13 datasets
 
     [:lucide-arrow-right: Explore](datasets/perimeters/index.md)
 
@@ -75,7 +75,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Individual fire events with daily spread, speed and direction.
 
-    2 datasets
+    3 datasets
 
     [:lucide-arrow-right: Explore](datasets/fire-behavior/index.md)
 
@@ -85,7 +85,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Fuel models, canopy, land cover and elevation inputs for fire behavior and risk.
 
-    11 datasets
+    12 datasets
 
     [:lucide-arrow-right: Explore](datasets/fuels-terrain/index.md)
 
@@ -95,7 +95,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Gridded weather, drought and fire danger indices, historical and forecast.
 
-    8 datasets
+    10 datasets
 
     [:lucide-arrow-right: Explore](datasets/weather-danger/index.md)
 
@@ -145,7 +145,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Community vulnerability and national hazard risk indices for fire exposure studies.
 
-    2 datasets
+    3 datasets
 
     [:lucide-arrow-right: Explore](datasets/social-vulnerability/index.md)
 
@@ -155,7 +155,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Administrative, ecological and protected-area boundaries for joining and summarizing fire data.
 
-    5 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](datasets/boundaries/index.md)
 

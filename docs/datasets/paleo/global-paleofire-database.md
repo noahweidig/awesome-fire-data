@@ -1,6 +1,7 @@
 ---
 title: "Global Paleofire Database (Global Charcoal Database)"
 icon: lucide/history
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/paleo.yml
 tags:
   - Global
   - Bulk download
@@ -26,5 +27,7 @@ Sedimentary charcoal records for reconstructing fire history over thousands of y
 | :lucide-file:{ title="File and service formats" } Format | CSV, R package |
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Open (see site) |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Periodic |
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Global Paleofire Database (Global Charcoal Database)", "description": "Sedimentary charcoal records for reconstructing fire history over thousands of years.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/paleo/global-paleofire-database/", "creator": {"@type": "Organization", "name": "Global Paleofire Working Group"}, "spatialCoverage": "Global", "temporalCoverage": "Holocene and earlier", "keywords": ["Global", "Bulk download", "CSV", "Periodic"], "license": "Open (see site)", "sameAs": "https://www.paleofire.org/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.paleofire.org/", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://www.paleofire.org/", "encodingFormat": "R package"}]}</script>
 
 [:lucide-arrow-left: Back to Paleo & historical](index.md){ .md-button }
