@@ -1,0 +1,33 @@
+name: Suggest a dataset
+description: Propose a fire dataset for the catalog
+labels: [dataset]
+body:
+  - type: input
+    id: title
+    attributes: {label: Dataset name}
+    validations: {required: true}
+  - type: input
+    id: access
+    attributes: {label: Data link}
+    validations: {required: true}
+  - type: input
+    id: docs
+    attributes: {label: Documentation link}
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options: [Perimeters & burned area, Active fire & detection, Occurrence & ignitions, "Fuels, vegetation & terrain", "Weather, climate & danger", "Smoke, emissions & air quality", Impacts & post-fire, "Risk, WUI & management", Benchmarks & ML-ready, Paleo & historical]
+    validations: {required: true}
+  - type: input
+    id: provider
+    attributes: {label: Provider}
+  - type: input
+    id: coverage
+    attributes: {label: Coverage, placeholder: "Region, period, resolution"}
+  - type: input
+    id: license
+    attributes: {label: License}
+  - type: textarea
+    id: notes
+    attributes: {label: Notes}

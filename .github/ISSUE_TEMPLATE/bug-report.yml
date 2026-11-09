@@ -1,0 +1,12 @@
+name: Report a problem
+description: Broken link, wrong metadata or site bug
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes: {label: Page URL}
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes: {label: What is wrong, description: "Include the correct value and a source if you have one."}
+    validations: {required: true}

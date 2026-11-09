@@ -6,7 +6,7 @@ hide:
 
 # All datasets
 
-31 datasets, grouped by theme.
+32 datasets, grouped by theme.
 
 | Dataset | Theme | Coverage | Period | Resolution | License |
 | --- | --- | --- | --- | --- | --- |
@@ -25,6 +25,7 @@ hide:
 | [USGS 3DEP Elevation](../datasets/fuels-terrain/usgs-3dep.md) | Fuels, vegetation & terrain | United States | Continuously updated | 1 m to 10 m | Public domain |
 | [CEMS Fire Danger Indices](../datasets/weather-danger/cems-fire-historical.md) | Weather, climate & danger | Global | 1940 to present | 0.25 degrees | Copernicus licence |
 | [CWFIS](../datasets/weather-danger/cwfis.md) | Weather, climate & danger | Canada | Current and archive | 2.5 km to 10 km | Open Government Licence - Canada |
+| [Daymet](../datasets/weather-danger/daymet.md) | Weather, climate & danger | North America | 1980 to present | 1 km | NASA open data |
 | [gridMET](../datasets/weather-danger/gridmet.md) | Weather, climate & danger | CONUS | 1979 to present | 4 km | Public domain |
 | [WFAS](../datasets/weather-danger/wfas.md) | Weather, climate & danger | United States | Current and recent | Varies | Public domain |
 | [CAMS GFAS](../datasets/smoke-emissions/cams-gfas.md) | Smoke, emissions & air quality | Global | 2003 to present | 0.1 degrees | Copernicus licence |

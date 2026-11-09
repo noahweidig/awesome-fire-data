@@ -6,8 +6,8 @@ icon: lucide/git-pull-request
 
 Dataset pages are generated from YAML in `data/datasets/`. Add an entry and open a pull request. Each edit button on a dataset page opens the generated file, so edit the YAML instead.
 
-[:lucide-github: Open the repository](https://github.com/noahweidig/awesome-fire-datasets){ .md-button .md-button--primary }
-[:lucide-circle-alert: Suggest a dataset](https://github.com/noahweidig/awesome-fire-datasets/issues/new){ .md-button }
+[:fontawesome-brands-github: Open the repository](https://github.com/noahweidig/awesome-fire-datasets){ .md-button .md-button--primary }
+[:lucide-circle-alert: Suggest a dataset](https://github.com/noahweidig/awesome-fire-datasets/issues/new?template=new-dataset.yml){ .md-button }
 
 ## Inclusion criteria
 

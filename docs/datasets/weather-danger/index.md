@@ -24,6 +24,14 @@ Gridded weather, drought and fire danger indices, historical and forecast.
 
     [:lucide-arrow-right: Details](cwfis.md)
 
+-   :lucide-cloud-rain:{ .lg .middle } __[Daymet](daymet.md)__
+
+    ---
+
+    Daily 1 km gridded surface weather (temperature, precipitation, radiation, humidity, snow water equivalent) for North America.
+
+    [:lucide-arrow-right: Details](daymet.md)
+
 -   :lucide-thermometer-sun:{ .lg .middle } __[gridMET](gridmet.md)__
 
     ---
