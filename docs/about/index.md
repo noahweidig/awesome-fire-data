@@ -16,4 +16,4 @@ Catalog text is CC BY 4.0. Each dataset keeps the license of its provider.
 
 ## Citation
 
-Weidig, N. Awesome Fire Datasets. <https://github.com/noahweidig/awesome-fire-datasets>
+Weidig, N. Awesome Fire Datasets. <https://github.com/noahweidig/awesome-fire-data>

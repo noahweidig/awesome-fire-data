@@ -2,9 +2,9 @@
 site_name = "Awesome Fire Datasets"
 site_description = "A curated catalog of fire datasets: perimeters, active fire, fuels, weather, smoke, impacts, risk, benchmarks and paleo records."
 site_author = "Noah Weidig"
-site_url = "https://noahweidig.github.io/awesome-fire-datasets/"
-repo_url = "https://github.com/noahweidig/awesome-fire-datasets"
-repo_name = "noahweidig/awesome-fire-datasets"
+site_url = "https://noahweidig.github.io/awesome-fire-data/"
+repo_url = "https://github.com/noahweidig/awesome-fire-data"
+repo_name = "noahweidig/awesome-fire-data"
 edit_uri = "edit/main/docs/"
 extra_css = ["stylesheets/extra.css"]
 copyright = "Content under CC BY 4.0. Datasets belong to their providers."
