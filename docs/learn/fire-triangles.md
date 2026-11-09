@@ -15,7 +15,7 @@ Three triangles describe fire at three scales. Each has three corners, and remov
 <p class="ft-scale">Scale: a flame</p>
 
 <div class="ft-tri" role="img" aria-label="Combustion triangle with heat, oxygen and fuel at the corners" markdown>
-<div class="ft-shape"></div>
+<svg class="ft-shape" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,100 0,100"/></svg>
 <div class="ft-core" markdown>:lucide-flame: Burning</div>
 <div class="ft-v ft-top c-heat" markdown>:lucide-thermometer-sun: Heat</div>
 <div class="ft-v ft-right c-oxygen" markdown>:lucide-wind: Oxygen</div>
@@ -33,7 +33,7 @@ Fire needs all three at the same place. Remove one and combustion stops.
 <p class="ft-scale">Scale: a burning fire, minutes to days</p>
 
 <div class="ft-tri" role="img" aria-label="Fire behavior triangle with fuel, weather and topography at the corners" markdown>
-<div class="ft-shape"></div>
+<svg class="ft-shape" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,100 0,100"/></svg>
 <div class="ft-core" markdown>:lucide-gauge: Spread and intensity</div>
 <div class="ft-v ft-top c-fuel" markdown>:lucide-trees: Fuel</div>
 <div class="ft-v ft-right c-weather" markdown>:lucide-cloud-sun: Weather</div>
@@ -51,7 +51,7 @@ Once a fire starts, these three set how fast it spreads and how intense it is.
 <p class="ft-scale">Scale: a landscape, years to centuries</p>
 
 <div class="ft-tri" role="img" aria-label="Fire regime triangle with ignition, climate and vegetation at the corners" markdown>
-<div class="ft-shape"></div>
+<svg class="ft-shape" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,100 0,100"/></svg>
 <div class="ft-core" markdown>:lucide-calendar-clock: Fire regime</div>
 <div class="ft-v ft-top c-ignition" markdown>:lucide-zap: Ignition</div>
 <div class="ft-v ft-right c-climate" markdown>:lucide-thermometer-sun: Climate</div>
