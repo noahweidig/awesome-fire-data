@@ -1,0 +1,19 @@
+{
+  "name": "Awesome Fire Datasets",
+  "short_name": "Fire Datasets",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f4511e",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

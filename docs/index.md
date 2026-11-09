@@ -65,7 +65,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Gridded weather, drought and fire danger indices, historical and forecast.
 
-    4 datasets
+    5 datasets
 
     [:lucide-arrow-right: Explore](datasets/weather-danger/index.md)
 

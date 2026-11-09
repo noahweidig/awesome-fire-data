@@ -55,7 +55,7 @@ Ten themes cover the fire data landscape. Each dataset page lists provider, cove
 
     Gridded weather, drought and fire danger indices, historical and forecast.
 
-    4 datasets
+    5 datasets
 
     [:lucide-arrow-right: Explore](weather-danger/index.md)
 

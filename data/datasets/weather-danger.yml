@@ -12,6 +12,22 @@
   access: https://www.climatologylab.org/gridmet.html
   docs: https://www.climatologylab.org/gridmet.html
   tags: [United States, API, Bulk download, NetCDF, Public domain, Daily, 4 km]
+- id: daymet
+  title: Daymet
+  icon: lucide/cloud-rain
+  summary: Daily 1 km gridded surface weather (temperature, precipitation, radiation, humidity, snow water equivalent) for North America.
+  provider: NASA ORNL DAAC
+  coverage: North America
+  period: 1980 to present
+  resolution: 1 km
+  format: [NetCDF]
+  license: NASA open data
+  update: Annual
+  access: https://daymet.ornl.gov/getdata
+  docs: https://daymet.ornl.gov/overview
+  tags: [North America, API, Bulk download, NetCDF, NASA open data, Daily, 1 km]
+  caveat: Covers weather variables only. Fire danger indices must be derived.
+
 - id: cems-fire-historical
   title: CEMS Fire Danger Indices (ERA5-based)
   icon: lucide/cloud-sun
