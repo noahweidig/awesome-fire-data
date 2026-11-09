@@ -1,0 +1,32 @@
+- id: global-fire-atlas
+  title: Global Fire Atlas
+  icon: lucide/globe
+  summary: Individual fire size, duration, daily expansion, speed and direction derived from MODIS burned area.
+  provider: NASA ORNL DAAC (CMS)
+  coverage: Global
+  period: 2003 to 2016
+  resolution: 500 m (annual grids), 0.25 degrees (monthly)
+  format: [GeoTIFF, Shapefile]
+  license: NASA open data
+  update: Static
+  access: https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1642
+  docs: https://doi.org/10.3334/ORNLDAAC/1642
+  tags: [Global, Bulk download, GeoTIFF, Shapefile, NASA open data, Static, 500 m]
+  related: [mcd64a1, fired]
+  caveat: Fires smaller than 21 ha are not included. Direction is only given for multiday fires.
+- id: fired
+  title: FIRED (Fire Events Delineation)
+  icon: lucide/flame
+  summary: Fire event polygons with daily spread estimates built by grouping MODIS burned area pixels in space and time.
+  provider: Earth Lab, University of Colorado Boulder
+  coverage: United States, with regional releases elsewhere
+  period: 2001 to 2019 (US)
+  resolution: 500 m
+  format: [Shapefile, GeoPackage]
+  license: See dataset record
+  update: Static
+  access: https://scholar.colorado.edu/concern/datasets/v405sc03w
+  docs: https://doi.org/10.3390/rs12213498
+  tags: [United States, Bulk download, Shapefile, Static, 500 m]
+  related: [mcd64a1, global-fire-atlas]
+  caveat: Event parameters differ between regional releases. Check the record for the version and MODIS collection used.

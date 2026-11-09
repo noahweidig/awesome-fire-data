@@ -12,6 +12,12 @@ icon: lucide/compass
 | What will burn and how fast? | LANDFIRE, gridMET | [Fuels](../datasets/fuels-terrain/index.md), [Weather](../datasets/weather-danger/index.md) |
 | How bad is the smoke? | GFED, GFAS, AirNow | [Smoke](../datasets/smoke-emissions/index.md) |
 | Which homes were lost? | CAL FIRE DINS | [Impacts](../datasets/impacts/index.md) |
+| Where was prescribed fire used? | SE FireMap, FACTS, GlobalRx | [Prescribed fire](../datasets/prescribed-fire/index.md) |
+| How did suppression go? | ICS-209-PLUS, fireline engagement | [Suppression](../datasets/suppression/index.md) |
+| How fast did a fire spread? | Global Fire Atlas, FIRED | [Fire behavior](../datasets/fire-behavior/index.md) |
+| What started it? | GOES GLM, LIS/OTD | [Lightning](../datasets/lightning/index.md) |
+| Who is most exposed? | CDC SVI, FEMA NRI | [Social vulnerability](../datasets/social-vulnerability/index.md) |
+| Which county, ecoregion or forest is this? | TIGER, EPA ecoregions, PAD-US | [Boundaries](../datasets/boundaries/index.md) |
 | Training a model? | WildfireSpreadTS, Sen2Fire | [Benchmarks](../datasets/benchmarks-ml/index.md) |
 
 ## Trade-offs to check

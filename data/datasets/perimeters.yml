@@ -12,7 +12,8 @@
   access: https://www.mtbs.gov/direct-download
   docs: https://www.mtbs.gov/
   tags: [United States, Bulk download, GeoTIFF, Shapefile, Public domain, Annual, 30 m]
-  caveat: Covers fires of at least 1,000 acres in the West and 500 acres in the East.
+  caveat: Covers fires of at least 1,000 acres in the West and 500 acres in the East. Includes prescribed fire perimeters. See Prescribed fire & fuel treatments for other prescribed burn sources.
+  related: [se-firemap, facts-hazardous-fuels]
 - id: wfigs-perimeters
   title: WFIGS Interagency Fire Perimeters
   icon: lucide/map
@@ -27,6 +28,7 @@
   access: https://data-nifc.opendata.arcgis.com/
   docs: https://data-nifc.opendata.arcgis.com/
   tags: [United States, API, GeoJSON, Shapefile, Public domain, Near real time]
+  related: [mtbs, fireline-engagement]
 - id: mcd64a1
   title: MODIS MCD64A1 Burned Area
   icon: lucide/satellite
@@ -55,3 +57,67 @@
   access: https://cwfis.cfs.nrcan.gc.ca/datamart
   docs: https://cwfis.cfs.nrcan.gc.ca/
   tags: [Canada, Bulk download, Shapefile, Open Government Licence, Annual]
+- id: globfire
+  title: GlobFire
+  icon: lucide/globe
+  summary: Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
+  provider: JRC Global Wildfire Information System
+  coverage: Global
+  period: 2001 to 2020
+  resolution: Event polygons (from 500 m MODIS)
+  format: [Shapefile]
+  license: CC BY 4.0
+  update: Static
+  access: https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters
+  docs: https://doi.org/10.1038/s41597-019-0312-2
+  tags: [Global, Bulk download, Shapefile, CC BY 4.0, Static]
+  related: [mcd64a1, fired]
+  caveat: Based on 500 m MODIS, so small fires are missed. A GWIS download page also exists.
+- id: fire-cci51
+  title: ESA Fire_cci MODIS Burned Area (v5.1)
+  icon: lucide/satellite
+  summary: Global burned area pixel product with date of burn and confidence, from MODIS.
+  provider: ESA Climate Change Initiative
+  coverage: Global
+  period: 2001 to 2020
+  resolution: 250 m
+  format: [NetCDF]
+  license: ESA CCI data policy
+  update: Static
+  access: https://catalogue.ceda.ac.uk/uuid/58f00d8814064b79a0c49662ad3af537
+  docs: https://climate.esa.int/en/projects/fire/
+  tags: [Global, Bulk download, NetCDF, Static, 250 m]
+  related: [mcd64a1]
+  caveat: Also available as an Earth Engine collection. Newer Fire_cci products exist, so check the project page.
+- id: gabam
+  title: GABAM Global Annual Burned Area Map
+  icon: lucide/layers
+  summary: 30 m annual burned area from Landsat for the globe, built in Google Earth Engine.
+  provider: Aerospace Information Research Institute, Chinese Academy of Sciences
+  coverage: Global
+  period: Varies by release (2014 to 2024 in the latest Zenodo record)
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: See Zenodo record
+  update: Annual
+  access: https://zenodo.org/records/17707433
+  docs: https://doi.org/10.3390/rs11050489
+  tags: [Global, Bulk download, GeoTIFF, Annual, 30 m]
+  related: [mcd64a1]
+  caveat: Year ranges differ between releases. Confirm coverage on the Zenodo record before use.
+- id: landsat-burned-area
+  title: USGS Landsat Burned Area (Collection 2 Level-3)
+  icon: lucide/flame
+  summary: Scene-level burn classification and burn probability rasters from Landsat 4 to 9.
+  provider: USGS EROS
+  coverage: Conterminous US
+  period: 1984 to present
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Continuous
+  access: https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product
+  docs: https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Near real time, 30 m]
+  caveat: 'Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. Alaska coverage is not confirmed.'
+  related: [mtbs, se-firemap]

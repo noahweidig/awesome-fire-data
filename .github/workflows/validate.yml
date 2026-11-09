@@ -1,0 +1,19 @@
+name: Validate
+on:
+  pull_request:
+    paths: ["data/**", "scripts/**", "requirements.txt"]
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**", "requirements.txt"]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - run: "pip install --require-hashes --only-binary=:all: -r requirements.txt"
+      - run: python scripts/validate.py

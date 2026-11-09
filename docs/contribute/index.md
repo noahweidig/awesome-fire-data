@@ -40,10 +40,15 @@ Add to the file for the matching theme, for example `data/datasets/perimeters.ym
 
 Tags must exist in `data/tag-vocab.yml`. To add a tag, add it there under a category.
 
+`related` is an optional list of dataset `id` values that overlap with this one. The page shows them under Related datasets.
+
+`python scripts/validate.py` checks entries against `data/schema.json`. CI runs it on every pull request. See [CONTRIBUTING.md](https://github.com/noahweidig/awesome-fire-datasets/blob/main/CONTRIBUTING.md).
+
 ## Build locally
 
 ```bash
 pip install -r requirements.txt
+python scripts/validate.py
 python scripts/generate.py
 zensical serve
 ```

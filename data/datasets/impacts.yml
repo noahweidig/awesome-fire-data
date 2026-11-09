@@ -40,3 +40,19 @@
   access: https://landslides.usgs.gov/hazards/postfire_debrisflow/
   docs: https://landslides.usgs.gov/hazards/postfire_debrisflow/
   tags: [United States, Bulk download, Shapefile, GeoJSON, Public domain, Per incident]
+- id: black-marble
+  title: NASA Black Marble Nighttime Lights
+  icon: lucide/moon
+  summary: Daily, monthly and annual nighttime lights from VIIRS, used to track power loss and recovery after disasters.
+  provider: NASA Goddard (Black Marble)
+  coverage: Global
+  period: 2012 to present
+  resolution: 500 m
+  format: [HDF]
+  license: NASA open data
+  update: Daily
+  access: https://blackmarble.gsfc.nasa.gov/
+  docs: https://blackmarble.gsfc.nasa.gov/
+  tags: [Global, API, Bulk download, HDF, NASA open data, Daily, 500 m]
+  related: [firms, cal-fire-dins]
+  caveat: Cloud cover and smoke can hide lights on a given night.

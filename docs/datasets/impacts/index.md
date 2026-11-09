@@ -16,6 +16,14 @@ Structure damage, burn severity response, and post-fire hazards such as debris f
 
     [:lucide-arrow-right: Details](cal-fire-dins.md)
 
+-   :lucide-moon:{ .lg .middle } __[NASA Black Marble Nighttime Lights](black-marble.md)__
+
+    ---
+
+    Daily, monthly and annual nighttime lights from VIIRS, used to track power loss and recovery after disasters.
+
+    [:lucide-arrow-right: Details](black-marble.md)
+
 -   :lucide-layers:{ .lg .middle } __[RAVG](ravg.md)__
 
     ---

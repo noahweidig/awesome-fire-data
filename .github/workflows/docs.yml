@@ -11,10 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
-          python-version: 3.x
-      - run: pip install -r requirements.txt
+          python-version: "3.13"
+      - run: "pip install --require-hashes --only-binary=:all: -r requirements.txt"
+      - run: python scripts/validate.py
       - run: python scripts/generate.py
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v5

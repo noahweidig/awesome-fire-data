@@ -32,6 +32,11 @@ Burn severity mosaics and perimeters for large US fires, mapped from Landsat.
 
 !!! warning "Caveat"
 
-    Covers fires of at least 1,000 acres in the West and 500 acres in the East.
+    Covers fires of at least 1,000 acres in the West and 500 acres in the East. Includes prescribed fire perimeters. See Prescribed fire & fuel treatments for other prescribed burn sources.
+
+## Related datasets
+
+- [Southeast FireMap Burned Area](../prescribed-fire/se-firemap.md)
+- [USFS Hazardous Fuel Treatment Reduction](../prescribed-fire/facts-hazardous-fuels.md)
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

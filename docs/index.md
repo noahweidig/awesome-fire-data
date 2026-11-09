@@ -25,7 +25,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Mapped fire footprints and burn severity, from agency perimeters to satellite burned-area products.
 
-    4 datasets
+    8 datasets
 
     [:lucide-arrow-right: Explore](datasets/perimeters/index.md)
 
@@ -49,13 +49,43 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     [:lucide-arrow-right: Explore](datasets/occurrence/index.md)
 
+-   :lucide-flame-kindling:{ .lg .middle } __[Prescribed fire & fuel treatments](datasets/prescribed-fire/index.md)__
+
+    ---
+
+    Prescribed burn records, permits, treatment footprints and monitoring. MTBS and WFIGS also contain prescribed fire perimeters.
+
+    5 datasets
+
+    [:lucide-arrow-right: Explore](datasets/prescribed-fire/index.md)
+
+-   :lucide-siren:{ .lg .middle } __[Suppression & resources](datasets/suppression/index.md)__
+
+    ---
+
+    Incident reports, fireline and containment records from firefighting operations.
+
+    2 datasets
+
+    [:lucide-arrow-right: Explore](datasets/suppression/index.md)
+
+-   :lucide-wind-arrow-down:{ .lg .middle } __[Fire behavior & spread](datasets/fire-behavior/index.md)__
+
+    ---
+
+    Individual fire events with daily spread, speed and direction.
+
+    2 datasets
+
+    [:lucide-arrow-right: Explore](datasets/fire-behavior/index.md)
+
 -   :lucide-trees:{ .lg .middle } __[Fuels, vegetation & terrain](datasets/fuels-terrain/index.md)__
 
     ---
 
     Fuel models, canopy, land cover and elevation inputs for fire behavior and risk.
 
-    3 datasets
+    11 datasets
 
     [:lucide-arrow-right: Explore](datasets/fuels-terrain/index.md)
 
@@ -65,9 +95,19 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Gridded weather, drought and fire danger indices, historical and forecast.
 
-    5 datasets
+    8 datasets
 
     [:lucide-arrow-right: Explore](datasets/weather-danger/index.md)
+
+-   :lucide-zap:{ .lg .middle } __[Lightning & ignition drivers](datasets/lightning/index.md)__
+
+    ---
+
+    Lightning detections and climatologies for natural ignitions.
+
+    2 datasets
+
+    [:lucide-arrow-right: Explore](datasets/lightning/index.md)
 
 -   :lucide-wind:{ .lg .middle } __[Smoke, emissions & air quality](datasets/smoke-emissions/index.md)__
 
@@ -75,7 +115,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Fire emissions inventories, smoke plumes and air quality observations.
 
-    4 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](datasets/smoke-emissions/index.md)
 
@@ -85,7 +125,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Structure damage, burn severity response, and post-fire hazards such as debris flows.
 
-    3 datasets
+    4 datasets
 
     [:lucide-arrow-right: Explore](datasets/impacts/index.md)
 
@@ -95,9 +135,29 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Community wildfire risk, wildland-urban interface maps and land management layers.
 
-    2 datasets
+    3 datasets
 
     [:lucide-arrow-right: Explore](datasets/risk-management/index.md)
+
+-   :lucide-users:{ .lg .middle } __[Social vulnerability & communities](datasets/social-vulnerability/index.md)__
+
+    ---
+
+    Community vulnerability and national hazard risk indices for fire exposure studies.
+
+    2 datasets
+
+    [:lucide-arrow-right: Explore](datasets/social-vulnerability/index.md)
+
+-   :lucide-map-pinned:{ .lg .middle } __[Boundaries & reference layers](datasets/boundaries/index.md)__
+
+    ---
+
+    Administrative, ecological and protected-area boundaries for joining and summarizing fire data.
+
+    5 datasets
+
+    [:lucide-arrow-right: Explore](datasets/boundaries/index.md)
 
 -   :lucide-brain-circuit:{ .lg .middle } __[Benchmarks & ML-ready](datasets/benchmarks-ml/index.md)__
 

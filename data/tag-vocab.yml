@@ -1,6 +1,6 @@
 region:
   icon: lucide/globe
-  tags: [Global, Americas, North America, United States, California, Canada, Europe, Australia]
+  tags: [Global, Americas, North America, United States, California, Canada, Europe, Australia, Southeast US]
 access:
   icon: lucide/download
   tags: [API, Bulk download, Cloud bucket, Maps, Tabular]
@@ -9,13 +9,13 @@ format:
   tags: [GeoTIFF, Shapefile, GeoJSON, NetCDF, GRIB, HDF, CSV, JSON, KML, GeoDatabase, SQLite, TFRecord, NumPy]
 license:
   icon: lucide/scale
-  tags: [Public domain, NASA open data, Copernicus open data, Copernicus licence, Open Government Licence, CC BY 4.0]
+  tags: [Public domain, NASA open data, Copernicus open data, Copernicus licence, Open Government Licence, CC BY 4.0, CC0, Custom terms]
 cadence:
   icon: lucide/clock
   tags: [Near real time, Continuous, Hourly, Daily, Monthly, Annual, Periodic, Decennial, Per incident, Static, Ongoing]
 resolution:
   icon: lucide/ruler
-  tags: [10 m, 30 m, 375 m, 500 m, 1 km, 2 km, 4 km]
+  tags: [10 m, 30 m, 375 m, 500 m, 1 km, 2 km, 4 km, 25 m, 250 m, 3 km]
 topic:
   icon: lucide/brain-circuit
   tags: [Machine learning]

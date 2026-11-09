@@ -29,4 +29,9 @@ Current and historical wildland fire perimeters from US interagency sources.
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Continuous |
 
+## Related datasets
+
+- [MTBS](../perimeters/mtbs.md)
+- [Fireline Engagement from the NIFC Feature Service](../suppression/fireline-engagement.md)
+
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

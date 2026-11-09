@@ -1,0 +1,80 @@
+- id: census-tiger
+  title: US Census TIGER/Line Shapefiles
+  icon: lucide/landmark
+  summary: States, counties, tracts, block groups, places, roads and water boundaries for the US.
+  provider: US Census Bureau
+  coverage: United States and territories
+  period: 2007 to present (annual)
+  resolution: Vector
+  format: [Shapefile]
+  license: Public domain
+  update: Annual
+  access: https://www2.census.gov/geo/tiger/
+  docs: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+  tags: [United States, Bulk download, Shapefile, Public domain, Annual]
+  related: [cdc-svi, fema-nri]
+  caveat: Boundaries change each year. Use the vintage that matches your attribute data.
+- id: epa-ecoregions
+  title: EPA Level III and IV Ecoregions
+  icon: lucide/trees
+  summary: Ecoregion boundaries at Level III and Level IV for the conterminous US, with regional and state extracts.
+  provider: US EPA
+  coverage: United States
+  period: Periodic
+  resolution: Vector
+  format: [Shapefile]
+  license: Public domain
+  update: Periodic
+  access: https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states
+  docs: https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states
+  tags: [United States, Bulk download, Shapefile, Public domain, Periodic]
+  related: [baileys-ecoregions]
+  caveat: Download shapefiles rather than relying on the PDF maps, which can differ.
+- id: baileys-ecoregions
+  title: Bailey's Ecoregions and Subregions
+  icon: lucide/map
+  summary: Hierarchical ecoregion domains, divisions, provinces and sections for the US, Puerto Rico and the US Virgin Islands.
+  provider: USDA Forest Service and USGS
+  coverage: United States
+  period: Static (based on 1994 conditions)
+  resolution: Vector (national scale)
+  format: [Shapefile, GeoDatabase]
+  license: CC0
+  update: Static
+  access: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BaileysEcoregionsSubregions_01/MapServer
+  docs: https://www.sciencebase.gov/catalog/folder/508f036ee4b0b59cf7f5a812
+  tags: [United States, Bulk download, Shapefile, GeoDatabase, CC0, Static]
+  related: [epa-ecoregions]
+  caveat: Intended for national and large regional display, around 1:7,500,000.
+- id: pad-us
+  title: PAD-US Protected Areas Database
+  icon: lucide/shield
+  summary: Public land ownership, management, designation and protection status for US lands and waters.
+  provider: USGS Gap Analysis Project
+  coverage: United States
+  period: Versioned releases (4.x current)
+  resolution: Vector
+  format: [GeoDatabase]
+  license: CC0
+  update: Periodic
+  access: https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download
+  docs: https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview
+  tags: [United States, Bulk download, GeoDatabase, CC0, Periodic]
+  related: [usfs-admin-boundaries]
+  caveat: Check the DOI page before citing a specific release number.
+- id: usfs-admin-boundaries
+  title: USFS Administrative Forest Boundaries
+  icon: lucide/map-pinned
+  summary: National Forest and Ranger District administrative boundaries.
+  provider: USDA Forest Service
+  coverage: United States
+  period: Ongoing
+  resolution: Vector
+  format: [GeoDatabase, Maps]
+  license: Public domain
+  update: Ongoing
+  access: https://data.fs.usda.gov/geodata/edw/datasets.php
+  docs: https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.AdministrativeForest.xml
+  tags: [United States, API, Bulk download, GeoDatabase, Maps, Public domain, Ongoing]
+  related: [pad-us]
+  caveat: Not a legal land description. Boundaries can differ from other layers because of update timing.
