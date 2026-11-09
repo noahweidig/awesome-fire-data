@@ -1,0 +1,78 @@
+- id: se-firemap
+  title: Southeast FireMap Burned Area (SE FireMap)
+  icon: lucide/map
+  summary: Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.
+  provider: USGS and Tall Timbers Research Station
+  coverage: Southeastern US
+  period: 1994 to 2025
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: CC0
+  update: Annual
+  access: https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0
+  docs: https://doi.org/10.5066/P1PVDTVK
+  tags: [Southeast US, Bulk download, GeoTIFF, CC0, Annual, 30 m]
+  related: [mtbs, rx-permits-ga-fl]
+  caveat: Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately.
+- id: rx-permits-ga-fl
+  title: Prescribed Fire Permit Records for Georgia and Florida
+  icon: lucide/file-check
+  summary: Permit records for prescribed burns in Georgia and Florida with weather conditions on permitted days.
+  provider: USGS
+  coverage: Georgia and Florida
+  period: 2006 to 2016
+  resolution: Permit records
+  format: [CSV, Shapefile]
+  license: Public domain
+  update: Static
+  access: https://doi.org/10.5066/P9YNSQZ2
+  docs: https://doi.org/10.5066/P9YNSQZ2
+  tags: [United States, Bulk download, CSV, Shapefile, Public domain, Static]
+  related: [se-firemap]
+  caveat: Tall Timbers maintains a larger 12-state permit database (2010 to 2020) that is not publicly downloadable.
+- id: facts-hazardous-fuels
+  title: USFS Hazardous Fuel Treatment Reduction (FACTS)
+  icon: lucide/trees
+  summary: Polygon and line records of Forest Service hazardous fuel treatments, including prescribed burning, from the FACTS activity tracking system.
+  provider: USDA Forest Service
+  coverage: United States (Forest Service activities)
+  period: Ongoing
+  resolution: Polygons and lines
+  format: [GeoDatabase, Shapefile, GeoJSON, KML, CSV]
+  license: CC BY 4.0
+  update: Ongoing
+  access: https://data.fs.usda.gov/geodata/edw/datasets.php
+  docs: https://catalog.data.gov/dataset/hazardous-fuel-treatment-reduction-polygon-feature-layer
+  tags: [United States, API, Bulk download, GeoDatabase, Shapefile, GeoJSON, KML, CSV, CC BY 4.0, Ongoing]
+  related: [mtbs, wfigs-perimeters]
+  caveat: Records planned and accomplished treatments reported by the Forest Service. Other agencies are not included.
+- id: globalrx
+  title: GlobalRx
+  icon: lucide/globe
+  summary: 204,517 georeferenced prescribed burn records from 16 countries, with weather and environmental context for each burn.
+  provider: Hsu et al. (University of East Anglia and collaborators)
+  coverage: 16 countries
+  period: 1979 to 2023
+  resolution: Burn records (points)
+  format: [CSV, Shapefile]
+  license: CC BY 4.0
+  update: Static
+  access: https://doi.org/10.5281/zenodo.13379462
+  docs: https://doi.org/10.1038/s41597-025-04941-w
+  tags: [Global, Bulk download, CSV, Shapefile, CC BY 4.0, Static]
+  caveat: Coverage is uneven across countries because each source database differs in reporting.
+- id: ca-rx-monitoring
+  title: California Prescribed Fire Monitoring Program
+  icon: lucide/clipboard-list
+  summary: Plot-level forest structure, fuel load and recovery measurements before and after prescribed fire at 36 California sites.
+  provider: CAL FIRE and UC Davis
+  coverage: California
+  period: 2019 to 2024
+  resolution: Plots (972 plots)
+  format: [CSV]
+  license: CC0
+  update: Static
+  access: https://doi.org/10.5061/dryad.612jm64gw
+  docs: https://doi.org/10.1038/s41597-025-06509-0
+  tags: [California, Bulk download, CSV, CC0, Static]
+  caveat: Check the Dryad record for current license terms.

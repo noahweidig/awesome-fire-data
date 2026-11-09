@@ -32,6 +32,14 @@ Gridded weather, drought and fire danger indices, historical and forecast.
 
     [:lucide-arrow-right: Details](daymet.md)
 
+-   :lucide-cloud-sun:{ .lg .middle } __[ERA5-Land](era5-land.md)__
+
+    ---
+
+    Hourly global land surface reanalysis of temperature, soil moisture, wind, radiation and precipitation.
+
+    [:lucide-arrow-right: Details](era5-land.md)
+
 -   :lucide-thermometer-sun:{ .lg .middle } __[gridMET](gridmet.md)__
 
     ---
@@ -39,6 +47,22 @@ Gridded weather, drought and fire danger indices, historical and forecast.
     Daily gridded surface meteorology, fuel moisture and fire danger indices for the contiguous US.
 
     [:lucide-arrow-right: Details](gridmet.md)
+
+-   :lucide-cloud-lightning:{ .lg .middle } __[HRRR](hrrr.md)__
+
+    ---
+
+    Hourly 3 km convection-allowing weather analyses and forecasts, including wind, humidity and temperature.
+
+    [:lucide-arrow-right: Details](hrrr.md)
+
+-   :lucide-thermometer:{ .lg .middle } __[PRISM Climate Data](prism.md)__
+
+    ---
+
+    Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.
+
+    [:lucide-arrow-right: Details](prism.md)
 
 -   :lucide-thermometer-sun:{ .lg .middle } __[WFAS](wfas.md)__
 

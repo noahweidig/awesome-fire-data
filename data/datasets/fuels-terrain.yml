@@ -40,3 +40,131 @@
   access: https://www.mrlc.gov/data
   docs: https://www.mrlc.gov/
   tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m]
+- id: gedi
+  title: GEDI Spaceborne Lidar
+  icon: lucide/radar
+  summary: Lidar footprints with canopy height, cover, vertical structure and biomass from the International Space Station.
+  provider: NASA, University of Maryland
+  coverage: Global, between 51.6 degrees N and S
+  period: 2019 to present
+  resolution: 25 m footprints
+  format: [HDF]
+  license: NASA open data
+  update: Ongoing
+  access: https://lpdaac.usgs.gov/products/gedi02_av002/
+  docs: https://gedi.umd.edu/data/products/
+  tags: [Global, API, Bulk download, HDF, NASA open data, Ongoing]
+  related: [landfire, treemap]
+  caveat: Footprints are sparse samples along orbit tracks, not wall-to-wall maps.
+- id: rap
+  title: Rangeland Analysis Platform
+  icon: lucide/sprout
+  summary: 30 m annual cover and annual or 16-day biomass for herbaceous, shrub, tree and bare ground.
+  provider: University of Montana, USDA ARS and partners
+  coverage: Conterminous US
+  period: 1986 to present
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: See provider terms
+  update: Annual
+  access: https://rangelands.app/products
+  docs: https://rangelands.app/products
+  tags: [United States, API, Bulk download, GeoTIFF, Annual, 30 m]
+  related: [rcmap, landfire]
+  caveat: Also on Earth Engine and through the rapr R package. Check the site for known processing issues in recent years.
+- id: rcmap
+  title: RCMAP Rangeland Condition Monitoring
+  icon: lucide/chart-area
+  summary: Yearly fractional cover of shrub, sagebrush, herbaceous, litter, bare ground and tree for western rangelands.
+  provider: USGS and BLM
+  coverage: Western US
+  period: 1985 to 2025
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Annual
+  access: https://www.mrlc.gov/data
+  docs: https://doi.org/10.5066/P138CYEL
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m]
+  related: [rap, lcmap]
+  caveat: Newer releases replace older ones. Do not mix versions in one time series.
+- id: lcmap
+  title: LCMAP Land Cover and Change
+  icon: lucide/layers
+  summary: Annual land cover, land cover change and spectral change products from Landsat time series (Collection 1.3).
+  provider: USGS EROS
+  coverage: Conterminous US
+  period: 1985 to 2021
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Static
+  access: https://www.usgs.gov/special-topics/lcmap/lcmap-data-access
+  docs: https://www.usgs.gov/special-topics/lcmap/collection-13-conus-science-products
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Static, 30 m]
+  related: [lcms, nlcd-tcc]
+  caveat: USGS advises against mixing Collection 1.x versions in one analysis. 2021 is provisional.
+- id: lcms
+  title: LCMS Landscape Change Monitoring System
+  icon: lucide/chart-line
+  summary: Annual landscape change, land cover and land use from Landsat and Sentinel-2 time series.
+  provider: USDA Forest Service GTAC
+  coverage: CONUS, Alaska, Hawaii, Puerto Rico and US Virgin Islands
+  period: 1985 to 2024
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Annual
+  access: https://data.fs.usda.gov/geodata/rastergateway/LCMS/
+  docs: https://data.fs.usda.gov/geodata/rastergateway/LCMS/LCMS-Project-Overview.pdf
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m]
+  related: [lcmap, mtbs]
+  caveat: Also on Earth Engine and in the LCMS Data Explorer. Extent and years differ between versions.
+- id: treemap
+  title: TreeMap
+  icon: lucide/tree-pine
+  summary: Tree-level model of US forests, made by imputing FIA plot data onto a 30 m grid.
+  provider: USDA Forest Service Rocky Mountain Research Station
+  coverage: Conterminous US
+  period: Editions for 2014, 2016, 2020 and 2022
+  resolution: 30 m
+  format: [GeoTIFF, CSV]
+  license: Public domain
+  update: Periodic
+  access: https://doi.org/10.2737/RDS-2025-0032
+  docs: https://doi.org/10.2737/RDS-2025-0032
+  tags: [United States, Bulk download, GeoTIFF, CSV, Public domain, Periodic, 30 m]
+  related: [fia-datamart, landfire]
+  caveat: Each pixel holds an imputed plot ID. Test fit before using it for applications the publication does not list.
+- id: fia-datamart
+  title: FIA DataMart
+  icon: lucide/database
+  summary: Forest Inventory and Analysis plot, tree, fuel and down woody material measurements for US forests.
+  provider: USDA Forest Service FIA program
+  coverage: United States
+  period: Varies by state
+  resolution: Plots
+  format: [CSV, SQLite]
+  license: Creative Commons Attribution
+  update: Annual
+  access: https://apps.fs.usda.gov/fia/datamart/datamart.html
+  docs: https://research.fs.usda.gov/products/dataandtools/fia-datamart
+  tags: [United States, Bulk download, CSV, SQLite, Annual]
+  related: [treemap]
+  caveat: Public plot coordinates are fuzzed and swapped for privacy. The R packages rFIA and FIESTA download from DataMart.
+- id: ids-survey
+  title: Insect and Disease Detection Survey (IDS)
+  icon: lucide/bug
+  summary: Aerial survey polygons of tree damage from insects, disease and other agents.
+  provider: USDA Forest Service Forest Health Protection
+  coverage: United States
+  period: Annual surveys
+  resolution: Polygons and points
+  format: [Maps, GIS data]
+  license: Public domain
+  update: Annual
+  access: https://data.fs.usda.gov/geodata/edw/datasets.php
+  docs: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InsectandDiseaseSurvey_01/MapServer
+  tags: [United States, API, Maps, Public domain, Annual]
+  related: [lcms]
+  caveat: Aerial sketch mapping is subjective and survey coverage varies by year and region.

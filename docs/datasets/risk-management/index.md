@@ -16,6 +16,14 @@ Community wildfire risk, wildland-urban interface maps and land management layer
 
     [:lucide-arrow-right: Details](silvis-wui.md)
 
+-   :lucide-shield-alert:{ .lg .middle } __[Wildfire Hazard Potential](whp.md)__
+
+    ---
+
+    Relative index of wildfire likelihood and intensity for prioritizing fuel treatments.
+
+    [:lucide-arrow-right: Details](whp.md)
+
 -   :lucide-shield-alert:{ .lg .middle } __[Wildfire Risk to Communities](wildfire-risk-to-communities.md)__
 
     ---

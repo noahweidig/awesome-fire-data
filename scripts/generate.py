@@ -66,6 +66,7 @@ def main():
         sys.exit("\n".join(errors))
 
     dsroot = DOCS / "datasets"
+    where = {e["id"]: (th["slug"], e) for th in themes for e in by_theme[th["slug"]]}
     for th in themes:
         d = dsroot / th["slug"]
         d.mkdir(parents=True, exist_ok=True)
@@ -96,13 +97,18 @@ def main():
             ]
             table = "| Field | Value |\n| --- | --- |\n" + "\n".join(
                 f"| :{i}:{{ title=\"{t}\" }} {lab} | {val} |" for i, t, lab, val in rows)
+            rel = ""
+            if e.get("related"):
+                items = "\n".join(
+                    f"- [{short(where[r][1]['title'])}](../{where[r][0]}/{r}.md)" for r in e["related"])
+                rel = f"\n## Related datasets\n\n{items}\n"
             cav = f"\n!!! warning \"Caveat\"\n\n    {e['caveat']}\n" if e.get("caveat") else ""
             (d / f"{e['id']}.md").write_text(
                 f"---\ntitle: {yq(e['title'])}\nicon: {e['icon']}\ntags:\n{fm_tags}\n---\n\n"
                 f"# {e['title']}\n\n{e['summary']}\n\n"
                 f"[:lucide-download: Access data]({e['access']}){{ .md-button .md-button--primary }}\n"
                 f"[:lucide-book-open: Documentation]({e['docs']}){{ .md-button }}\n\n"
-                f"## At a glance\n\n{table}\n{cav}\n"
+                f"## At a glance\n\n{table}\n{cav}{rel}\n"
                 f"[:lucide-arrow-left: Back to {th['title']}](index.md){{ .md-button }}\n",
                 encoding="utf-8")
 
@@ -117,7 +123,7 @@ def main():
     ds_block = block.replace("(datasets/", "(")
     (dsroot / "index.md").write_text(
         "---\nicon: lucide/database\n---\n\n# Datasets\n\n"
-        "Ten themes cover the fire data landscape. Each dataset page lists provider, coverage, "
+        f"{len(themes)} themes cover the fire data landscape. Each dataset page lists provider, coverage, "
         "resolution, format, license and where to get the data.\n\n"
         "<!-- BEGIN THEMES -->\n" + ds_block + "\n<!-- END THEMES -->\n", encoding="utf-8")
 
@@ -145,7 +151,7 @@ def main():
     nav_items.append('  { "Datasets" = [\n' + "\n".join(ds) + "\n  ] },")
     nav_items.append('  { "Browse" = ["browse/index.md", "browse/all-datasets.md", "browse/tags.md"] },')
     nav_items.append('  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", '
-                     '"learn/data-formats.md", "learn/tools-and-apis.md", "learn/glossary.md"] },')
+                     '"learn/compare-datasets.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/glossary.md"] },')
     nav_items.append('  { "Contribute" = ["contribute/index.md"] },')
     nav_items.append('  { "About" = ["about/index.md", "about/changelog.md"] },')
     replace_block(ROOT / "zensical.toml", "# BEGIN GENERATED NAV", "# END GENERATED NAV",

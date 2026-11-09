@@ -26,3 +26,19 @@
   access: https://silvis.forest.wisc.edu/data/wui-change/
   docs: https://silvis.forest.wisc.edu/data/wui-change/
   tags: [United States, Bulk download, Shapefile, GeoDatabase, Decennial]
+- id: whp
+  title: Wildfire Hazard Potential (WHP)
+  icon: lucide/shield-alert
+  summary: Relative index of wildfire likelihood and intensity for prioritizing fuel treatments.
+  provider: USDA Forest Service Fire Modeling Institute
+  coverage: United States
+  period: Editions 2014, 2018, 2020, 2023
+  resolution: 270 m
+  format: [GeoTIFF]
+  license: Public domain
+  update: Periodic
+  access: https://doi.org/10.2737/RDS-2015-0047-4
+  docs: https://doi.org/10.2737/RDS-2015-0047-4
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic]
+  related: [wildfire-risk-to-communities]
+  caveat: Edition numbering and archive IDs differ. RDS-2015-0047-4 is version 2023. Confirm the newest version on the FireLab project page.

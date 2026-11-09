@@ -1,0 +1,32 @@
+- id: ics209-plus
+  title: ICS-209-PLUS
+  icon: lucide/file-text
+  summary: Cleaned incident status reports from the US National Incident Management System, with wildfire-only and all-hazards packages.
+  provider: Tall Timbers, USDA Forest Service and collaborators (figshare)
+  coverage: United States
+  period: 1999 to 2020
+  resolution: Incident reports
+  format: [CSV]
+  license: CC BY 4.0
+  update: Static
+  access: https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927
+  docs: https://doi.org/10.1038/s41597-023-01955-0
+  tags: [United States, Bulk download, CSV, CC BY 4.0, Static]
+  related: [fpa-fod, nifc-statistics]
+  caveat: Reports are self-reported by incident teams, so costs and sizes carry reporting error.
+- id: fireline-engagement
+  title: Fireline Engagement from the NIFC Feature Service
+  icon: lucide/route
+  summary: Quality-checked fireline locations, verified perimeters and containment success or failure for large US fires.
+  provider: USDA Forest Service Rocky Mountain Research Station
+  coverage: United States
+  period: 2017 to 2024
+  resolution: Vector (fires over 1,000 acres)
+  format: [GIS data]
+  license: Public domain
+  update: Static
+  access: https://doi.org/10.2737/RDS-2025-0011
+  docs: https://doi.org/10.1038/s41597-025-05208-0
+  tags: [United States, Bulk download, Public domain, Static]
+  related: [wfigs-perimeters]
+  caveat: Fires under 1,000 acres are excluded.

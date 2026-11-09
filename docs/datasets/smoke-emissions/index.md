@@ -40,4 +40,20 @@ Fire emissions inventories, smoke plumes and air quality observations.
 
     [:lucide-arrow-right: Details](gfed.md)
 
+-   :lucide-wind:{ .lg .middle } __[HRRR-Smoke](hrrr-smoke.md)__
+
+    ---
+
+    Hourly smoke forecasts from the HRRR model, run with satellite fire radiative power as the emissions source.
+
+    [:lucide-arrow-right: Details](hrrr-smoke.md)
+
+-   :lucide-gauge:{ .lg .middle } __[PurpleAir](purpleair.md)__
+
+    ---
+
+    Real-time PM2.5 readings from a crowd-sourced network of low-cost sensors.
+
+    [:lucide-arrow-right: Details](purpleair.md)
+
 </div>

@@ -18,6 +18,9 @@ nav = [
       { "Perimeters & burned area" = [
           "datasets/perimeters/index.md",
           { "Canadian National Fire Database" = "datasets/perimeters/cnfdb.md" },
+          { "ESA Fire_cci MODIS Burned Area" = "datasets/perimeters/fire-cci51.md" },
+          { "GABAM Global Annual Burned Area Map" = "datasets/perimeters/gabam.md" },
+          { "GlobFire" = "datasets/perimeters/globfire.md" },
           { "MODIS MCD64A1 Burned Area" = "datasets/perimeters/mcd64a1.md" },
           { "MTBS" = "datasets/perimeters/mtbs.md" },
           { "WFIGS Interagency Fire Perimeters" = "datasets/perimeters/wfigs-perimeters.md" },
@@ -34,10 +37,36 @@ nav = [
           { "FPA-FOD" = "datasets/occurrence/fpa-fod.md" },
           { "NIFC Wildfire Statistics" = "datasets/occurrence/nifc-statistics.md" },
       ] },
+      { "Prescribed fire & fuel treatments" = [
+          "datasets/prescribed-fire/index.md",
+          { "California Prescribed Fire Monitoring Program" = "datasets/prescribed-fire/ca-rx-monitoring.md" },
+          { "GlobalRx" = "datasets/prescribed-fire/globalrx.md" },
+          { "Prescribed Fire Permit Records for Georgia and Florida" = "datasets/prescribed-fire/rx-permits-ga-fl.md" },
+          { "Southeast FireMap Burned Area" = "datasets/prescribed-fire/se-firemap.md" },
+          { "USFS Hazardous Fuel Treatment Reduction" = "datasets/prescribed-fire/facts-hazardous-fuels.md" },
+      ] },
+      { "Suppression & resources" = [
+          "datasets/suppression/index.md",
+          { "Fireline Engagement from the NIFC Feature Service" = "datasets/suppression/fireline-engagement.md" },
+          { "ICS-209-PLUS" = "datasets/suppression/ics209-plus.md" },
+      ] },
+      { "Fire behavior & spread" = [
+          "datasets/fire-behavior/index.md",
+          { "FIRED" = "datasets/fire-behavior/fired.md" },
+          { "Global Fire Atlas" = "datasets/fire-behavior/global-fire-atlas.md" },
+      ] },
       { "Fuels, vegetation & terrain" = [
           "datasets/fuels-terrain/index.md",
+          { "FIA DataMart" = "datasets/fuels-terrain/fia-datamart.md" },
+          { "GEDI Spaceborne Lidar" = "datasets/fuels-terrain/gedi.md" },
+          { "Insect and Disease Detection Survey" = "datasets/fuels-terrain/ids-survey.md" },
           { "LANDFIRE" = "datasets/fuels-terrain/landfire.md" },
+          { "LCMAP Land Cover and Change" = "datasets/fuels-terrain/lcmap.md" },
+          { "LCMS Landscape Change Monitoring System" = "datasets/fuels-terrain/lcms.md" },
           { "NLCD and Tree Canopy Cover" = "datasets/fuels-terrain/nlcd-tcc.md" },
+          { "Rangeland Analysis Platform" = "datasets/fuels-terrain/rap.md" },
+          { "RCMAP Rangeland Condition Monitoring" = "datasets/fuels-terrain/rcmap.md" },
+          { "TreeMap" = "datasets/fuels-terrain/treemap.md" },
           { "USGS 3DEP Elevation" = "datasets/fuels-terrain/usgs-3dep.md" },
       ] },
       { "Weather, climate & danger" = [
@@ -45,8 +74,16 @@ nav = [
           { "CEMS Fire Danger Indices" = "datasets/weather-danger/cems-fire-historical.md" },
           { "CWFIS" = "datasets/weather-danger/cwfis.md" },
           { "Daymet" = "datasets/weather-danger/daymet.md" },
+          { "ERA5-Land" = "datasets/weather-danger/era5-land.md" },
           { "gridMET" = "datasets/weather-danger/gridmet.md" },
+          { "HRRR" = "datasets/weather-danger/hrrr.md" },
+          { "PRISM Climate Data" = "datasets/weather-danger/prism.md" },
           { "WFAS" = "datasets/weather-danger/wfas.md" },
+      ] },
+      { "Lightning & ignition drivers" = [
+          "datasets/lightning/index.md",
+          { "GOES Geostationary Lightning Mapper on AWS" = "datasets/lightning/goes-glm.md" },
+          { "LIS/OTD Gridded Lightning Climatology" = "datasets/lightning/lis-otd.md" },
       ] },
       { "Smoke, emissions & air quality" = [
           "datasets/smoke-emissions/index.md",
@@ -54,17 +91,34 @@ nav = [
           { "EPA AirNow API" = "datasets/smoke-emissions/airnow.md" },
           { "FINN" = "datasets/smoke-emissions/finn.md" },
           { "GFED" = "datasets/smoke-emissions/gfed.md" },
+          { "HRRR-Smoke" = "datasets/smoke-emissions/hrrr-smoke.md" },
+          { "PurpleAir" = "datasets/smoke-emissions/purpleair.md" },
       ] },
       { "Impacts & post-fire" = [
           "datasets/impacts/index.md",
           { "CAL FIRE Damage Inspection" = "datasets/impacts/cal-fire-dins.md" },
+          { "NASA Black Marble Nighttime Lights" = "datasets/impacts/black-marble.md" },
           { "RAVG" = "datasets/impacts/ravg.md" },
           { "USGS Post-Fire Debris-Flow Hazard Assessments" = "datasets/impacts/usgs-debris-flow.md" },
       ] },
       { "Risk, WUI & management" = [
           "datasets/risk-management/index.md",
           { "SILVIS Lab Wildland-Urban Interface Change" = "datasets/risk-management/silvis-wui.md" },
+          { "Wildfire Hazard Potential" = "datasets/risk-management/whp.md" },
           { "Wildfire Risk to Communities" = "datasets/risk-management/wildfire-risk-to-communities.md" },
+      ] },
+      { "Social vulnerability & communities" = [
+          "datasets/social-vulnerability/index.md",
+          { "CDC/ATSDR Social Vulnerability Index" = "datasets/social-vulnerability/cdc-svi.md" },
+          { "FEMA National Risk Index" = "datasets/social-vulnerability/fema-nri.md" },
+      ] },
+      { "Boundaries & reference layers" = [
+          "datasets/boundaries/index.md",
+          { "Bailey's Ecoregions and Subregions" = "datasets/boundaries/baileys-ecoregions.md" },
+          { "EPA Level III and IV Ecoregions" = "datasets/boundaries/epa-ecoregions.md" },
+          { "PAD-US Protected Areas Database" = "datasets/boundaries/pad-us.md" },
+          { "US Census TIGER/Line Shapefiles" = "datasets/boundaries/census-tiger.md" },
+          { "USFS Administrative Forest Boundaries" = "datasets/boundaries/usfs-admin-boundaries.md" },
       ] },
       { "Benchmarks & ML-ready" = [
           "datasets/benchmarks-ml/index.md",
@@ -79,7 +133,7 @@ nav = [
       ] },
   ] },
   { "Browse" = ["browse/index.md", "browse/all-datasets.md", "browse/tags.md"] },
-  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/glossary.md"] },
+  { "Learn" = ["learn/index.md", "learn/choosing-a-dataset.md", "learn/fire-science-primer.md", "learn/compare-datasets.md", "learn/data-formats.md", "learn/tools-and-apis.md", "learn/glossary.md"] },
   { "Contribute" = ["contribute/index.md"] },
   { "About" = ["about/index.md", "about/changelog.md"] },
 ]
@@ -88,6 +142,7 @@ nav = [
 [project.theme]
 language = "en"
 favicon = "assets/images/favicon.svg"
+custom_dir = "overrides"
 features = [
   "announce.dismiss",
   "content.action.copy",
@@ -144,6 +199,11 @@ view = "lucide/eye"
 repo = "fontawesome/brands/github"
 
 [project.plugins.tags]
+
+[project.plugins.rss]
+match_path = "datasets/.*"
+
+[project.plugins.social]
 
 [project.plugins.llmstxt]
 full_output = "llms-full.txt"
@@ -223,6 +283,7 @@ name = "ResearchGate"
 "Canada" = "region"
 "Europe" = "region"
 "Australia" = "region"
+"Southeast US" = "region"
 "API" = "access"
 "Bulk download" = "access"
 "Cloud bucket" = "access"
@@ -247,6 +308,8 @@ name = "ResearchGate"
 "Copernicus licence" = "license"
 "Open Government Licence" = "license"
 "CC BY 4.0" = "license"
+"CC0" = "license"
+"Custom terms" = "license"
 "Near real time" = "cadence"
 "Continuous" = "cadence"
 "Hourly" = "cadence"
@@ -265,6 +328,9 @@ name = "ResearchGate"
 "1 km" = "resolution"
 "2 km" = "resolution"
 "4 km" = "resolution"
+"25 m" = "resolution"
+"250 m" = "resolution"
+"3 km" = "resolution"
 "Machine learning" = "topic"
 
 [project.theme.icon.tag]

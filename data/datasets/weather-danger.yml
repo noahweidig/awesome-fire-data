@@ -27,7 +27,6 @@
   docs: https://daymet.ornl.gov/overview
   tags: [North America, API, Bulk download, NetCDF, NASA open data, Daily, 1 km]
   caveat: Covers weather variables only. Fire danger indices must be derived.
-
 - id: cems-fire-historical
   title: CEMS Fire Danger Indices (ERA5-based)
   icon: lucide/cloud-sun
@@ -70,3 +69,50 @@
   access: https://www.wfas.net/
   docs: https://www.wfas.net/
   tags: [United States, Maps, Public domain, Daily]
+- id: prism
+  title: PRISM Climate Data
+  icon: lucide/thermometer
+  summary: Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.
+  provider: PRISM Climate Group, Oregon State University
+  coverage: Conterminous US
+  period: 1981 to present
+  resolution: 4 km
+  format: [BIL]
+  license: PRISM terms of use
+  update: Daily
+  access: https://prism.oregonstate.edu/downloads/
+  docs: https://prism.oregonstate.edu/
+  tags: [United States, Bulk download, Custom terms, Daily, 4 km]
+  related: [gridmet, daymet]
+- id: era5-land
+  title: ERA5-Land
+  icon: lucide/cloud-sun
+  summary: Hourly global land surface reanalysis of temperature, soil moisture, wind, radiation and precipitation.
+  provider: ECMWF, Copernicus Climate Change Service
+  coverage: Global
+  period: 1950 to present
+  resolution: 0.1 degrees
+  format: [GRIB, NetCDF]
+  license: Copernicus licence
+  update: Daily
+  access: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
+  docs: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
+  tags: [Global, API, GRIB, NetCDF, Copernicus licence, Hourly]
+  related: [cems-fire-historical]
+  caveat: Needs a free Copernicus account and API key.
+- id: hrrr
+  title: HRRR (High-Resolution Rapid Refresh)
+  icon: lucide/cloud-lightning
+  summary: Hourly 3 km convection-allowing weather analyses and forecasts, including wind, humidity and temperature.
+  provider: NOAA NCEP and ESRL/GSL
+  coverage: Conterminous US and Alaska
+  period: 2014 to present (AWS archive)
+  resolution: 3 km
+  format: [GRIB]
+  license: Public domain
+  update: Hourly
+  access: https://registry.opendata.aws/noaa-hrrr-pds/
+  docs: https://rapidrefresh.noaa.gov/hrrr/
+  tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km]
+  related: [hrrr-smoke, gridmet]
+  caveat: The Herbie Python package simplifies retrieval of individual fields.
