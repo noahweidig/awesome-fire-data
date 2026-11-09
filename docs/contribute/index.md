@@ -6,8 +6,8 @@ icon: lucide/git-pull-request
 
 Dataset pages are generated from YAML in `data/datasets/`. Add an entry and open a pull request. Each edit button on a dataset page opens the generated file, so edit the YAML instead.
 
-[:fontawesome-brands-github: Open the repository](https://github.com/noahweidig/awesome-fire-datasets){ .md-button .md-button--primary }
-[:lucide-circle-alert: Suggest a dataset](https://github.com/noahweidig/awesome-fire-datasets/issues/new?template=new-dataset.yml){ .md-button }
+[:fontawesome-brands-github: Open the repository](https://github.com/noahweidig/awesome-fire-data){ .md-button .md-button--primary }
+[:lucide-circle-alert: Suggest a dataset](https://github.com/noahweidig/awesome-fire-data/issues/new?template=new-dataset.yml){ .md-button }
 
 ## Inclusion criteria
 
@@ -42,7 +42,7 @@ Tags must exist in `data/tag-vocab.yml`. To add a tag, add it there under a cate
 
 `related` is an optional list of dataset `id` values that overlap with this one. The page shows them under Related datasets.
 
-`python scripts/validate.py` checks entries against `data/schema.json`. CI runs it on every pull request. See [CONTRIBUTING.md](https://github.com/noahweidig/awesome-fire-datasets/blob/main/CONTRIBUTING.md).
+`python scripts/validate.py` checks entries against `data/schema.json`. CI runs it on every pull request. See [CONTRIBUTING.md](https://github.com/noahweidig/awesome-fire-data/blob/main/CONTRIBUTING.md).
 
 ## Build locally
 
