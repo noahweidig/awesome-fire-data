@@ -6,6 +6,9 @@ hide:
   - tags
 ---
 
+<div class="hero" markdown>
+<div class="hero-text" markdown>
+
 # Awesome Fire Datasets
 
 A curated catalog of datasets for fire science, management and modeling. Each entry lists provider, coverage, resolution, format, license and a direct link to the data.
@@ -13,6 +16,30 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 [:lucide-database: Browse datasets](datasets/index.md){ .md-button .md-button--primary }
 [:lucide-tag: Filter by tag](browse/tags.md){ .md-button }
 [:lucide-git-pull-request: Add a dataset](contribute/index.md){ .md-button }
+
+</div>
+<div class="hero-art" markdown>
+<div class="orbit"></div>
+<div class="orbit orbit-in"></div>
+<div class="core" aria-hidden="true" markdown>:lucide-flame:</div>
+<a class="orb" style="--i:0" href="datasets/perimeters/" title="Perimeters & burned area" markdown>:lucide-flame:</a>
+<a class="orb" style="--i:1" href="datasets/active-fire/" title="Active fire & detection" markdown>:lucide-satellite:</a>
+<a class="orb" style="--i:2" href="datasets/occurrence/" title="Occurrence & ignitions" markdown>:lucide-map-pin:</a>
+<a class="orb" style="--i:3" href="datasets/prescribed-fire/" title="Prescribed fire & fuel treatments" markdown>:lucide-flame-kindling:</a>
+<a class="orb" style="--i:4" href="datasets/suppression/" title="Suppression & resources" markdown>:lucide-siren:</a>
+<a class="orb" style="--i:5" href="datasets/fire-behavior/" title="Fire behavior & spread" markdown>:lucide-wind-arrow-down:</a>
+<a class="orb" style="--i:6" href="datasets/fuels-terrain/" title="Fuels, vegetation & terrain" markdown>:lucide-trees:</a>
+<a class="orb" style="--i:7" href="datasets/weather-danger/" title="Weather, climate & danger" markdown>:lucide-thermometer-sun:</a>
+<a class="orb" style="--i:8" href="datasets/lightning/" title="Lightning & ignition drivers" markdown>:lucide-zap:</a>
+<a class="orb" style="--i:9" href="datasets/smoke-emissions/" title="Smoke, emissions & air quality" markdown>:lucide-wind:</a>
+<a class="orb" style="--i:10" href="datasets/impacts/" title="Impacts & post-fire" markdown>:lucide-house:</a>
+<a class="orb" style="--i:11" href="datasets/risk-management/" title="Risk, WUI & management" markdown>:lucide-shield-alert:</a>
+<a class="orb" style="--i:12" href="datasets/social-vulnerability/" title="Social vulnerability & communities" markdown>:lucide-users:</a>
+<a class="orb" style="--i:13" href="datasets/boundaries/" title="Boundaries & reference layers" markdown>:lucide-map-pinned:</a>
+<a class="orb" style="--i:14" href="datasets/benchmarks-ml/" title="Benchmarks & ML-ready" markdown>:lucide-brain-circuit:</a>
+<a class="orb" style="--i:15" href="datasets/paleo/" title="Paleo & historical" markdown>:lucide-history:</a>
+</div>
+</div>
 
 ## Themes
 
