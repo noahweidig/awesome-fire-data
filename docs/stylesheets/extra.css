@@ -58,7 +58,9 @@
 .hero-art .orbit-in { inset: 30%; border-style: solid; border-color: rgba(244,81,30,.25); }
 .hero-art .core { position: absolute; inset: 38%; display: grid; place-items: center; border-radius: 50%; color: #fff;
   background: radial-gradient(circle at 50% 35%, #ffb300, #f4511e 75%); box-shadow: 0 0 3rem rgba(244,81,30,.45); animation: hero-pulse 3.2s ease-in-out infinite; }
-.hero-art .core .twemoji { display: flex; height: auto; margin: 0; }
+.hero-art .core .twemoji { display: flex; height: auto; margin: 0; line-height: 0; }
+.hero-art .core svg, .hero-art .orb svg { display: block; }
+.hero-art .core p { margin: 0; display: flex; }
 .hero-art .core svg { width: 3.4rem; height: 3.4rem; }
 .hero-art .orb { --a: calc(var(--i) * 22.5deg - 90deg); --h: calc(var(--i) * 2);
   position: absolute; width: 12%; aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%;
@@ -66,7 +68,7 @@
   color: hsl(calc(10 + var(--h)) 90% 48%); background: var(--md-default-bg-color);
   border: .06rem solid hsl(calc(10 + var(--h)) 90% 48% / .45); box-shadow: 0 .1rem .6rem hsl(calc(10 + var(--h)) 90% 48% / .18);
   transition: transform .15s, background .15s, color .15s; }
-.hero-art .orb .twemoji { display: flex; height: auto; margin: 0; }
+.hero-art .orb .twemoji { display: flex; height: auto; margin: 0; line-height: 0; }
 .hero-art .orb svg { width: 1.3rem; height: 1.3rem; }
 .hero-art .orb:hover, .hero-art .orb:focus-visible { transform: translate(-50%, -50%) scale(1.2); background: hsl(calc(10 + var(--h)) 90% 48%); color: #fff; z-index: 2; }
 @keyframes hero-pulse { 50% { transform: scale(1.06); box-shadow: 0 0 4rem rgba(244,81,30,.6); } }
@@ -74,5 +76,5 @@
 @media (max-width: 52rem) {
   .hero { grid-template-columns: minmax(0, 1fr); }
   .hero-art { max-width: 20rem; order: -1; }
-  .hero-text h1 { font-size: 2rem; }
+  .hero-text h1 { font-size: 2rem; text-align: center; }
 }
