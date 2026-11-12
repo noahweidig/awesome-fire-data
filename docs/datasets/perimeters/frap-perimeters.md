@@ -11,6 +11,9 @@ tags:
   - GeoDatabase
   - CSV
   - Annual
+  - CC BY
+  - Vector
+  - Fire perimeters
 ---
 
 # CAL FIRE FRAP Historical Fire Perimeters
@@ -43,6 +46,6 @@ California fire perimeters from 1878 to the latest fire season, from CAL FIRE's 
 - [MTBS](../perimeters/mtbs.md)
 - [CAL FIRE Damage Inspection](../impacts/cal-fire-dins.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CAL FIRE FRAP Historical Fire Perimeters", "description": "California fire perimeters from 1878 to the latest fire season, from CAL FIRE's Fire and Resource Assessment Program.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/frap-perimeters/", "creator": {"@type": "Organization", "name": "CAL FIRE FRAP"}, "spatialCoverage": "California", "temporalCoverage": "1878 to present", "keywords": ["California", "United States", "Bulk download", "Shapefile", "GeoJSON", "GeoDatabase", "CSV", "Annual"], "license": "CC BY (per catalog metadata)", "sameAs": "https://lab.data.ca.gov/dataset/california-fire-perimeters-all", "distribution": [{"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "GeoDatabase"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "CSV"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CAL FIRE FRAP Historical Fire Perimeters", "description": "California fire perimeters from 1878 to the latest fire season, from CAL FIRE's Fire and Resource Assessment Program.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/frap-perimeters/", "creator": {"@type": "Organization", "name": "CAL FIRE FRAP"}, "spatialCoverage": "California", "temporalCoverage": "1878 to present", "keywords": ["California", "United States", "Bulk download", "Shapefile", "GeoJSON", "GeoDatabase", "CSV", "Annual", "CC BY", "Vector", "Fire perimeters"], "license": "CC BY (per catalog metadata)", "sameAs": "https://lab.data.ca.gov/dataset/california-fire-perimeters-all", "distribution": [{"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "GeoDatabase"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://catalog.data.gov/dataset/california-fire-perimeters-all", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

@@ -11,7 +11,7 @@
   update: Daily
   access: https://www.climatologylab.org/gridmet.html
   docs: https://www.climatologylab.org/gridmet.html
-  tags: [United States, API, Bulk download, NetCDF, Public domain, Daily, 4 km]
+  tags: [United States, API, Bulk download, NetCDF, Public domain, Daily, 4 km, Daily steps, Weather]
   snippets:
     - label: Earth Engine (Python)
       lang: python
@@ -32,7 +32,7 @@
   update: Annual
   access: https://daymet.ornl.gov/getdata
   docs: https://daymet.ornl.gov/overview
-  tags: [North America, API, Bulk download, NetCDF, NASA open data, Daily, 1 km]
+  tags: [North America, API, Bulk download, NetCDF, NASA open data, 1 km, Daily steps, Annual, Weather]
   caveat: Covers weather variables only. Fire danger indices must be derived.
 - id: cems-fire-historical
   title: CEMS Fire Danger Indices (ERA5-based)
@@ -47,7 +47,7 @@
   update: Daily
   access: https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1
   docs: https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1
-  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily]
+  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily, Daily steps, Grid over 5 km, Fire danger, Weather]
 - id: cwfis
   title: CWFIS (Canadian Wildland Fire Information System)
   icon: lucide/compass
@@ -61,7 +61,7 @@
   update: Daily
   access: https://cwfis.cfs.nrcan.gc.ca/datamart
   docs: https://cwfis.cfs.nrcan.gc.ca/
-  tags: [Canada, Bulk download, GeoTIFF, CSV, Open Government Licence, Daily]
+  tags: [Canada, Bulk download, GeoTIFF, CSV, Open Government Licence, Daily, Shapefile, Fire danger, Active fire]
 - id: wfas
   title: WFAS (Wildland Fire Assessment System)
   icon: lucide/thermometer-sun
@@ -75,7 +75,7 @@
   update: Daily
   access: https://www.wfas.net/
   docs: https://www.wfas.net/
-  tags: [United States, Maps, Public domain, Daily]
+  tags: [United States, Maps, Public domain, Daily, Fire danger, Fuel moisture]
 - id: prism
   title: PRISM Climate Data
   icon: lucide/thermometer
@@ -89,7 +89,7 @@
   update: Daily
   access: https://prism.oregonstate.edu/downloads/
   docs: https://prism.oregonstate.edu/
-  tags: [United States, Bulk download, Custom terms, Daily, 4 km]
+  tags: [United States, Bulk download, Custom terms, Daily, 4 km, Daily steps, Weather]
   related: [gridmet, daymet]
 - id: era5-land
   title: ERA5-Land
@@ -104,7 +104,7 @@
   update: Daily
   access: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
   docs: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land
-  tags: [Global, API, GRIB, NetCDF, Copernicus licence, Hourly]
+  tags: [Global, API, GRIB, NetCDF, Copernicus licence, Hourly steps, Daily, Grid over 5 km, Weather]
   related: [cems-fire-historical]
   caveat: Needs a free Copernicus account and API key.
 - id: hrrr
@@ -120,7 +120,7 @@
   update: Hourly
   access: https://registry.opendata.aws/noaa-hrrr-pds/
   docs: https://rapidrefresh.noaa.gov/hrrr/
-  tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km]
+  tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km, Hourly steps, Weather, Forecast]
   related: [hrrr-smoke, gridmet]
   caveat: "The Herbie Python package simplifies retrieval of individual fields. NOAA says HRRR is not retired with the RRFS v1 implementation. A retirement date has not been announced."
   verified: "2026-11-09"
@@ -144,7 +144,7 @@
   update: Weekly
   access: https://droughtmonitor.unl.edu/DmData/GISData.aspx
   docs: https://droughtmonitor.unl.edu/
-  tags: [United States, API, Bulk download, Shapefile, GeoJSON, Weekly]
+  tags: [United States, API, Bulk download, Shapefile, GeoJSON, Weekly, See provider, Vector, Drought]
   related: [gridmet, wfas]
   caveat: NDMC says its shapefiles were modified from the originals. Use a vector dataset to match official statistics. Community GeoParquet mirrors exist.
   verified: "2026-11-09"
@@ -161,7 +161,7 @@
   update: Continuous
   access: https://raws.dri.edu/
   docs: https://raws.dri.edu/
-  tags: [United States, Tabular, Continuous]
+  tags: [United States, Tabular, Continuous, See provider, Point or station, Weather]
   related: [gridmet, wfas]
   caveat: Public data are not quality controlled. A 2025 mailing-list post quoting WRCC says raw public access is limited to the prior 30 days, with older data on request and possibly for a fee. I could not confirm that on an official page. The R package RAWSmet downloads and parses WRCC data.
   verified: "2026-11-09"

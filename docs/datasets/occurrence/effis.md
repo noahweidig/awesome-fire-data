@@ -9,6 +9,10 @@ tags:
   - GeoJSON
   - Copernicus open data
   - Daily
+  - Vector
+  - Fire records
+  - Fire perimeters
+  - Fire danger
 ---
 
 # EFFIS (European Forest Fire Information System)
@@ -30,6 +34,6 @@ Burnt area, fire danger and statistics for Europe and surrounding regions.
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Copernicus open data |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Daily |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "EFFIS (European Forest Fire Information System)", "description": "Burnt area, fire danger and statistics for Europe and surrounding regions.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/effis/", "creator": {"@type": "Organization", "name": "European Commission JRC"}, "spatialCoverage": "Europe, Middle East, North Africa", "temporalCoverage": "2000 to present", "keywords": ["Europe", "API", "Shapefile", "GeoJSON", "Copernicus open data", "Daily"], "license": "Copernicus open data", "sameAs": "https://forest-fire.emergency.copernicus.eu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "WMS"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "EFFIS (European Forest Fire Information System)", "description": "Burnt area, fire danger and statistics for Europe and surrounding regions.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/effis/", "creator": {"@type": "Organization", "name": "European Commission JRC"}, "spatialCoverage": "Europe, Middle East, North Africa", "temporalCoverage": "2000 to present", "keywords": ["Europe", "API", "Shapefile", "GeoJSON", "Copernicus open data", "Daily", "Vector", "Fire records", "Fire perimeters", "Fire danger"], "license": "Copernicus open data", "sameAs": "https://forest-fire.emergency.copernicus.eu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://forest-fire.emergency.copernicus.eu/applications/data-and-services", "encodingFormat": "WMS"}]}</script>
 
 [:lucide-arrow-left: Back to Occurrence & ignitions](index.md){ .md-button }

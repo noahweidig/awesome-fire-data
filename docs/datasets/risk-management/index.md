@@ -17,6 +17,14 @@ Community wildfire risk, wildland-urban interface maps and land management layer
 
     [:lucide-arrow-right: Details](building-based-wui.md)
 
+-   :lucide-shield-alert:{ .lg .middle } __[FEMA National Risk Index](fema-nri.md)__
+
+    ---
+
+    Expected annual loss, social vulnerability and community resilience for 18 natural hazards, including wildfire.
+
+    [:lucide-arrow-right: Details](fema-nri.md)
+
 -   :lucide-house:{ .lg .middle } __[Global WUI map 2020](global-wui.md)__
 
     ---

@@ -10,6 +10,8 @@ tags:
   - Public domain
   - Daily
   - 4 km
+  - Daily steps
+  - Weather
 ---
 
 # gridMET
@@ -42,6 +44,6 @@ Daily gridded surface meteorology, fuel moisture and fire danger indices for the
     ```
 
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "gridMET", "description": "Daily gridded surface meteorology, fuel moisture and fire danger indices for the contiguous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/gridmet/", "creator": {"@type": "Organization", "name": "University of Idaho / Climatology Lab"}, "spatialCoverage": "CONUS", "temporalCoverage": "1979 to present", "keywords": ["United States", "API", "Bulk download", "NetCDF", "Public domain", "Daily", "4 km"], "license": "Public domain", "sameAs": "https://www.climatologylab.org/gridmet.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.climatologylab.org/gridmet.html", "encodingFormat": "NetCDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "gridMET", "description": "Daily gridded surface meteorology, fuel moisture and fire danger indices for the contiguous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/gridmet/", "creator": {"@type": "Organization", "name": "University of Idaho / Climatology Lab"}, "spatialCoverage": "CONUS", "temporalCoverage": "1979 to present", "keywords": ["United States", "API", "Bulk download", "NetCDF", "Public domain", "Daily", "4 km", "Daily steps", "Weather"], "license": "Public domain", "sameAs": "https://www.climatologylab.org/gridmet.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.climatologylab.org/gridmet.html", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

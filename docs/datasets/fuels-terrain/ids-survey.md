@@ -8,6 +8,8 @@ tags:
   - Maps
   - Public domain
   - Annual
+  - Vector
+  - Vegetation
 ---
 
 # Insect and Disease Detection Survey (IDS)
@@ -37,6 +39,6 @@ Aerial survey polygons of tree damage from insects, disease and other agents.
 
 - [LCMS Landscape Change Monitoring System](../fuels-terrain/lcms.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Insect and Disease Detection Survey (IDS)", "description": "Aerial survey polygons of tree damage from insects, disease and other agents.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/ids-survey/", "creator": {"@type": "Organization", "name": "USDA Forest Service Forest Health Protection"}, "spatialCoverage": "United States", "temporalCoverage": "Annual surveys", "keywords": ["United States", "API", "Maps", "Public domain", "Annual"], "license": "Public domain", "sameAs": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InsectandDiseaseSurvey_01/MapServer", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "Maps"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "GIS data"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Insect and Disease Detection Survey (IDS)", "description": "Aerial survey polygons of tree damage from insects, disease and other agents.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/ids-survey/", "creator": {"@type": "Organization", "name": "USDA Forest Service Forest Health Protection"}, "spatialCoverage": "United States", "temporalCoverage": "Annual surveys", "keywords": ["United States", "API", "Maps", "Public domain", "Annual", "Vector", "Vegetation"], "license": "Public domain", "sameAs": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InsectandDiseaseSurvey_01/MapServer", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "Maps"}, {"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/edw/datasets.php", "encodingFormat": "GIS data"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

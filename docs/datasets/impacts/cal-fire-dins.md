@@ -10,6 +10,10 @@ tags:
   - CSV
   - GeoJSON
   - Per incident
+  - Shapefile
+  - CC BY
+  - Point or station
+  - Structure damage
 ---
 
 # CAL FIRE Damage Inspection (DINS)
@@ -32,6 +36,6 @@ Structure-level damage assessments after California wildfires.
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Per incident |
 | :lucide-badge-check:{ title="Date this entry was last checked against the provider" } Last verified | 2026-11-09 |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CAL FIRE Damage Inspection (DINS)", "description": "Structure-level damage assessments after California wildfires.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/cal-fire-dins/", "creator": {"@type": "Organization", "name": "CAL FIRE"}, "spatialCoverage": "California", "temporalCoverage": "2013 to present", "keywords": ["United States", "California", "API", "Bulk download", "CSV", "GeoJSON", "Per incident"], "license": "CC BY (see data.ca.gov terms)", "sameAs": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CAL FIRE Damage Inspection (DINS)", "description": "Structure-level damage assessments after California wildfires.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/cal-fire-dins/", "creator": {"@type": "Organization", "name": "CAL FIRE"}, "spatialCoverage": "California", "temporalCoverage": "2013 to present", "keywords": ["United States", "California", "API", "Bulk download", "CSV", "GeoJSON", "Per incident", "Shapefile", "CC BY", "Point or station", "Structure damage"], "license": "CC BY (see data.ca.gov terms)", "sameAs": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Impacts & post-fire](index.md){ .md-button }

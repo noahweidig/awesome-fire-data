@@ -9,6 +9,8 @@ tags:
   - Shapefile
   - Public domain
   - Near real time
+  - Vector
+  - Fire perimeters
 ---
 
 # WFIGS Interagency Fire Perimeters
@@ -35,6 +37,6 @@ Current and historical wildland fire perimeters from US interagency sources.
 - [MTBS](../perimeters/mtbs.md)
 - [Fireline Engagement from the NIFC Feature Service](../suppression/fireline-engagement.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "WFIGS Interagency Fire Perimeters", "description": "Current and historical wildland fire perimeters from US interagency sources.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/wfigs-perimeters/", "creator": {"@type": "Organization", "name": "NIFC (National Interagency Fire Center)"}, "spatialCoverage": "United States", "temporalCoverage": "Current year and historical archive", "keywords": ["United States", "API", "GeoJSON", "Shapefile", "Public domain", "Near real time"], "license": "Public domain", "sameAs": "https://data-nifc.opendata.arcgis.com/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "ArcGIS feature service"}, {"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "WFIGS Interagency Fire Perimeters", "description": "Current and historical wildland fire perimeters from US interagency sources.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/wfigs-perimeters/", "creator": {"@type": "Organization", "name": "NIFC (National Interagency Fire Center)"}, "spatialCoverage": "United States", "temporalCoverage": "Current year and historical archive", "keywords": ["United States", "API", "GeoJSON", "Shapefile", "Public domain", "Near real time", "Vector", "Fire perimeters"], "license": "Public domain", "sameAs": "https://data-nifc.opendata.arcgis.com/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "ArcGIS feature service"}, {"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://data-nifc.opendata.arcgis.com/", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

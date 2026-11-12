@@ -8,6 +8,9 @@ tags:
   - CSV
   - CC0
   - Static
+  - United States
+  - Point or station
+  - Prescribed fire
 ---
 
 # California Prescribed Fire Monitoring Program
@@ -33,6 +36,6 @@ Plot-level forest structure, fuel load and recovery measurements before and afte
 
     Check the Dryad record for current license terms.
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "California Prescribed Fire Monitoring Program", "description": "Plot-level forest structure, fuel load and recovery measurements before and after prescribed fire at 36 California sites.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/ca-rx-monitoring/", "creator": {"@type": "Organization", "name": "CAL FIRE and UC Davis"}, "spatialCoverage": "California", "temporalCoverage": "2019 to 2024", "keywords": ["California", "Bulk download", "CSV", "CC0", "Static"], "license": "CC0", "sameAs": "https://doi.org/10.1038/s41597-025-06509-0", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5061/dryad.612jm64gw", "encodingFormat": "CSV"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "California Prescribed Fire Monitoring Program", "description": "Plot-level forest structure, fuel load and recovery measurements before and after prescribed fire at 36 California sites.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/ca-rx-monitoring/", "creator": {"@type": "Organization", "name": "CAL FIRE and UC Davis"}, "spatialCoverage": "California", "temporalCoverage": "2019 to 2024", "keywords": ["California", "Bulk download", "CSV", "CC0", "Static", "United States", "Point or station", "Prescribed fire"], "license": "CC0", "sameAs": "https://doi.org/10.1038/s41597-025-06509-0", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5061/dryad.612jm64gw", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Prescribed fire & fuel treatments](index.md){ .md-button }

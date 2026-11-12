@@ -9,6 +9,8 @@ tags:
   - Public domain
   - 30 m
   - Annual
+  - Land cover
+  - Vegetation
 ---
 
 # NLCD (National Land Cover Database) and Tree Canopy Cover
@@ -35,6 +37,6 @@ Annual land cover, impervious surface and tree canopy cover for the conterminous
 
     Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series.
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NLCD (National Land Cover Database) and Tree Canopy Cover", "description": "Annual land cover, impervious surface and tree canopy cover for the conterminous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/nlcd-tcc/", "creator": {"@type": "Organization", "name": "USGS and MRLC"}, "spatialCoverage": "United States (Annual NLCD: conterminous US)", "temporalCoverage": "1985 to 2024 (land cover); tree canopy cover to 2023", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "30 m", "Annual"], "license": "Public domain", "sameAs": "https://www.mrlc.gov/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mrlc.gov/data", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NLCD (National Land Cover Database) and Tree Canopy Cover", "description": "Annual land cover, impervious surface and tree canopy cover for the conterminous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/nlcd-tcc/", "creator": {"@type": "Organization", "name": "USGS and MRLC"}, "spatialCoverage": "United States (Annual NLCD: conterminous US)", "temporalCoverage": "1985 to 2024 (land cover); tree canopy cover to 2023", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "30 m", "Annual", "Land cover", "Vegetation"], "license": "Public domain", "sameAs": "https://www.mrlc.gov/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mrlc.gov/data", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

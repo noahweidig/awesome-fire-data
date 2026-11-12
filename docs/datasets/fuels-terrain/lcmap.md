@@ -9,6 +9,8 @@ tags:
   - Public domain
   - Static
   - 30 m
+  - Landsat
+  - Land cover
 ---
 
 # LCMAP Land Cover and Change
@@ -39,6 +41,6 @@ Annual land cover, land cover change and spectral change products from Landsat t
 - [LCMS Landscape Change Monitoring System](../fuels-terrain/lcms.md)
 - [NLCD and Tree Canopy Cover](../fuels-terrain/nlcd-tcc.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "LCMAP Land Cover and Change", "description": "Annual land cover, land cover change and spectral change products from Landsat time series (Collection 1.3).", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcmap/", "creator": {"@type": "Organization", "name": "USGS EROS"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1985 to 2021", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Static", "30 m"], "license": "Public domain", "sameAs": "https://www.usgs.gov/special-topics/lcmap/collection-13-conus-science-products", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/special-topics/lcmap/lcmap-data-access", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "LCMAP Land Cover and Change", "description": "Annual land cover, land cover change and spectral change products from Landsat time series (Collection 1.3).", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcmap/", "creator": {"@type": "Organization", "name": "USGS EROS"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1985 to 2021", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Static", "30 m", "Landsat", "Land cover"], "license": "Public domain", "sameAs": "https://www.usgs.gov/special-topics/lcmap/collection-13-conus-science-products", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/special-topics/lcmap/lcmap-data-access", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

@@ -6,6 +6,9 @@ tags:
   - United States
   - Tabular
   - Continuous
+  - See provider
+  - Point or station
+  - Weather
 ---
 
 # RAWS (Remote Automatic Weather Stations)
@@ -37,6 +40,6 @@ Hourly fire weather observations from interagency stations, archived by the West
 - [gridMET](../weather-danger/gridmet.md)
 - [WFAS](../weather-danger/wfas.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "RAWS (Remote Automatic Weather Stations)", "description": "Hourly fire weather observations from interagency stations, archived by the Western Regional Climate Center.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/raws/", "creator": {"@type": "Organization", "name": "Western Regional Climate Center (Desert Research Institute) for NWCG agencies"}, "spatialCoverage": "United States", "temporalCoverage": "Varies by station", "keywords": ["United States", "Tabular", "Continuous"], "license": "See WRCC terms", "sameAs": "https://raws.dri.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://raws.dri.edu/", "encodingFormat": "Tabular web download"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "RAWS (Remote Automatic Weather Stations)", "description": "Hourly fire weather observations from interagency stations, archived by the Western Regional Climate Center.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/raws/", "creator": {"@type": "Organization", "name": "Western Regional Climate Center (Desert Research Institute) for NWCG agencies"}, "spatialCoverage": "United States", "temporalCoverage": "Varies by station", "keywords": ["United States", "Tabular", "Continuous", "See provider", "Point or station", "Weather"], "license": "See WRCC terms", "sameAs": "https://raws.dri.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://raws.dri.edu/", "encodingFormat": "Tabular web download"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

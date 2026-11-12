@@ -11,7 +11,7 @@
   update: Continuous
   access: https://registry.opendata.aws/noaa-goes/
   docs: https://registry.opendata.aws/noaa-goes/
-  tags: [Americas, Cloud bucket, NetCDF, Public domain, Near real time]
+  tags: [Americas, Cloud bucket, NetCDF, Public domain, Near real time, Point or station, GOES, Lightning]
   related: [goes-fdc]
   caveat: Detection efficiency varies with flash energy and viewing angle.
 - id: lis-otd
@@ -27,5 +27,5 @@
   update: Static
   access: https://ghrc.nsstc.nasa.gov/pub/lis/climatology/
   docs: https://ghrc.nsstc.nasa.gov/uso/ds_details/collections/loCv2.3.2015.html
-  tags: [Global, Bulk download, HDF, NetCDF, NASA open data, Static]
+  tags: [Global, Bulk download, HDF, NetCDF, NASA open data, Static, Grid over 5 km, Lightning]
   caveat: A climatology, not event-level data. Use GLM for recent individual strikes.

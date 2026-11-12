@@ -11,7 +11,7 @@
   update: Static
   access: https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927
   docs: https://doi.org/10.1038/s41597-023-01955-0
-  tags: [United States, Bulk download, CSV, CC BY 4.0, Static]
+  tags: [United States, Bulk download, CSV, CC BY 4.0, Static, Point or station, Suppression, Fire records]
   related: [fpa-fod, nifc-statistics]
   caveat: Reports are self-reported by incident teams, so costs and sizes carry reporting error.
 - id: fireline-engagement
@@ -27,6 +27,6 @@
   update: Static
   access: https://doi.org/10.2737/RDS-2025-0011
   docs: https://doi.org/10.1038/s41597-025-05208-0
-  tags: [United States, Bulk download, Public domain, Static]
+  tags: [United States, Bulk download, Public domain, Static, Vector, Suppression]
   related: [wfigs-perimeters]
   caveat: Fires under 1,000 acres are excluded.

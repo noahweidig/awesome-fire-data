@@ -9,6 +9,9 @@ tags:
   - Shapefile
   - GeoJSON
   - Weekly
+  - See provider
+  - Vector
+  - Drought
 ---
 
 # US Drought Monitor
@@ -40,6 +43,6 @@ Weekly drought category maps for the US, with polygon, grid and statistics downl
 - [gridMET](../weather-danger/gridmet.md)
 - [WFAS](../weather-danger/wfas.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "US Drought Monitor", "description": "Weekly drought category maps for the US, with polygon, grid and statistics downloads.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/us-drought-monitor/", "creator": {"@type": "Organization", "name": "National Drought Mitigation Center (University of Nebraska-Lincoln), USDA and NOAA"}, "spatialCoverage": "United States", "temporalCoverage": "2000 to present", "keywords": ["United States", "API", "Bulk download", "Shapefile", "GeoJSON", "Weekly"], "license": "See NDMC terms", "sameAs": "https://droughtmonitor.unl.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "KMZ"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "GML"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "WMS"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "US Drought Monitor", "description": "Weekly drought category maps for the US, with polygon, grid and statistics downloads.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/us-drought-monitor/", "creator": {"@type": "Organization", "name": "National Drought Mitigation Center (University of Nebraska-Lincoln), USDA and NOAA"}, "spatialCoverage": "United States", "temporalCoverage": "2000 to present", "keywords": ["United States", "API", "Bulk download", "Shapefile", "GeoJSON", "Weekly", "See provider", "Vector", "Drought"], "license": "See NDMC terms", "sameAs": "https://droughtmonitor.unl.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "KMZ"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "GML"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://droughtmonitor.unl.edu/DmData/GISData.aspx", "encodingFormat": "WMS"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

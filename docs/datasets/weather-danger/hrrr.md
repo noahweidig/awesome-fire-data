@@ -9,6 +9,9 @@ tags:
   - Public domain
   - Hourly
   - 3 km
+  - Hourly steps
+  - Weather
+  - Forecast
 ---
 
 # HRRR (High-Resolution Rapid Refresh)
@@ -51,6 +54,6 @@ Hourly 3 km convection-allowing weather analyses and forecasts, including wind, 
 - [HRRR-Smoke](../smoke-emissions/hrrr-smoke.md)
 - [gridMET](../weather-danger/gridmet.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "HRRR (High-Resolution Rapid Refresh)", "description": "Hourly 3 km convection-allowing weather analyses and forecasts, including wind, humidity and temperature.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/hrrr/", "creator": {"@type": "Organization", "name": "NOAA NCEP and ESRL/GSL"}, "spatialCoverage": "Conterminous US and Alaska", "temporalCoverage": "2014 to present (AWS archive)", "keywords": ["United States", "Cloud bucket", "GRIB", "Public domain", "Hourly", "3 km"], "license": "Public domain", "sameAs": "https://rapidrefresh.noaa.gov/hrrr/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-hrrr-pds/", "encodingFormat": "GRIB"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "HRRR (High-Resolution Rapid Refresh)", "description": "Hourly 3 km convection-allowing weather analyses and forecasts, including wind, humidity and temperature.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/hrrr/", "creator": {"@type": "Organization", "name": "NOAA NCEP and ESRL/GSL"}, "spatialCoverage": "Conterminous US and Alaska", "temporalCoverage": "2014 to present (AWS archive)", "keywords": ["United States", "Cloud bucket", "GRIB", "Public domain", "Hourly", "3 km", "Hourly steps", "Weather", "Forecast"], "license": "Public domain", "sameAs": "https://rapidrefresh.noaa.gov/hrrr/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-hrrr-pds/", "encodingFormat": "GRIB"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

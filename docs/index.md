@@ -34,7 +34,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 <a class="orb" style="--i:9" href="datasets/smoke-emissions/" title="Smoke, emissions & air quality" markdown>:lucide-wind:</a>
 <a class="orb" style="--i:10" href="datasets/impacts/" title="Impacts & post-fire" markdown>:lucide-house:</a>
 <a class="orb" style="--i:11" href="datasets/risk-management/" title="Risk, WUI & management" markdown>:lucide-shield-alert:</a>
-<a class="orb" style="--i:12" href="datasets/social-vulnerability/" title="Social vulnerability & communities" markdown>:lucide-users:</a>
+<a class="orb" style="--i:12" href="datasets/social-vulnerability/" title="Exposure & vulnerability" markdown>:lucide-users:</a>
 <a class="orb" style="--i:13" href="datasets/boundaries/" title="Boundaries & reference layers" markdown>:lucide-map-pinned:</a>
 <a class="orb" style="--i:14" href="datasets/benchmarks-ml/" title="Benchmarks & ML-ready" markdown>:lucide-brain-circuit:</a>
 <a class="orb" style="--i:15" href="datasets/paleo/" title="Paleo & historical" markdown>:lucide-history:</a>
@@ -82,7 +82,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Prescribed burn records, permits, treatment footprints and monitoring. MTBS and WFIGS also contain prescribed fire perimeters.
 
-    5 datasets
+    4 datasets
 
     [:lucide-arrow-right: Explore](datasets/prescribed-fire/index.md)
 
@@ -102,7 +102,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Individual fire events with daily spread, speed and direction.
 
-    3 datasets
+    4 datasets
 
     [:lucide-arrow-right: Explore](datasets/fire-behavior/index.md)
 
@@ -162,17 +162,17 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Community wildfire risk, wildland-urban interface maps and land management layers.
 
-    5 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](datasets/risk-management/index.md)
 
--   :lucide-users:{ .lg .middle } __[Social vulnerability & communities](datasets/social-vulnerability/index.md)__
+-   :lucide-users:{ .lg .middle } __[Exposure & vulnerability](datasets/social-vulnerability/index.md)__
 
     ---
 
-    Community vulnerability and national hazard risk indices for fire exposure studies.
+    Population grids and community vulnerability indices for fire exposure studies.
 
-    3 datasets
+    2 datasets
 
     [:lucide-arrow-right: Explore](datasets/social-vulnerability/index.md)
 

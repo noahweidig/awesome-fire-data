@@ -11,7 +11,9 @@
   update: Annual
   access: https://landfire.gov/
   docs: https://landfire.gov/
-  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Annual, 30 m]
+  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Annual, 30 m, Fuels, Vegetation]
+  caveat: LF 2024 is complete (CONUS released September 2025; LF 2024 Update ver. 2.0, March 2026). LF 2025 products are rolling out by geographic area since January 2026.
+  verified: '2026-11-12'
 - id: usgs-3dep
   title: USGS 3DEP Elevation
   icon: lucide/layers-3
@@ -25,7 +27,7 @@
   update: Continuous
   access: https://www.usgs.gov/3d-elevation-program
   docs: https://www.usgs.gov/3d-elevation-program
-  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Continuous, 10 m]
+  tags: [United States, Bulk download, API, GeoTIFF, Public domain, Continuous, 10 m, Terrain]
 - id: nlcd-tcc
   title: NLCD (National Land Cover Database) and Tree Canopy Cover
   icon: lucide/trees
@@ -39,7 +41,7 @@
   update: "Annual"
   access: https://www.mrlc.gov/data
   docs: https://www.mrlc.gov/
-  tags: [United States, Bulk download, GeoTIFF, Public domain, 30 m, Annual]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, 30 m, Annual, Land cover, Vegetation]
   caveat: "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series."
   verified: "2026-11-09"
 - id: gedi
@@ -55,7 +57,7 @@
   update: Ongoing
   access: https://lpdaac.usgs.gov/products/gedi02_av002/
   docs: https://gedi.umd.edu/data/products/
-  tags: [Global, API, Bulk download, HDF, NASA open data, Ongoing]
+  tags: [Global, API, Bulk download, HDF, NASA open data, Ongoing, Point or station, Vegetation]
   related: [landfire, treemap]
   caveat: Footprints are sparse samples along orbit tracks, not wall-to-wall maps.
 - id: rap
@@ -71,7 +73,7 @@
   update: Annual
   access: https://rangelands.app/products
   docs: https://rangelands.app/products
-  tags: [United States, API, Bulk download, GeoTIFF, Annual, 30 m]
+  tags: [United States, API, Bulk download, GeoTIFF, Annual, 30 m, See provider, Vegetation]
   related: [rcmap, landfire]
   caveat: Also on Earth Engine and through the rapr R package. Check the site for known processing issues in recent years.
   verified: "2026-11-09"
@@ -88,7 +90,7 @@
   update: Annual
   access: https://www.mrlc.gov/data
   docs: https://doi.org/10.5066/P138CYEL
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m, Western US, Vegetation]
   related: [rap, lcmap]
   caveat: Newer releases replace older ones. Do not mix versions in one time series.
 - id: lcmap
@@ -104,7 +106,7 @@
   update: Static
   access: https://www.usgs.gov/special-topics/lcmap/lcmap-data-access
   docs: https://www.usgs.gov/special-topics/lcmap/collection-13-conus-science-products
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Static, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Static, 30 m, Landsat, Land cover]
   related: [lcms, nlcd-tcc]
   caveat: USGS advises against mixing Collection 1.x versions in one analysis. 2021 is provisional.
 - id: lcms
@@ -120,7 +122,7 @@
   update: Annual
   access: https://data.fs.usda.gov/geodata/rastergateway/LCMS/
   docs: https://data.fs.usda.gov/geodata/rastergateway/LCMS/LCMS-Project-Overview.pdf
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Annual, 30 m, Landsat, Sentinel, Land cover]
   related: [lcmap, mtbs]
   caveat: Also on Earth Engine and in the LCMS Data Explorer. Extent and years differ between versions.
 - id: treemap
@@ -136,7 +138,7 @@
   update: Periodic
   access: https://doi.org/10.2737/RDS-2025-0032
   docs: https://doi.org/10.2737/RDS-2025-0032
-  tags: [United States, Bulk download, GeoTIFF, CSV, Public domain, Periodic, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, CSV, Public domain, Periodic, 30 m, Fuels, Vegetation]
   related: [fia-datamart, landfire]
   caveat: Each pixel holds an imputed plot ID. Test fit before using it for applications the publication does not list.
 - id: fia-datamart
@@ -152,7 +154,7 @@
   update: Annual
   access: https://apps.fs.usda.gov/fia/datamart/datamart.html
   docs: https://research.fs.usda.gov/products/dataandtools/fia-datamart
-  tags: [United States, Bulk download, CSV, SQLite, Annual]
+  tags: [United States, Bulk download, CSV, SQLite, Annual, Free to use, Point or station, Vegetation, Fuels]
   related: [treemap]
   caveat: "Public plot coordinates are fuzzed and swapped for privacy. The R packages rFIA and FIESTA download from DataMart. No license is stated on DataMart itself. Some catalogs label it CC BY 4.0."
   verified: "2026-11-09"
@@ -176,7 +178,7 @@
   update: Annual
   access: https://data.fs.usda.gov/geodata/edw/datasets.php
   docs: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InsectandDiseaseSurvey_01/MapServer
-  tags: [United States, API, Maps, Public domain, Annual]
+  tags: [United States, API, Maps, Public domain, Annual, Vector, Vegetation]
   related: [lcms]
   caveat: Aerial sketch mapping is subjective and survey coverage varies by year and region.
 - id: globe-lfmc
@@ -192,7 +194,7 @@
   update: Static
   access: https://doi.org/10.1038/s41597-024-03159-6
   docs: https://doi.org/10.1038/s41597-024-03159-6
-  tags: [Global, Tabular, Static]
+  tags: [Global, Tabular, Static, See provider, Point or station, Fuel moisture, Fuels]
   related: [gridmet, wfas]
   caveat: Version 2.0 adds more than 120,000 entries and more than 800 sites over the first release. Use the 2.0 Figshare record, not the 2019 one. Sampling is uneven across regions.
   doi: 10.1038/s41597-024-03159-6

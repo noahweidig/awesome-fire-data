@@ -11,7 +11,7 @@
   update: Per incident
   access: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
   docs: https://data.ca.gov/dataset/cal-fire-damage-inspection-dins-data
-  tags: [United States, California, API, Bulk download, CSV, GeoJSON, Per incident]
+  tags: [United States, California, API, Bulk download, CSV, GeoJSON, Per incident, Shapefile, CC BY, Point or station, Structure damage]
   verified: "2026-11-09"
 - id: ravg
   title: RAVG (Rapid Assessment of Vegetation Condition after Wildfire)
@@ -26,7 +26,8 @@
   update: Per fire
   access: https://burnseverity.cr.usgs.gov/ravg/
   docs: https://burnseverity.cr.usgs.gov/ravg/
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Per incident, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Per incident, 30 m, Shapefile, Burn severity, Post-fire]
+  related: [mtbs]
 - id: usgs-debris-flow
   title: USGS Post-Fire Debris-Flow Hazard Assessments
   icon: lucide/triangle-alert
@@ -40,7 +41,7 @@
   update: Per incident
   access: https://landslides.usgs.gov/hazards/postfire_debrisflow/
   docs: https://landslides.usgs.gov/hazards/postfire_debrisflow/
-  tags: [United States, Bulk download, Shapefile, GeoJSON, Public domain, Per incident]
+  tags: [United States, Bulk download, Shapefile, GeoJSON, Public domain, Per incident, Western US, Post-fire]
 - id: black-marble
   title: NASA Black Marble Nighttime Lights
   icon: lucide/moon
@@ -54,6 +55,6 @@
   update: Daily
   access: https://blackmarble.gsfc.nasa.gov/
   docs: https://blackmarble.gsfc.nasa.gov/
-  tags: [Global, API, Bulk download, HDF, NASA open data, Daily, 500 m]
+  tags: [Global, API, Bulk download, HDF, NASA open data, Daily, 500 m, VIIRS, Post-fire]
   related: [firms, cal-fire-dins]
   caveat: Cloud cover and smoke can hide lights on a given night.

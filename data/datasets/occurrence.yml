@@ -11,7 +11,7 @@
   update: Periodic editions
   access: "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7"
   docs: "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7"
-  tags: [United States, Bulk download, GeoDatabase, SQLite, Custom terms, Periodic, GeoPackage]
+  tags: [United States, Bulk download, GeoDatabase, SQLite, Custom terms, Periodic, GeoPackage, Point or station, Fire records]
   caveat: "7th edition (FPA_FOD_20260615), published 2026. It replaces the 6th edition (1992 to 2020), which the archive marks as out of date. The archive page states no license, only that the data can be used without permissions or fees."
   doi: "10.2737/RDS-2013-0009.7"
   citation: "Short, K.C. 2026. Spatial wildfire occurrence data for the United States, 1992-2024 [FPA_FOD_20260615]. 7th Edition. Fort Collins, CO: Forest Service Research Data Archive."
@@ -29,7 +29,7 @@
   update: Daily
   access: https://forest-fire.emergency.copernicus.eu/applications/data-and-services
   docs: https://forest-fire.emergency.copernicus.eu/
-  tags: [Europe, API, Shapefile, GeoJSON, Copernicus open data, Daily]
+  tags: [Europe, API, Shapefile, GeoJSON, Copernicus open data, Daily, Vector, Fire records, Fire perimeters, Fire danger]
 - id: nifc-statistics
   title: NIFC Wildfire Statistics
   icon: lucide/database
@@ -43,4 +43,4 @@
   update: Annual
   access: https://www.nifc.gov/fire-information/statistics
   docs: https://www.nifc.gov/fire-information/statistics
-  tags: [United States, Tabular, Public domain, Annual]
+  tags: [United States, Tabular, Public domain, Annual, Fire records]

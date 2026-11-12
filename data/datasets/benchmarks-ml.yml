@@ -11,7 +11,7 @@
   update: Static
   access: https://zenodo.org/records/8006177
   docs: https://zenodo.org/records/8006177
-  tags: [United States, Bulk download, Machine learning, GeoTIFF, CC BY 4.0, Static, 375 m]
+  tags: [United States, Bulk download, Machine learning, GeoTIFF, CC BY 4.0, Static, 375 m, Western US, Fire events]
 - id: next-day-wildfire-spread
   title: Next Day Wildfire Spread
   icon: lucide/brain-circuit
@@ -25,7 +25,7 @@
   update: Static
   access: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
   docs: https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread
-  tags: [United States, Bulk download, Machine learning, TFRecord, CC BY 4.0, Static, 1 km]
+  tags: [United States, Bulk download, Machine learning, TFRecord, CC BY 4.0, Static, 1 km, Fire events]
 - id: sen2fire
   title: Sen2Fire
   icon: lucide/brain-circuit
@@ -39,4 +39,4 @@
   update: Static
   access: https://zenodo.org/records/10881058
   docs: https://zenodo.org/records/10881058
-  tags: [Australia, Bulk download, Machine learning, NumPy, CC BY 4.0, Static, 10 m]
+  tags: [Australia, Bulk download, Machine learning, NumPy, CC BY 4.0, Static, 10 m, Sentinel, Active fire]

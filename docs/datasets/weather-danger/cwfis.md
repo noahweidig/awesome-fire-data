@@ -9,6 +9,9 @@ tags:
   - CSV
   - Open Government Licence
   - Daily
+  - Shapefile
+  - Fire danger
+  - Active fire
 ---
 
 # CWFIS (Canadian Wildland Fire Information System)
@@ -30,6 +33,6 @@ Daily Fire Weather Index maps, hotspots, and downloadable fire weather and dange
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Open Government Licence - Canada |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Daily |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CWFIS (Canadian Wildland Fire Information System)", "description": "Daily Fire Weather Index maps, hotspots, and downloadable fire weather and danger data for Canada.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cwfis/", "creator": {"@type": "Organization", "name": "Canadian Forest Service (NRCan)"}, "spatialCoverage": "Canada", "temporalCoverage": "Current and archive", "keywords": ["Canada", "Bulk download", "GeoTIFF", "CSV", "Open Government Licence", "Daily"], "license": "Open Government Licence - Canada", "sameAs": "https://cwfis.cfs.nrcan.gc.ca/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "CSV"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CWFIS (Canadian Wildland Fire Information System)", "description": "Daily Fire Weather Index maps, hotspots, and downloadable fire weather and danger data for Canada.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cwfis/", "creator": {"@type": "Organization", "name": "Canadian Forest Service (NRCan)"}, "spatialCoverage": "Canada", "temporalCoverage": "Current and archive", "keywords": ["Canada", "Bulk download", "GeoTIFF", "CSV", "Open Government Licence", "Daily", "Shapefile", "Fire danger", "Active fire"], "license": "Open Government Licence - Canada", "sameAs": "https://cwfis.cfs.nrcan.gc.ca/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart", "encodingFormat": "CSV"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

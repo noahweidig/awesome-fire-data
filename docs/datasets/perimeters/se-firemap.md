@@ -1,7 +1,7 @@
 ---
 title: "Southeast FireMap Burned Area (SE FireMap)"
 icon: lucide/map
-edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/prescribed-fire.yml
+edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/data/datasets/perimeters.yml
 tags:
   - Southeast US
   - Bulk download
@@ -9,6 +9,10 @@ tags:
   - CC0
   - Annual
   - 30 m
+  - United States
+  - Landsat
+  - Burned area
+  - Prescribed fire
 ---
 
 # Southeast FireMap Burned Area (SE FireMap)
@@ -39,6 +43,6 @@ Annual Landsat burned area for the southeastern US, covering prescribed fire and
 - [MTBS](../perimeters/mtbs.md)
 - [Prescribed Fire Permit Records for Georgia and Florida](../prescribed-fire/rx-permits-ga-fl.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Southeast FireMap Burned Area (SE FireMap)", "description": "Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/se-firemap/", "creator": {"@type": "Organization", "name": "USGS and Tall Timbers Research Station"}, "spatialCoverage": "Southeastern US", "temporalCoverage": "1994 to 2025", "keywords": ["Southeast US", "Bulk download", "GeoTIFF", "CC0", "Annual", "30 m"], "license": "CC0", "sameAs": "https://doi.org/10.5066/P1PVDTVK", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Southeast FireMap Burned Area (SE FireMap)", "description": "Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/se-firemap/", "creator": {"@type": "Organization", "name": "USGS and Tall Timbers Research Station"}, "spatialCoverage": "Southeastern US", "temporalCoverage": "1994 to 2025", "keywords": ["Southeast US", "Bulk download", "GeoTIFF", "CC0", "Annual", "30 m", "United States", "Landsat", "Burned area", "Prescribed fire"], "license": "CC0", "sameAs": "https://doi.org/10.5066/P1PVDTVK", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0", "encodingFormat": "GeoTIFF"}]}</script>
 
-[:lucide-arrow-left: Back to Prescribed fire & fuel treatments](index.md){ .md-button }
+[:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

@@ -9,6 +9,10 @@ tags:
   - GRIB
   - Copernicus licence
   - Daily
+  - Daily steps
+  - Grid over 5 km
+  - Fire danger
+  - Weather
 ---
 
 # CEMS Fire Danger Indices (ERA5-based)
@@ -30,6 +34,6 @@ Global daily fire danger indices, including the Canadian Fire Weather Index, fro
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Copernicus licence |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Daily |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CEMS Fire Danger Indices (ERA5-based)", "description": "Global daily fire danger indices, including the Canadian Fire Weather Index, from ERA5 reanalysis.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cems-fire-historical/", "creator": {"@type": "Organization", "name": "Copernicus Emergency Management Service"}, "spatialCoverage": "Global", "temporalCoverage": "1940 to present", "keywords": ["Global", "API", "NetCDF", "GRIB", "Copernicus licence", "Daily"], "license": "Copernicus licence", "sameAs": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "distribution": [{"@type": "DataDownload", "contentUrl": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "encodingFormat": "GRIB"}, {"@type": "DataDownload", "contentUrl": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "encodingFormat": "NetCDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "CEMS Fire Danger Indices (ERA5-based)", "description": "Global daily fire danger indices, including the Canadian Fire Weather Index, from ERA5 reanalysis.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/cems-fire-historical/", "creator": {"@type": "Organization", "name": "Copernicus Emergency Management Service"}, "spatialCoverage": "Global", "temporalCoverage": "1940 to present", "keywords": ["Global", "API", "NetCDF", "GRIB", "Copernicus licence", "Daily", "Daily steps", "Grid over 5 km", "Fire danger", "Weather"], "license": "Copernicus licence", "sameAs": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "distribution": [{"@type": "DataDownload", "contentUrl": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "encodingFormat": "GRIB"}, {"@type": "DataDownload", "contentUrl": "https://ewds.climate.copernicus.eu/datasets/cems-fire-historical-v1", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

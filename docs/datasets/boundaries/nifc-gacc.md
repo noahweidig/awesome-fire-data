@@ -8,6 +8,10 @@ tags:
   - GeoJSON
   - Shapefile
   - Periodic
+  - See provider
+  - Vector
+  - Boundaries
+  - Suppression
 ---
 
 # NIFC Geographic Area Coordination Center (GACC) Boundaries
@@ -39,6 +43,6 @@ Polygons of the 10 US geographic areas used to coordinate wildland fire resource
 - [NIFC Wildfire Statistics](../occurrence/nifc-statistics.md)
 - [WFIGS Interagency Fire Perimeters](../perimeters/wfigs-perimeters.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NIFC Geographic Area Coordination Center (GACC) Boundaries", "description": "Polygons of the 10 US geographic areas used to coordinate wildland fire resources and report fire statistics.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/nifc-gacc/", "creator": {"@type": "Organization", "name": "NIFC and National Wildfire Coordinating Group"}, "spatialCoverage": "United States", "temporalCoverage": "Current boundaries (layer dated 2025-01-13)", "keywords": ["United States", "API", "GeoJSON", "Shapefile", "Periodic"], "license": "See NIFC Open Data item page", "sameAs": "https://data-nifc.opendata.arcgis.com/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "ArcGIS feature service"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NIFC Geographic Area Coordination Center (GACC) Boundaries", "description": "Polygons of the 10 US geographic areas used to coordinate wildland fire resources and report fire statistics.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/nifc-gacc/", "creator": {"@type": "Organization", "name": "NIFC and National Wildfire Coordinating Group"}, "spatialCoverage": "United States", "temporalCoverage": "Current boundaries (layer dated 2025-01-13)", "keywords": ["United States", "API", "GeoJSON", "Shapefile", "Periodic", "See provider", "Vector", "Boundaries", "Suppression"], "license": "See NIFC Open Data item page", "sameAs": "https://data-nifc.opendata.arcgis.com/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0", "encodingFormat": "ArcGIS feature service"}]}</script>
 
 [:lucide-arrow-left: Back to Boundaries & reference layers](index.md){ .md-button }

@@ -6,6 +6,10 @@ tags:
   - Global
   - Tabular
   - Static
+  - See provider
+  - Point or station
+  - Fuel moisture
+  - Fuels
 ---
 
 # Globe-LFMC 2.0
@@ -41,6 +45,6 @@ DOI: [10.1038/s41597-024-03159-6](https://doi.org/10.1038/s41597-024-03159-6)
 - [gridMET](../weather-danger/gridmet.md)
 - [WFAS](../weather-danger/wfas.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Globe-LFMC 2.0", "description": "More than 280,000 field measurements of live fuel moisture content from sites worldwide.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/globe-lfmc/", "creator": {"@type": "Organization", "name": "Yebra et al. (research community)"}, "spatialCoverage": "Global", "temporalCoverage": "1977 to 2023", "keywords": ["Global", "Tabular", "Static"], "license": "See the Figshare record", "sameAs": "https://doi.org/10.1038/s41597-024-03159-6", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.1038/s41597-024-03159-6", "encodingFormat": "Spreadsheet"}], "identifier": "https://doi.org/10.1038/s41597-024-03159-6"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Globe-LFMC 2.0", "description": "More than 280,000 field measurements of live fuel moisture content from sites worldwide.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/globe-lfmc/", "creator": {"@type": "Organization", "name": "Yebra et al. (research community)"}, "spatialCoverage": "Global", "temporalCoverage": "1977 to 2023", "keywords": ["Global", "Tabular", "Static", "See provider", "Point or station", "Fuel moisture", "Fuels"], "license": "See the Figshare record", "sameAs": "https://doi.org/10.1038/s41597-024-03159-6", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.1038/s41597-024-03159-6", "encodingFormat": "Spreadsheet"}], "identifier": "https://doi.org/10.1038/s41597-024-03159-6"}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

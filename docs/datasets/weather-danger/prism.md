@@ -8,6 +8,8 @@ tags:
   - Custom terms
   - Daily
   - 4 km
+  - Daily steps
+  - Weather
 ---
 
 # PRISM Climate Data
@@ -34,6 +36,6 @@ Daily and monthly gridded temperature, precipitation and dew point for the conte
 - [gridMET](../weather-danger/gridmet.md)
 - [Daymet](../weather-danger/daymet.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "PRISM Climate Data", "description": "Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/prism/", "creator": {"@type": "Organization", "name": "PRISM Climate Group, Oregon State University"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1981 to present", "keywords": ["United States", "Bulk download", "Custom terms", "Daily", "4 km"], "license": "PRISM terms of use", "sameAs": "https://prism.oregonstate.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://prism.oregonstate.edu/downloads/", "encodingFormat": "BIL"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "PRISM Climate Data", "description": "Daily and monthly gridded temperature, precipitation and dew point for the conterminous US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/prism/", "creator": {"@type": "Organization", "name": "PRISM Climate Group, Oregon State University"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1981 to present", "keywords": ["United States", "Bulk download", "Custom terms", "Daily", "4 km", "Daily steps", "Weather"], "license": "PRISM terms of use", "sameAs": "https://prism.oregonstate.edu/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://prism.oregonstate.edu/downloads/", "encodingFormat": "BIL"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

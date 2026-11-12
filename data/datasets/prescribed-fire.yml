@@ -1,19 +1,3 @@
-- id: se-firemap
-  title: Southeast FireMap Burned Area (SE FireMap)
-  icon: lucide/map
-  summary: Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.
-  provider: USGS and Tall Timbers Research Station
-  coverage: Southeastern US
-  period: 1994 to 2025
-  resolution: 30 m
-  format: [GeoTIFF]
-  license: CC0
-  update: Annual
-  access: https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0
-  docs: https://doi.org/10.5066/P1PVDTVK
-  tags: [Southeast US, Bulk download, GeoTIFF, CC0, Annual, 30 m]
-  related: [mtbs, rx-permits-ga-fl]
-  caveat: Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately.
 - id: rx-permits-ga-fl
   title: Prescribed Fire Permit Records for Georgia and Florida
   icon: lucide/file-check
@@ -27,7 +11,7 @@
   update: Static
   access: https://doi.org/10.5066/P9YNSQZ2
   docs: https://doi.org/10.5066/P9YNSQZ2
-  tags: [United States, Bulk download, CSV, Shapefile, Public domain, Static]
+  tags: [United States, Bulk download, CSV, Shapefile, Public domain, Static, Point or station, Prescribed fire]
   related: [se-firemap]
   caveat: Tall Timbers maintains a larger 12-state permit database (2010 to 2020) that is not publicly downloadable.
 - id: facts-hazardous-fuels
@@ -43,7 +27,7 @@
   update: Ongoing
   access: https://data.fs.usda.gov/geodata/edw/datasets.php
   docs: https://catalog.data.gov/dataset/hazardous-fuel-treatment-reduction-polygon-feature-layer
-  tags: [United States, API, Bulk download, GeoDatabase, Shapefile, GeoJSON, KML, CSV, CC BY 4.0, Ongoing]
+  tags: [United States, API, Bulk download, GeoDatabase, Shapefile, GeoJSON, KML, CSV, CC BY 4.0, Ongoing, Vector, Prescribed fire, Fuels]
   related: [mtbs, wfigs-perimeters]
   caveat: Records planned and accomplished treatments reported by the Forest Service. Other agencies are not included.
 - id: globalrx
@@ -59,7 +43,7 @@
   update: Static
   access: https://doi.org/10.5281/zenodo.13379462
   docs: https://doi.org/10.1038/s41597-025-04941-w
-  tags: [Global, Bulk download, CSV, Shapefile, CC BY 4.0, Static]
+  tags: [Bulk download, CSV, Shapefile, CC BY 4.0, Static, Multi-country, Point or station, Prescribed fire]
   caveat: Coverage is uneven across countries because each source database differs in reporting.
 - id: ca-rx-monitoring
   title: California Prescribed Fire Monitoring Program
@@ -74,5 +58,5 @@
   update: Static
   access: https://doi.org/10.5061/dryad.612jm64gw
   docs: https://doi.org/10.1038/s41597-025-06509-0
-  tags: [California, Bulk download, CSV, CC0, Static]
+  tags: [California, Bulk download, CSV, CC0, Static, United States, Point or station, Prescribed fire]
   caveat: Check the Dryad record for current license terms.

@@ -6,6 +6,12 @@ tags:
   - United States
   - API
   - Annual
+  - Alaska
+  - Shapefile
+  - See provider
+  - Vector
+  - Fire perimeters
+  - Fire records
 ---
 
 # Alaska Fire History (BLM AFS)
@@ -37,6 +43,6 @@ Statewide Alaska fire perimeter polygons and ignition points from the BLM Alaska
 - [WFIGS Interagency Fire Perimeters](../perimeters/wfigs-perimeters.md)
 - [MTBS](../perimeters/mtbs.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Alaska Fire History (BLM AFS)", "description": "Statewide Alaska fire perimeter polygons and ignition points from the BLM Alaska Fire Service.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/alaska-fire-history/", "creator": {"@type": "Organization", "name": "BLM Alaska Fire Service and Alaska Interagency Coordination Center"}, "spatialCoverage": "Alaska", "temporalCoverage": "1940 to 2025", "keywords": ["United States", "API", "Annual"], "license": "See BLM AFS terms", "sameAs": "https://fire.ak.blm.gov/predsvcs/maps.php", "distribution": [{"@type": "DataDownload", "contentUrl": "https://fire.ak.blm.gov/predsvcs/maps.php", "encodingFormat": "ArcGIS feature service"}, {"@type": "DataDownload", "contentUrl": "https://fire.ak.blm.gov/predsvcs/maps.php", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Alaska Fire History (BLM AFS)", "description": "Statewide Alaska fire perimeter polygons and ignition points from the BLM Alaska Fire Service.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/alaska-fire-history/", "creator": {"@type": "Organization", "name": "BLM Alaska Fire Service and Alaska Interagency Coordination Center"}, "spatialCoverage": "Alaska", "temporalCoverage": "1940 to 2025", "keywords": ["United States", "API", "Annual", "Alaska", "Shapefile", "See provider", "Vector", "Fire perimeters", "Fire records"], "license": "See BLM AFS terms", "sameAs": "https://fire.ak.blm.gov/predsvcs/maps.php", "distribution": [{"@type": "DataDownload", "contentUrl": "https://fire.ak.blm.gov/predsvcs/maps.php", "encodingFormat": "ArcGIS feature service"}, {"@type": "DataDownload", "contentUrl": "https://fire.ak.blm.gov/predsvcs/maps.php", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

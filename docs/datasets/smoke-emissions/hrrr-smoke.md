@@ -9,6 +9,9 @@ tags:
   - Public domain
   - Hourly
   - 3 km
+  - Hourly steps
+  - Smoke
+  - Forecast
 ---
 
 # HRRR-Smoke
@@ -39,6 +42,6 @@ Hourly smoke forecasts from the HRRR model, run with satellite fire radiative po
 - [HRRR](../weather-danger/hrrr.md)
 - [NASA FIRMS](../active-fire/firms.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "HRRR-Smoke", "description": "Hourly smoke forecasts from the HRRR model, run with satellite fire radiative power as the emissions source.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/hrrr-smoke/", "creator": {"@type": "Organization", "name": "NOAA GSL and NCEP"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "2020 to present (operational)", "keywords": ["United States", "Cloud bucket", "GRIB", "Public domain", "Hourly", "3 km"], "license": "Public domain", "sameAs": "https://rapidrefresh.noaa.gov/hrrr/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-hrrr-pds/", "encodingFormat": "GRIB"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "HRRR-Smoke", "description": "Hourly smoke forecasts from the HRRR model, run with satellite fire radiative power as the emissions source.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/smoke-emissions/hrrr-smoke/", "creator": {"@type": "Organization", "name": "NOAA GSL and NCEP"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "2020 to present (operational)", "keywords": ["United States", "Cloud bucket", "GRIB", "Public domain", "Hourly", "3 km", "Hourly steps", "Smoke", "Forecast"], "license": "Public domain", "sameAs": "https://rapidrefresh.noaa.gov/hrrr/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-hrrr-pds/", "encodingFormat": "GRIB"}]}</script>
 
 [:lucide-arrow-left: Back to Smoke, emissions & air quality](index.md){ .md-button }

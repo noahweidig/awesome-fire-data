@@ -8,8 +8,10 @@ tags:
   - Bulk download
   - NetCDF
   - NASA open data
-  - Daily
   - 1 km
+  - Daily steps
+  - Annual
+  - Weather
 ---
 
 # Daymet
@@ -35,6 +37,6 @@ Daily 1 km gridded surface weather (temperature, precipitation, radiation, humid
 
     Covers weather variables only. Fire danger indices must be derived.
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Daymet", "description": "Daily 1 km gridded surface weather (temperature, precipitation, radiation, humidity, snow water equivalent) for North America.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/daymet/", "creator": {"@type": "Organization", "name": "NASA ORNL DAAC"}, "spatialCoverage": "North America", "temporalCoverage": "1980 to present", "keywords": ["North America", "API", "Bulk download", "NetCDF", "NASA open data", "Daily", "1 km"], "license": "NASA open data", "sameAs": "https://daymet.ornl.gov/overview", "distribution": [{"@type": "DataDownload", "contentUrl": "https://daymet.ornl.gov/getdata", "encodingFormat": "NetCDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Daymet", "description": "Daily 1 km gridded surface weather (temperature, precipitation, radiation, humidity, snow water equivalent) for North America.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/weather-danger/daymet/", "creator": {"@type": "Organization", "name": "NASA ORNL DAAC"}, "spatialCoverage": "North America", "temporalCoverage": "1980 to present", "keywords": ["North America", "API", "Bulk download", "NetCDF", "NASA open data", "1 km", "Daily steps", "Annual", "Weather"], "license": "NASA open data", "sameAs": "https://daymet.ornl.gov/overview", "distribution": [{"@type": "DataDownload", "contentUrl": "https://daymet.ornl.gov/getdata", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Weather, climate & danger](index.md){ .md-button }

@@ -4,14 +4,16 @@
   summary: Landscape-wide wildfire risk components, including burn probability and exposure, plus a community-level web tool.
   provider: USDA Forest Service Research Data Archive
   coverage: United States
-  period: 2020 edition (2nd edition)
+  period: 2nd edition (published June 2024); next national update planned for early 2027
   resolution: 30 m
   format: [GeoTIFF]
   license: Public domain
   update: Periodic editions
   access: https://www.fs.usda.gov/rds/archive/catalog/RDS-2020-0016-2
   docs: https://wildfirerisk.org/
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, 30 m, Risk]
+  related: [whp, fema-nri]
+  verified: '2026-11-12'
 - id: silvis-wui
   title: SILVIS Lab Wildland-Urban Interface (WUI) Change
   icon: lucide/house
@@ -25,7 +27,7 @@
   update: Decennial
   access: https://silvis.forest.wisc.edu/data/wui-change/
   docs: https://silvis.forest.wisc.edu/data/wui-change/
-  tags: [United States, Bulk download, Shapefile, GeoDatabase, Decennial]
+  tags: [United States, Bulk download, Shapefile, GeoDatabase, Decennial, Free to use, Vector, WUI]
   verified: "2026-11-09"
 - id: building-based-wui
   title: Building-based WUI maps (CONUS)
@@ -40,7 +42,7 @@
   update: Static
   access: https://doi.org/10.5066/P94BT6Q7
   docs: https://doi.org/10.1002/eap.2597
-  tags: [United States, Bulk download, GeoTIFF, Static, 30 m, Public domain]
+  tags: [United States, Bulk download, GeoTIFF, Static, 30 m, Public domain, WUI]
   related: [silvis-wui, global-wui]
   caveat: Single 16.9 GB zip. Building locations come from a Microsoft 2018 product, so newer construction is missing. Check the record for the file format.
   doi: "10.5066/P94BT6Q7"
@@ -58,7 +60,7 @@
   update: Static
   access: https://doi.org/10.5281/zenodo.7941460
   docs: https://doi.org/10.1038/s41586-023-06320-0
-  tags: [Global, Bulk download, GeoTIFF, CSV, CC BY 4.0, Static, 10 m]
+  tags: [Global, Bulk download, GeoTIFF, CSV, CC BY 4.0, Static, 10 m, WUI]
   related: [silvis-wui, building-based-wui]
   caveat: Version 1.1 on Zenodo. Tiles are 100 km on the EQUI7 grid. Overall accuracy is 79.6 to 82.0 percent.
 - id: whp
@@ -74,6 +76,23 @@
   update: Periodic
   access: https://doi.org/10.2737/RDS-2015-0047-4
   docs: https://doi.org/10.2737/RDS-2015-0047-4
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic]
+  tags: [United States, Bulk download, GeoTIFF, Public domain, Periodic, Risk]
   related: [wildfire-risk-to-communities]
   caveat: Edition numbering and archive IDs differ. RDS-2015-0047-4 is version 2023. Confirm the newest version on the FireLab project page.
+- id: fema-nri
+  title: FEMA National Risk Index
+  icon: lucide/shield-alert
+  summary: Expected annual loss, social vulnerability and community resilience for 18 natural hazards, including wildfire.
+  provider: FEMA
+  coverage: United States
+  period: Periodic releases (latest December 2025, version 1.20.0)
+  resolution: Census tract and county
+  format: [CSV, Shapefile, GeoDatabase]
+  license: See FEMA terms
+  update: Periodic
+  access: https://hazards.fema.gov/nri/data-resources
+  docs: https://hazards.fema.gov/nri/
+  tags: [United States, Bulk download, CSV, Shapefile, GeoDatabase, Periodic, See provider, Vector, Risk]
+  related: [cdc-svi, wildfire-risk-to-communities, whp]
+  caveat: The wildfire score comes from a modeled hazard layer. Check the technical documentation before comparing with local risk assessments. In December 2025 FEMA said NRI data moves into the Resilience Analysis and Planning Tool, so links on hazards.fema.gov may change. Confirm the current download location. GAO reports that DHS plans no further routine NRI updates after folding it into RAPT.
+  verified: '2026-11-12'

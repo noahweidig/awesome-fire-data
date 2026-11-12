@@ -11,9 +11,9 @@
   update: Annual
   access: https://www.mtbs.gov/direct-download
   docs: https://www.mtbs.gov/
-  tags: [United States, Bulk download, GeoTIFF, Shapefile, Public domain, Annual, 30 m]
+  tags: [United States, Bulk download, GeoTIFF, Shapefile, Public domain, Annual, 30 m, Landsat, Fire perimeters, Burn severity]
   caveat: Covers fires of at least 1,000 acres in the West and 500 acres in the East. Includes prescribed fire perimeters. See Prescribed fire & fuel treatments for other prescribed burn sources.
-  related: [se-firemap, facts-hazardous-fuels]
+  related: [se-firemap, facts-hazardous-fuels, ravg]
 - id: wfigs-perimeters
   title: WFIGS Interagency Fire Perimeters
   icon: lucide/map
@@ -27,7 +27,7 @@
   update: Continuous
   access: https://data-nifc.opendata.arcgis.com/
   docs: https://data-nifc.opendata.arcgis.com/
-  tags: [United States, API, GeoJSON, Shapefile, Public domain, Near real time]
+  tags: [United States, API, GeoJSON, Shapefile, Public domain, Near real time, Vector, Fire perimeters]
   related: [mtbs, fireline-engagement]
 - id: mcd64a1
   title: MODIS MCD64A1 Burned Area
@@ -42,10 +42,10 @@
   update: Monthly
   access: https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061
   docs: https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061
-  tags: [Global, Bulk download, API, HDF, NASA open data, Monthly, 500 m]
-  caveat: "NASA says the Terra and Aqua platforms begin shutting down in late 2026 to early 2027. Both orbits are drifting. For continuity see VIIRS VNP64A1."
+  tags: [Global, Bulk download, API, HDF, NASA open data, Monthly, 500 m, Monthly steps, GeoTIFF, MODIS, Burned area]
+  caveat: NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). Earthdata describes shutdown as beginning in late 2026 to early 2027, with both orbits drifting. VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.
   related: [vnp64a1, fire-cci51]
-  verified: "2026-11-09"
+  verified: '2026-11-12'
 - id: cnfdb
   title: Canadian National Fire Database (CNFDB)
   icon: lucide/map
@@ -59,24 +59,7 @@
   update: Annual
   access: https://cwfis.cfs.nrcan.gc.ca/datamart
   docs: https://cwfis.cfs.nrcan.gc.ca/
-  tags: [Canada, Bulk download, Shapefile, Open Government Licence, Annual]
-- id: globfire
-  title: GlobFire
-  icon: lucide/globe
-  summary: Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
-  provider: JRC Global Wildfire Information System
-  coverage: Global
-  period: 2001 to 2020
-  resolution: Event polygons (from 500 m MODIS)
-  format: [Shapefile]
-  license: CC BY 4.0
-  update: Static
-  access: https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters
-  docs: https://doi.org/10.1038/s41597-019-0312-2
-  tags: [Global, Bulk download, Shapefile, CC BY 4.0, Static]
-  related: [mcd64a1, fired]
-  caveat: "Based on 500 m MODIS, so small fires are missed. A GWIS download page also exists. Earth Engine lists v2 through 2020. Check GWIS for later releases."
-  verified: "2026-11-09"
+  tags: [Canada, Bulk download, Shapefile, Open Government Licence, Annual, Vector, Fire perimeters, Fire records]
 - id: fire-cci51
   title: ESA Fire_cci MODIS Burned Area (v5.1)
   icon: lucide/satellite
@@ -90,7 +73,7 @@
   update: Static
   access: https://catalogue.ceda.ac.uk/uuid/58f00d8814064b79a0c49662ad3af537
   docs: https://climate.esa.int/en/projects/fire/
-  tags: [Global, Bulk download, NetCDF, Static, 250 m]
+  tags: [Global, Bulk download, NetCDF, Static, 250 m, ESA CCI policy, MODIS, Burned area]
   related: [mcd64a1, fire-cci-s3syn]
   caveat: "Also available as an Earth Engine collection. For recent years use the Sentinel-3 SYN product (2019 to 2024, about 300 m)."
   verified: "2026-11-09"
@@ -103,14 +86,14 @@
   period: "2014 to 2024 (Zenodo v3, December 2025)"
   resolution: 30 m
   format: [GeoTIFF]
-  license: "CC0 per community catalog. Confirm on the Zenodo record."
+  license: CC0 1.0 (Zenodo record)
   update: Annual
   access: https://zenodo.org/records/17707433
   docs: https://doi.org/10.3390/rs11050489
-  tags: [Global, Bulk download, GeoTIFF, Annual, 30 m]
+  tags: [Global, Bulk download, GeoTIFF, Annual, 30 m, CC0, Landsat, Burned area]
   related: [mcd64a1]
-  caveat: Year ranges differ between releases. Confirm coverage on the Zenodo record before use.
-  verified: "2026-11-09"
+  caveat: Zenodo v3 (December 2025) covers 2014 to 2024. An earlier record covers 2014 to 2021, and the Earth Engine community catalog lists 1990 to 2021, so confirm years in the files you download.
+  verified: '2026-11-12'
 - id: landsat-burned-area
   title: USGS Landsat Burned Area (Collection 2 Level-3)
   icon: lucide/flame
@@ -121,12 +104,13 @@
   resolution: 30 m
   format: [GeoTIFF]
   license: Public domain
-  update: Continuous
+  update: Ongoing; latest data release v5.0 (April 2026)
   access: https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product
   docs: https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product
-  tags: [United States, Bulk download, GeoTIFF, Public domain, Near real time, 30 m]
-  caveat: 'Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. Alaska coverage is not confirmed.'
+  tags: [United States, Bulk download, GeoTIFF, Public domain, 30 m, Ongoing, Landsat, Burned area]
+  caveat: 'Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. The April 2026 data release (v5.0) covers the conterminous US. Collection 2 ARD exists for Alaska, but I found no Alaska burned-area product.'
   related: [mtbs, se-firemap]
+  verified: '2026-11-12'
 - id: nbac
   title: NBAC (National Burned Area Composite)
   icon: lucide/layers
@@ -140,7 +124,7 @@
   update: Annual
   access: https://cwfis.cfs.nrcan.gc.ca/datamart/download/nbac
   docs: https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac
-  tags: [Canada, Bulk download, Shapefile, Annual]
+  tags: [Canada, Bulk download, Shapefile, Annual, Free with attribution, Vector, Fire perimeters, Burned area]
   related: [cnfdb, mcd64a1]
   caveat: The Canadian Forest Service asks users to cite the NBAC paper. Confirm the licence on the Datamart metadata. Year coverage and file names change with each release.
   verified: "2026-11-09"
@@ -157,7 +141,7 @@
   update: Annual
   access: https://catalog.data.gov/dataset/california-fire-perimeters-all
   docs: https://lab.data.ca.gov/dataset/california-fire-perimeters-all
-  tags: [California, United States, Bulk download, Shapefile, GeoJSON, GeoDatabase, CSV, Annual]
+  tags: [California, United States, Bulk download, Shapefile, GeoJSON, GeoDatabase, CSV, Annual, CC BY, Vector, Fire perimeters]
   related: [wfigs-perimeters, mtbs, cal-fire-dins]
   caveat: Updated each spring with the prior fire season. CAL FIRE says the record is the most complete digital one for California but still incomplete, especially before 1950. Inclusion thresholds can differ from NIFC data.
   verified: "2026-11-09"
@@ -174,7 +158,7 @@
   update: Annual
   access: https://fire.ak.blm.gov/predsvcs/maps.php
   docs: https://fire.ak.blm.gov/predsvcs/maps.php
-  tags: [United States, API, Annual]
+  tags: [United States, API, Annual, Alaska, Shapefile, See provider, Vector, Fire perimeters, Fire records]
   related: [wfigs-perimeters, mtbs]
   caveat: The record does not include every fire, and polygons are less complete than points. Some older polygons were flagged for geospatial inaccuracies. Check the download page for current file formats.
   verified: "2026-11-09"
@@ -191,25 +175,41 @@
   update: Monthly
   access: https://doi.org/10.5067/VIIRS/VNP64A1.002
   docs: https://doi.org/10.5067/VIIRS/VNP64A1.002
-  tags: [Global, Bulk download, API, NASA open data, Monthly, 500 m]
+  tags: [Global, Bulk download, API, NASA open data, Monthly, 500 m, Monthly steps, HDF, VIIRS, Burned area]
   related: [mcd64a1, fire-cci51]
-  caveat: Version 2 was released in October 2024. Uses 750 m VIIRS imagery with 750 m active fire detections. Earth Engine and the DAAC list different end dates, so check current coverage.
+  caveat: Version 2 was released in October 2024 and Version 1 was decommissioned on July 31, 2025. Uses 750 m VIIRS imagery with 750 m active fire detections on a 500 m grid. An Earthdata catalog page says delivery of Suomi NPP VIIRS science products ended on November 2, 2026. Confirm VNP64A1 production status and whether a NOAA-20 burned-area product exists before relying on it for new years. Earth Engine and the DAAC list different end dates, so check current coverage.
   doi: 10.5067/VIIRS/VNP64A1.002
-  verified: "2026-11-09"
+  verified: '2026-11-12'
 - id: fire-cci-s3syn
   title: ESA Fire_cci Sentinel-3 SYN Burned Area (v1.1)
   icon: lucide/satellite
   summary: Global burned area pixel product at about 300 m from Sentinel-3 SYN, with date of burn and confidence.
   provider: ESA Climate Change Initiative
   coverage: Global
-  period: 2019 to 2024
+  period: 2019 to 2022 (CEDA pixel record); the ESA catalogue lists 2019 to 2024
   resolution: About 300 m
-  format: [NetCDF]
+  format: [NetCDF, GeoTIFF]
   license: ESA CCI data policy
   update: Periodic
   access: https://climate.esa.int/en/catalogue/d441079fc77f49fabeb41330612b252f/
   docs: https://climate.esa.int/en/projects/fire/
-  tags: [Global, Bulk download, NetCDF, Periodic]
+  tags: [Global, Bulk download, NetCDF, Periodic, GeoTIFF, ESA CCI policy, Sentinel, Burned area]
   related: [fire-cci51, mcd64a1]
-  caveat: FireCCIS311. The v1.1 user guide lists 2019 to 2022 while the ESA catalogue lists 2019 to 2024, so confirm the years you need. Version 1.0 is superseded.
-  verified: "2026-11-09"
+  caveat: FireCCIS311. The v1.1 user guide lists 2019 to 2022 while the ESA catalogue lists 2019 to 2024, so confirm the years you need. Version 1.0 is superseded. The pixel product is GeoTIFF in 6 continental tiles. The 0.25 degree monthly grid is a separate record.
+  verified: '2026-11-12'
+- id: se-firemap
+  title: Southeast FireMap Burned Area (SE FireMap)
+  icon: lucide/map
+  summary: Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.
+  provider: USGS and Tall Timbers Research Station
+  coverage: Southeastern US
+  period: 1994 to 2025
+  resolution: 30 m
+  format: [GeoTIFF]
+  license: CC0
+  update: Annual
+  access: https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0
+  docs: https://doi.org/10.5066/P1PVDTVK
+  tags: [Southeast US, Bulk download, GeoTIFF, CC0, Annual, 30 m, United States, Landsat, Burned area, Prescribed fire]
+  related: [mtbs, rx-permits-ga-fl]
+  caveat: Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately.

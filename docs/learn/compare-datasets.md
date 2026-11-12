@@ -32,10 +32,10 @@ Use FIRMS for finer pixels and global coverage. Use GOES-R when timing within th
 
 ## Burned area products
 
-| | [MCD64A1](../datasets/perimeters/mcd64a1.md) | [GlobFire](../datasets/perimeters/globfire.md) | [Fire_cci](../datasets/perimeters/fire-cci51.md) | [SE FireMap](../datasets/prescribed-fire/se-firemap.md) |
+| | [MCD64A1](../datasets/perimeters/mcd64a1.md) | [GlobFire](../datasets/fire-behavior/globfire.md) | [Fire_cci](../datasets/perimeters/fire-cci51.md) | [SE FireMap](../datasets/perimeters/se-firemap.md) |
 | --- | --- | --- | --- | --- |
 | Coverage | Global | Global | Global | Southeastern US |
-| Period | 2000 to present | 2001 to 2020 | 2001 to 2020 | 1994 to 2025 |
+| Period | 2000 to present | 2001 to 2021 | 2001 to 2020 | 1994 to 2025 |
 | Resolution | 500 m | Event polygons from 500 m MODIS | 250 m | 30 m |
 | Unit | Monthly pixels with burn date | Fire events with daily progression | Pixels with burn date and confidence | Annual pixels with burn date |
 

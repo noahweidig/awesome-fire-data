@@ -31,7 +31,7 @@ flowchart TD
 | How did suppression go? | ICS-209-PLUS, fireline engagement | [Suppression](../datasets/suppression/index.md) |
 | How fast did a fire spread? | Global Fire Atlas, FIRED, FEDS | [Fire behavior](../datasets/fire-behavior/index.md) |
 | What started it? | GOES GLM, LIS/OTD | [Lightning](../datasets/lightning/index.md) |
-| Who is most exposed? | GlobPOP, CDC SVI, FEMA NRI | [Social vulnerability](../datasets/social-vulnerability/index.md) |
+| Who is most exposed? | GlobPOP, CDC SVI, FEMA NRI | [Exposure & vulnerability](../datasets/social-vulnerability/index.md) |
 | Which county, ecoregion, forest or GACC is this? | TIGER, EPA ecoregions, PAD-US, NIFC GACC | [Boundaries](../datasets/boundaries/index.md) |
 | Training a model? | WildfireSpreadTS, Sen2Fire | [Benchmarks](../datasets/benchmarks-ml/index.md) |
 

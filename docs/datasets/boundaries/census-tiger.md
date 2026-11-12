@@ -8,6 +8,8 @@ tags:
   - Shapefile
   - Public domain
   - Annual
+  - Vector
+  - Boundaries
 ---
 
 # US Census TIGER/Line Shapefiles
@@ -36,8 +38,8 @@ States, counties, tracts, block groups, places, roads and water boundaries for t
 ## Related datasets
 
 - [CDC/ATSDR Social Vulnerability Index](../social-vulnerability/cdc-svi.md)
-- [FEMA National Risk Index](../social-vulnerability/fema-nri.md)
+- [FEMA National Risk Index](../risk-management/fema-nri.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "US Census TIGER/Line Shapefiles", "description": "States, counties, tracts, block groups, places, roads and water boundaries for the US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/census-tiger/", "creator": {"@type": "Organization", "name": "US Census Bureau"}, "spatialCoverage": "United States and territories", "temporalCoverage": "2007 to present (annual)", "keywords": ["United States", "Bulk download", "Shapefile", "Public domain", "Annual"], "license": "Public domain", "sameAs": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www2.census.gov/geo/tiger/", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "US Census TIGER/Line Shapefiles", "description": "States, counties, tracts, block groups, places, roads and water boundaries for the US.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/boundaries/census-tiger/", "creator": {"@type": "Organization", "name": "US Census Bureau"}, "spatialCoverage": "United States and territories", "temporalCoverage": "2007 to present (annual)", "keywords": ["United States", "Bulk download", "Shapefile", "Public domain", "Annual", "Vector", "Boundaries"], "license": "Public domain", "sameAs": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www2.census.gov/geo/tiger/", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Boundaries & reference layers](index.md){ .md-button }

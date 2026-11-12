@@ -9,6 +9,8 @@ tags:
   - Public domain
   - Annual
   - 30 m
+  - Western US
+  - Vegetation
 ---
 
 # RCMAP Rangeland Condition Monitoring
@@ -39,6 +41,6 @@ Yearly fractional cover of shrub, sagebrush, herbaceous, litter, bare ground and
 - [Rangeland Analysis Platform](../fuels-terrain/rap.md)
 - [LCMAP Land Cover and Change](../fuels-terrain/lcmap.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "RCMAP Rangeland Condition Monitoring", "description": "Yearly fractional cover of shrub, sagebrush, herbaceous, litter, bare ground and tree for western rangelands.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rcmap/", "creator": {"@type": "Organization", "name": "USGS and BLM"}, "spatialCoverage": "Western US", "temporalCoverage": "1985 to 2025", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Annual", "30 m"], "license": "Public domain", "sameAs": "https://doi.org/10.5066/P138CYEL", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mrlc.gov/data", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "RCMAP Rangeland Condition Monitoring", "description": "Yearly fractional cover of shrub, sagebrush, herbaceous, litter, bare ground and tree for western rangelands.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rcmap/", "creator": {"@type": "Organization", "name": "USGS and BLM"}, "spatialCoverage": "Western US", "temporalCoverage": "1985 to 2025", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Annual", "30 m", "Western US", "Vegetation"], "license": "Public domain", "sameAs": "https://doi.org/10.5066/P138CYEL", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mrlc.gov/data", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

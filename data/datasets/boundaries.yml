@@ -11,7 +11,7 @@
   update: Annual
   access: https://www2.census.gov/geo/tiger/
   docs: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-  tags: [United States, Bulk download, Shapefile, Public domain, Annual]
+  tags: [United States, Bulk download, Shapefile, Public domain, Annual, Vector, Boundaries]
   related: [cdc-svi, fema-nri]
   caveat: Boundaries change each year. Use the vintage that matches your attribute data.
 - id: epa-ecoregions
@@ -27,7 +27,7 @@
   update: Periodic
   access: https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states
   docs: https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states
-  tags: [United States, Bulk download, Shapefile, Public domain, Periodic]
+  tags: [United States, Bulk download, Shapefile, Public domain, Periodic, Vector, Boundaries]
   related: [baileys-ecoregions]
   caveat: Download shapefiles rather than relying on the PDF maps, which can differ.
 - id: baileys-ecoregions
@@ -43,7 +43,7 @@
   update: Static
   access: https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BaileysEcoregionsSubregions_01/MapServer
   docs: https://www.sciencebase.gov/catalog/folder/508f036ee4b0b59cf7f5a812
-  tags: [United States, Bulk download, Shapefile, GeoDatabase, CC0, Static]
+  tags: [United States, Bulk download, Shapefile, GeoDatabase, CC0, Static, Vector, Boundaries]
   related: [epa-ecoregions]
   caveat: Intended for national and large regional display, around 1:7,500,000.
 - id: pad-us
@@ -59,7 +59,7 @@
   update: Periodic
   access: https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download
   docs: https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview
-  tags: [United States, Bulk download, GeoDatabase, CC0, Periodic]
+  tags: [United States, Bulk download, GeoDatabase, CC0, Periodic, Vector, Boundaries]
   related: [usfs-admin-boundaries]
   caveat: Check the DOI page before citing a specific release number.
 - id: usfs-admin-boundaries
@@ -75,7 +75,7 @@
   update: Ongoing
   access: https://data.fs.usda.gov/geodata/edw/datasets.php
   docs: https://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.AdministrativeForest.xml
-  tags: [United States, API, Bulk download, GeoDatabase, Maps, Public domain, Ongoing]
+  tags: [United States, API, Bulk download, GeoDatabase, Maps, Public domain, Ongoing, Vector, Boundaries]
   related: [pad-us]
   caveat: Not a legal land description. Boundaries can differ from other layers because of update timing.
 - id: nifc-gacc
@@ -91,7 +91,7 @@
   update: Periodic
   access: https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/DMP_NationalGACCBoundaries_Public/FeatureServer/0
   docs: https://data-nifc.opendata.arcgis.com/
-  tags: [United States, API, GeoJSON, Shapefile, Periodic]
+  tags: [United States, API, GeoJSON, Shapefile, Periodic, See provider, Vector, Boundaries, Suppression]
   related: [nifc-statistics, wfigs-perimeters]
   caveat: The service returns at most 2,000 records per query. A border area between Utah and Colorado changed in September 2024. The list of coordination centers is in the National Interagency Mobilization Guide. A separate simplified copy exists for zooming only, not for mapping.
   verified: "2026-11-09"

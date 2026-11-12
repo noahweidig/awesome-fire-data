@@ -8,6 +8,9 @@ tags:
   - NetCDF
   - Public domain
   - Near real time
+  - Point or station
+  - GOES
+  - Lightning
 ---
 
 # GOES Geostationary Lightning Mapper (GLM) on AWS
@@ -37,6 +40,6 @@ Lightning flash, group and event detections over the Americas from GOES-R satell
 
 - [GOES-R Fire/Hot Spot Characterization on AWS](../active-fire/goes-fdc.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "GOES Geostationary Lightning Mapper (GLM) on AWS", "description": "Lightning flash, group and event detections over the Americas from GOES-R satellites.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/lightning/goes-glm/", "creator": {"@type": "Organization", "name": "NOAA and NASA"}, "spatialCoverage": "Americas and adjacent oceans", "temporalCoverage": "2017 to present", "keywords": ["Americas", "Cloud bucket", "NetCDF", "Public domain", "Near real time"], "license": "Public domain", "sameAs": "https://registry.opendata.aws/noaa-goes/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-goes/", "encodingFormat": "NetCDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "GOES Geostationary Lightning Mapper (GLM) on AWS", "description": "Lightning flash, group and event detections over the Americas from GOES-R satellites.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/lightning/goes-glm/", "creator": {"@type": "Organization", "name": "NOAA and NASA"}, "spatialCoverage": "Americas and adjacent oceans", "temporalCoverage": "2017 to present", "keywords": ["Americas", "Cloud bucket", "NetCDF", "Public domain", "Near real time", "Point or station", "GOES", "Lightning"], "license": "Public domain", "sameAs": "https://registry.opendata.aws/noaa-goes/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://registry.opendata.aws/noaa-goes/", "encodingFormat": "NetCDF"}]}</script>
 
 [:lucide-arrow-left: Back to Lightning & ignition drivers](index.md){ .md-button }
