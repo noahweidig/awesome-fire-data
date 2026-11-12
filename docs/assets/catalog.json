@@ -20,7 +20,13 @@
   "tags": [
    "United States",
    "API",
-   "Annual"
+   "Annual",
+   "Alaska",
+   "Shapefile",
+   "See provider",
+   "Vector",
+   "Fire perimeters",
+   "Fire records"
   ],
   "related": [
    "wfigs-perimeters",
@@ -57,7 +63,10 @@
    "GeoJSON",
    "GeoDatabase",
    "CSV",
-   "Annual"
+   "Annual",
+   "CC BY",
+   "Vector",
+   "Fire perimeters"
   ],
   "related": [
    "wfigs-perimeters",
@@ -89,7 +98,10 @@
    "Bulk download",
    "Shapefile",
    "Open Government Licence",
-   "Annual"
+   "Annual",
+   "Vector",
+   "Fire perimeters",
+   "Fire records"
   ]
  },
  {
@@ -114,7 +126,10 @@
    "Bulk download",
    "NetCDF",
    "Static",
-   "250 m"
+   "250 m",
+   "ESA CCI policy",
+   "MODIS",
+   "Burned area"
   ],
   "related": [
    "mcd64a1",
@@ -131,10 +146,11 @@
   "summary": "Global burned area pixel product at about 300 m from Sentinel-3 SYN, with date of burn and confidence.",
   "provider": "ESA Climate Change Initiative",
   "coverage": "Global",
-  "period": "2019 to 2024",
+  "period": "2019 to 2022 (CEDA pixel record); the ESA catalogue lists 2019 to 2024",
   "resolution": "About 300 m",
   "format": [
-   "NetCDF"
+   "NetCDF",
+   "GeoTIFF"
   ],
   "license": "ESA CCI data policy",
   "update": "Periodic",
@@ -144,14 +160,18 @@
    "Global",
    "Bulk download",
    "NetCDF",
-   "Periodic"
+   "Periodic",
+   "GeoTIFF",
+   "ESA CCI policy",
+   "Sentinel",
+   "Burned area"
   ],
   "related": [
    "fire-cci51",
    "mcd64a1"
   ],
-  "caveat": "FireCCIS311. The v1.1 user guide lists 2019 to 2022 while the ESA catalogue lists 2019 to 2024, so confirm the years you need. Version 1.0 is superseded.",
-  "verified": "2026-11-09"
+  "caveat": "FireCCIS311. The v1.1 user guide lists 2019 to 2022 while the ESA catalogue lists 2019 to 2024, so confirm the years you need. Version 1.0 is superseded. The pixel product is GeoTIFF in 6 continental tiles. The 0.25 degree monthly grid is a separate record.",
+  "verified": "2026-11-12"
  },
  {
   "id": "gabam",
@@ -166,7 +186,7 @@
   "format": [
    "GeoTIFF"
   ],
-  "license": "CC0 per community catalog. Confirm on the Zenodo record.",
+  "license": "CC0 1.0 (Zenodo record)",
   "update": "Annual",
   "access": "https://zenodo.org/records/17707433",
   "docs": "https://doi.org/10.3390/rs11050489",
@@ -175,44 +195,16 @@
    "Bulk download",
    "GeoTIFF",
    "Annual",
-   "30 m"
+   "30 m",
+   "CC0",
+   "Landsat",
+   "Burned area"
   ],
   "related": [
    "mcd64a1"
   ],
-  "caveat": "Year ranges differ between releases. Confirm coverage on the Zenodo record before use.",
-  "verified": "2026-11-09"
- },
- {
-  "id": "globfire",
-  "theme": "Perimeters & burned area",
-  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/globfire/",
-  "title": "GlobFire",
-  "summary": "Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.",
-  "provider": "JRC Global Wildfire Information System",
-  "coverage": "Global",
-  "period": "2001 to 2020",
-  "resolution": "Event polygons (from 500 m MODIS)",
-  "format": [
-   "Shapefile"
-  ],
-  "license": "CC BY 4.0",
-  "update": "Static",
-  "access": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters",
-  "docs": "https://doi.org/10.1038/s41597-019-0312-2",
-  "tags": [
-   "Global",
-   "Bulk download",
-   "Shapefile",
-   "CC BY 4.0",
-   "Static"
-  ],
-  "related": [
-   "mcd64a1",
-   "fired"
-  ],
-  "caveat": "Based on 500 m MODIS, so small fires are missed. A GWIS download page also exists. Earth Engine lists v2 through 2020. Check GWIS for later releases.",
-  "verified": "2026-11-09"
+  "caveat": "Zenodo v3 (December 2025) covers 2014 to 2024. An earlier record covers 2014 to 2021, and the Earth Engine community catalog lists 1990 to 2021, so confirm years in the files you download.",
+  "verified": "2026-11-12"
  },
  {
   "id": "mcd64a1",
@@ -239,14 +231,18 @@
    "HDF",
    "NASA open data",
    "Monthly",
-   "500 m"
+   "500 m",
+   "Monthly steps",
+   "GeoTIFF",
+   "MODIS",
+   "Burned area"
   ],
-  "caveat": "NASA says the Terra and Aqua platforms begin shutting down in late 2026 to early 2027. Both orbits are drifting. For continuity see VIIRS VNP64A1.",
+  "caveat": "NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). Earthdata describes shutdown as beginning in late 2026 to early 2027, with both orbits drifting. VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.",
   "related": [
    "vnp64a1",
    "fire-cci51"
   ],
-  "verified": "2026-11-09"
+  "verified": "2026-11-12"
  },
  {
   "id": "mtbs",
@@ -273,12 +269,16 @@
    "Shapefile",
    "Public domain",
    "Annual",
-   "30 m"
+   "30 m",
+   "Landsat",
+   "Fire perimeters",
+   "Burn severity"
   ],
   "caveat": "Covers fires of at least 1,000 acres in the West and 500 acres in the East. Includes prescribed fire perimeters. See Prescribed fire & fuel treatments for other prescribed burn sources.",
   "related": [
    "se-firemap",
-   "facts-hazardous-fuels"
+   "facts-hazardous-fuels",
+   "ravg"
   ]
  },
  {
@@ -302,7 +302,11 @@
    "Canada",
    "Bulk download",
    "Shapefile",
-   "Annual"
+   "Annual",
+   "Free with attribution",
+   "Vector",
+   "Fire perimeters",
+   "Burned area"
   ],
   "related": [
    "cnfdb",
@@ -310,6 +314,41 @@
   ],
   "caveat": "The Canadian Forest Service asks users to cite the NBAC paper. Confirm the licence on the Datamart metadata. Year coverage and file names change with each release.",
   "verified": "2026-11-09"
+ },
+ {
+  "id": "se-firemap",
+  "theme": "Perimeters & burned area",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/se-firemap/",
+  "title": "Southeast FireMap Burned Area (SE FireMap)",
+  "summary": "Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.",
+  "provider": "USGS and Tall Timbers Research Station",
+  "coverage": "Southeastern US",
+  "period": "1994 to 2025",
+  "resolution": "30 m",
+  "format": [
+   "GeoTIFF"
+  ],
+  "license": "CC0",
+  "update": "Annual",
+  "access": "https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0",
+  "docs": "https://doi.org/10.5066/P1PVDTVK",
+  "tags": [
+   "Southeast US",
+   "Bulk download",
+   "GeoTIFF",
+   "CC0",
+   "Annual",
+   "30 m",
+   "United States",
+   "Landsat",
+   "Burned area",
+   "Prescribed fire"
+  ],
+  "related": [
+   "mtbs",
+   "rx-permits-ga-fl"
+  ],
+  "caveat": "Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately."
  },
  {
   "id": "landsat-burned-area",
@@ -325,7 +364,7 @@
    "GeoTIFF"
   ],
   "license": "Public domain",
-  "update": "Continuous",
+  "update": "Ongoing; latest data release v5.0 (April 2026)",
   "access": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-3-burned-area-science-product",
   "docs": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-collection-2-level-3-burned-area-ba-science-product",
   "tags": [
@@ -333,14 +372,17 @@
    "Bulk download",
    "GeoTIFF",
    "Public domain",
-   "Near real time",
-   "30 m"
+   "30 m",
+   "Ongoing",
+   "Landsat",
+   "Burned area"
   ],
-  "caveat": "Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. Alaska coverage is not confirmed.",
+  "caveat": "Acquisition-based products: each scene gets a burn classification and probability, not a fire perimeter. Order through EarthExplorer. The April 2026 data release (v5.0) covers the conterminous US. Collection 2 ARD exists for Alaska, but I found no Alaska burned-area product.",
   "related": [
    "mtbs",
    "se-firemap"
-  ]
+  ],
+  "verified": "2026-11-12"
  },
  {
   "id": "vnp64a1",
@@ -365,15 +407,19 @@
    "API",
    "NASA open data",
    "Monthly",
-   "500 m"
+   "500 m",
+   "Monthly steps",
+   "HDF",
+   "VIIRS",
+   "Burned area"
   ],
   "related": [
    "mcd64a1",
    "fire-cci51"
   ],
-  "caveat": "Version 2 was released in October 2024. Uses 750 m VIIRS imagery with 750 m active fire detections. Earth Engine and the DAAC list different end dates, so check current coverage.",
+  "caveat": "Version 2 was released in October 2024 and Version 1 was decommissioned on July 31, 2025. Uses 750 m VIIRS imagery with 750 m active fire detections on a 500 m grid. An Earthdata catalog page says delivery of Suomi NPP VIIRS science products ended on November 2, 2026. Confirm VNP64A1 production status and whether a NOAA-20 burned-area product exists before relying on it for new years. Earth Engine and the DAAC list different end dates, so check current coverage.",
   "doi": "10.5067/VIIRS/VNP64A1.002",
-  "verified": "2026-11-09"
+  "verified": "2026-11-12"
  },
  {
   "id": "wfigs-perimeters",
@@ -400,7 +446,9 @@
    "GeoJSON",
    "Shapefile",
    "Public domain",
-   "Near real time"
+   "Near real time",
+   "Vector",
+   "Fire perimeters"
   ],
   "related": [
    "mtbs",
@@ -430,8 +478,12 @@
    "NetCDF",
    "Public domain",
    "Near real time",
-   "2 km"
-  ]
+   "2 km",
+   "GOES",
+   "Active fire"
+  ],
+  "caveat": "GOES-19 operational data production began April 7, 2025, and earlier GOES-19 data are provisional. NOAA advises users with low false-alarm tolerance to use mask codes 10, 11, 30 and 31.",
+  "verified": "2026-11-12"
  },
  {
   "id": "firms",
@@ -461,10 +513,15 @@
    "Shapefile",
    "NASA open data",
    "Near real time",
-   "375 m"
+   "375 m",
+   "GeoJSON",
+   "KML",
+   "MODIS",
+   "VIIRS",
+   "Active fire"
   ],
-  "caveat": "MODIS detections depend on Terra and Aqua, which NASA expects to shut down in late 2026 to early 2027. VIIRS detections continue.",
-  "verified": "2026-11-09"
+  "caveat": "MODIS detections depend on Terra and Aqua. NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). VIIRS detections continue.",
+  "verified": "2026-11-12"
  },
  {
   "id": "noaa-hms",
@@ -491,7 +548,14 @@
    "Shapefile",
    "KML",
    "Public domain",
-   "Daily"
+   "Daily",
+   "Vector",
+   "Active fire",
+   "Smoke"
+  ],
+  "related": [
+   "firms",
+   "hrrr-smoke"
   ]
  },
  {
@@ -519,7 +583,11 @@
    "Shapefile",
    "GeoJSON",
    "Copernicus open data",
-   "Daily"
+   "Daily",
+   "Vector",
+   "Fire records",
+   "Fire perimeters",
+   "Fire danger"
   ]
  },
  {
@@ -549,7 +617,9 @@
    "SQLite",
    "Custom terms",
    "Periodic",
-   "GeoPackage"
+   "GeoPackage",
+   "Point or station",
+   "Fire records"
   ],
   "caveat": "7th edition (FPA_FOD_20260615), published 2026. It replaces the 6th edition (1992 to 2020), which the archive marks as out of date. The archive page states no license, only that the data can be used without permissions or fees.",
   "doi": "10.2737/RDS-2013-0009.7",
@@ -578,7 +648,8 @@
    "United States",
    "Tabular",
    "Public domain",
-   "Annual"
+   "Annual",
+   "Fire records"
   ]
  },
  {
@@ -603,7 +674,10 @@
    "Bulk download",
    "CSV",
    "CC0",
-   "Static"
+   "Static",
+   "United States",
+   "Point or station",
+   "Prescribed fire"
   ],
   "caveat": "Check the Dryad record for current license terms."
  },
@@ -626,12 +700,14 @@
   "access": "https://doi.org/10.5281/zenodo.13379462",
   "docs": "https://doi.org/10.1038/s41597-025-04941-w",
   "tags": [
-   "Global",
    "Bulk download",
    "CSV",
    "Shapefile",
    "CC BY 4.0",
-   "Static"
+   "Static",
+   "Multi-country",
+   "Point or station",
+   "Prescribed fire"
   ],
   "caveat": "Coverage is uneven across countries because each source database differs in reporting."
  },
@@ -659,43 +735,14 @@
    "CSV",
    "Shapefile",
    "Public domain",
-   "Static"
+   "Static",
+   "Point or station",
+   "Prescribed fire"
   ],
   "related": [
    "se-firemap"
   ],
   "caveat": "Tall Timbers maintains a larger 12-state permit database (2010 to 2020) that is not publicly downloadable."
- },
- {
-  "id": "se-firemap",
-  "theme": "Prescribed fire & fuel treatments",
-  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/prescribed-fire/se-firemap/",
-  "title": "Southeast FireMap Burned Area (SE FireMap)",
-  "summary": "Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.",
-  "provider": "USGS and Tall Timbers Research Station",
-  "coverage": "Southeastern US",
-  "period": "1994 to 2025",
-  "resolution": "30 m",
-  "format": [
-   "GeoTIFF"
-  ],
-  "license": "CC0",
-  "update": "Annual",
-  "access": "https://www.sciencebase.gov/catalog/item/686e946dd4be020e5c0a67d0",
-  "docs": "https://doi.org/10.5066/P1PVDTVK",
-  "tags": [
-   "Southeast US",
-   "Bulk download",
-   "GeoTIFF",
-   "CC0",
-   "Annual",
-   "30 m"
-  ],
-  "related": [
-   "mtbs",
-   "rx-permits-ga-fl"
-  ],
-  "caveat": "Covers prescribed fire and wildfire together. The 30 m resolution can miss small burns. Vector polygons are released separately."
  },
  {
   "id": "facts-hazardous-fuels",
@@ -728,7 +775,10 @@
    "KML",
    "CSV",
    "CC BY 4.0",
-   "Ongoing"
+   "Ongoing",
+   "Vector",
+   "Prescribed fire",
+   "Fuels"
   ],
   "related": [
    "mtbs",
@@ -757,7 +807,9 @@
    "United States",
    "Bulk download",
    "Public domain",
-   "Static"
+   "Static",
+   "Vector",
+   "Suppression"
   ],
   "related": [
    "wfigs-perimeters"
@@ -786,7 +838,10 @@
    "Bulk download",
    "CSV",
    "CC BY 4.0",
-   "Static"
+   "Static",
+   "Point or station",
+   "Suppression",
+   "Fire records"
   ],
   "related": [
    "fpa-fod",
@@ -818,7 +873,10 @@
    "GeoJSON",
    "NASA open data",
    "Near real time",
-   "375 m"
+   "375 m",
+   "VIIRS",
+   "Fire events",
+   "Active fire"
   ],
   "related": [
    "firms",
@@ -834,8 +892,8 @@
   "title": "FIRED (Fire Events Delineation)",
   "summary": "Fire event polygons with daily spread estimates built by grouping MODIS burned area pixels in space and time.",
   "provider": "Earth Lab, University of Colorado Boulder",
-  "coverage": "United States, with regional releases elsewhere",
-  "period": "2001 to 2019 (US)",
+  "coverage": "CONUS and Alaska (V2), with regional releases elsewhere",
+  "period": "Nov 2000 to Sep 2024 (CONUS and Alaska, V2); the original US release covered 2001 to 2019",
   "resolution": "500 m",
   "format": [
    "Shapefile",
@@ -850,14 +908,19 @@
    "Bulk download",
    "Shapefile",
    "Static",
-   "500 m"
+   "500 m",
+   "Alaska",
+   "GeoPackage",
+   "CC BY-SA 4.0",
+   "MODIS",
+   "Fire events"
   ],
   "related": [
    "mcd64a1",
    "global-fire-atlas"
   ],
   "caveat": "Event parameters differ between regional releases. Check the record for the version and MODIS collection used.",
-  "verified": "2026-11-09"
+  "verified": "2026-11-12"
  },
  {
   "id": "global-fire-atlas",
@@ -884,13 +947,53 @@
    "Shapefile",
    "NASA open data",
    "Static",
-   "500 m"
+   "500 m",
+   "MODIS",
+   "Fire events"
   ],
   "related": [
    "mcd64a1",
    "fired"
   ],
-  "caveat": "Fires smaller than 21 ha are not included. Direction is only given for multiday fires."
+  "caveat": "Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20250411) moves to MODIS Collection 6.1 and redefines fire seasons. Its year range was not confirmed here.",
+  "verified": "2026-11-12"
+ },
+ {
+  "id": "globfire",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/globfire/",
+  "title": "GlobFire",
+  "summary": "Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.",
+  "provider": "JRC Global Wildfire Information System",
+  "coverage": "Global",
+  "period": "2001 to 2021",
+  "resolution": "Event polygons (from 500 m MODIS)",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters",
+  "docs": "https://doi.org/10.1038/s41597-019-0312-2",
+  "tags": [
+   "Global",
+   "Bulk download",
+   "Shapefile",
+   "CC BY 4.0",
+   "Static",
+   "Vector",
+   "MODIS",
+   "Fire events",
+   "Fire perimeters"
+  ],
+  "related": [
+   "mcd64a1",
+   "fired",
+   "global-fire-atlas",
+   "feds"
+  ],
+  "caveat": "Based on 500 m MODIS, so small fires are missed. Earth Engine v2 lists 2001 to 2021 and the PANGAEA record lists 2000 to 2021. Check GWIS for later releases.",
+  "verified": "2026-11-12"
  },
  {
   "id": "fia-datamart",
@@ -915,7 +1018,11 @@
    "Bulk download",
    "CSV",
    "SQLite",
-   "Annual"
+   "Annual",
+   "Free to use",
+   "Point or station",
+   "Vegetation",
+   "Fuels"
   ],
   "related": [
    "treemap"
@@ -953,7 +1060,9 @@
    "Bulk download",
    "HDF",
    "NASA open data",
-   "Ongoing"
+   "Ongoing",
+   "Point or station",
+   "Vegetation"
   ],
   "related": [
    "landfire",
@@ -981,7 +1090,11 @@
   "tags": [
    "Global",
    "Tabular",
-   "Static"
+   "Static",
+   "See provider",
+   "Point or station",
+   "Fuel moisture",
+   "Fuels"
   ],
   "related": [
    "gridmet",
@@ -1014,7 +1127,9 @@
    "API",
    "Maps",
    "Public domain",
-   "Annual"
+   "Annual",
+   "Vector",
+   "Vegetation"
   ],
   "related": [
    "lcms"
@@ -1045,8 +1160,12 @@
    "GeoTIFF",
    "Public domain",
    "Annual",
-   "30 m"
-  ]
+   "30 m",
+   "Fuels",
+   "Vegetation"
+  ],
+  "caveat": "LF 2024 is complete (CONUS released September 2025; LF 2024 Update ver. 2.0, March 2026). LF 2025 products are rolling out by geographic area since January 2026.",
+  "verified": "2026-11-12"
  },
  {
   "id": "lcmap",
@@ -1071,7 +1190,9 @@
    "GeoTIFF",
    "Public domain",
    "Static",
-   "30 m"
+   "30 m",
+   "Landsat",
+   "Land cover"
   ],
   "related": [
    "lcms",
@@ -1102,7 +1223,10 @@
    "GeoTIFF",
    "Public domain",
    "Annual",
-   "30 m"
+   "30 m",
+   "Landsat",
+   "Sentinel",
+   "Land cover"
   ],
   "related": [
    "lcmap",
@@ -1133,7 +1257,9 @@
    "GeoTIFF",
    "Public domain",
    "30 m",
-   "Annual"
+   "Annual",
+   "Land cover",
+   "Vegetation"
   ],
   "caveat": "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series.",
   "verified": "2026-11-09"
@@ -1161,7 +1287,9 @@
    "Bulk download",
    "GeoTIFF",
    "Annual",
-   "30 m"
+   "30 m",
+   "See provider",
+   "Vegetation"
   ],
   "related": [
    "rcmap",
@@ -1193,7 +1321,9 @@
    "GeoTIFF",
    "Public domain",
    "Annual",
-   "30 m"
+   "30 m",
+   "Western US",
+   "Vegetation"
   ],
   "related": [
    "rap",
@@ -1226,7 +1356,9 @@
    "CSV",
    "Public domain",
    "Periodic",
-   "30 m"
+   "30 m",
+   "Fuels",
+   "Vegetation"
   ],
   "related": [
    "fia-datamart",
@@ -1259,7 +1391,8 @@
    "GeoTIFF",
    "Public domain",
    "Continuous",
-   "10 m"
+   "10 m",
+   "Terrain"
   ]
  },
  {
@@ -1286,7 +1419,11 @@
    "NetCDF",
    "GRIB",
    "Copernicus licence",
-   "Daily"
+   "Daily",
+   "Daily steps",
+   "Grid over 5 km",
+   "Fire danger",
+   "Weather"
   ]
  },
  {
@@ -1314,7 +1451,10 @@
    "GeoTIFF",
    "CSV",
    "Open Government Licence",
-   "Daily"
+   "Daily",
+   "Shapefile",
+   "Fire danger",
+   "Active fire"
   ]
  },
  {
@@ -1340,8 +1480,10 @@
    "Bulk download",
    "NetCDF",
    "NASA open data",
-   "Daily",
-   "1 km"
+   "1 km",
+   "Daily steps",
+   "Annual",
+   "Weather"
   ],
   "caveat": "Covers weather variables only. Fire danger indices must be derived."
  },
@@ -1369,7 +1511,10 @@
    "GRIB",
    "NetCDF",
    "Copernicus licence",
-   "Hourly"
+   "Hourly steps",
+   "Daily",
+   "Grid over 5 km",
+   "Weather"
   ],
   "related": [
    "cems-fire-historical"
@@ -1400,7 +1545,9 @@
    "NetCDF",
    "Public domain",
    "Daily",
-   "4 km"
+   "4 km",
+   "Daily steps",
+   "Weather"
   ],
   "snippets": [
    {
@@ -1433,7 +1580,10 @@
    "GRIB",
    "Public domain",
    "Hourly",
-   "3 km"
+   "3 km",
+   "Hourly steps",
+   "Weather",
+   "Forecast"
   ],
   "related": [
    "hrrr-smoke",
@@ -1471,7 +1621,9 @@
    "Bulk download",
    "Custom terms",
    "Daily",
-   "4 km"
+   "4 km",
+   "Daily steps",
+   "Weather"
   ],
   "related": [
    "gridmet",
@@ -1498,7 +1650,10 @@
   "tags": [
    "United States",
    "Tabular",
-   "Continuous"
+   "Continuous",
+   "See provider",
+   "Point or station",
+   "Weather"
   ],
   "related": [
    "gridmet",
@@ -1534,7 +1689,10 @@
    "Bulk download",
    "Shapefile",
    "GeoJSON",
-   "Weekly"
+   "Weekly",
+   "See provider",
+   "Vector",
+   "Drought"
   ],
   "related": [
    "gridmet",
@@ -1565,7 +1723,9 @@
    "United States",
    "Maps",
    "Public domain",
-   "Daily"
+   "Daily",
+   "Fire danger",
+   "Fuel moisture"
   ]
  },
  {
@@ -1590,7 +1750,10 @@
    "Cloud bucket",
    "NetCDF",
    "Public domain",
-   "Near real time"
+   "Near real time",
+   "Point or station",
+   "GOES",
+   "Lightning"
   ],
   "related": [
    "goes-fdc"
@@ -1621,7 +1784,9 @@
    "HDF",
    "NetCDF",
    "NASA open data",
-   "Static"
+   "Static",
+   "Grid over 5 km",
+   "Lightning"
   ],
   "caveat": "A climatology, not event-level data. Use GLM for recent individual strikes."
  },
@@ -1649,7 +1814,9 @@
    "NetCDF",
    "GRIB",
    "Copernicus licence",
-   "Daily"
+   "Daily",
+   "Grid over 5 km",
+   "Emissions"
   ]
  },
  {
@@ -1676,7 +1843,9 @@
    "JSON",
    "CSV",
    "Public domain",
-   "Hourly"
+   "Hourly",
+   "Point or station",
+   "Air quality"
   ]
  },
  {
@@ -1687,7 +1856,7 @@
   "summary": "Daily, high-resolution fire emissions estimates for chemical transport models.",
   "provider": "NCAR Atmospheric Chemistry Observations and Modeling",
   "coverage": "Global",
-  "period": "2002 to present",
+  "period": "2002 onward (latest year not confirmed)",
   "resolution": "1 km",
   "format": [
    "CSV",
@@ -1702,8 +1871,12 @@
    "Bulk download",
    "CSV",
    "Daily",
-   "1 km"
-  ]
+   "1 km",
+   "Free for research",
+   "Emissions"
+  ],
+  "caveat": "The FINNv2.5 documentation I could check lists input fire data through 2020 (README, February 2022). Confirm the latest year on the NCAR ACOM or GDEX pages. ACOM files are gzip-compressed comma-delimited text, one file per year.",
+  "verified": "2026-11-12"
  },
  {
   "id": "gfed",
@@ -1713,10 +1886,11 @@
   "summary": "Burned area, fuel consumption and fire emissions of carbon and trace gases, globally.",
   "provider": "GFED team (Vrije Universiteit Amsterdam and partners)",
   "coverage": "Global",
-  "period": "1997 to 2020 (GFED5 burned area)",
+  "period": "1997 to 2022 (GFED5.1); near-real-time product from 2023",
   "resolution": "0.25 degrees (1 degree for 1997 to 2000)",
   "format": [
    "HDF5",
+   "NetCDF",
    "ASCII"
   ],
   "license": "Free for research (see site)",
@@ -1727,10 +1901,16 @@
    "Global",
    "Bulk download",
    "HDF",
-   "Periodic"
+   "NetCDF",
+   "Periodic",
+   "Free for research",
+   "Grid over 5 km",
+   "MODIS",
+   "Emissions",
+   "Burned area"
   ],
-  "caveat": "GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. Emissions years differ by version.",
-  "verified": "2026-11-09"
+  "caveat": "GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. GFED5.1 adds emissions for 1997 to 2022. GFED4s runs through 2025 at 0.25 degrees, but the site recommends GFED5 where possible and notes that after 2016 GFED4s emissions no longer come from burned area. Emissions years differ by version.",
+  "verified": "2026-11-12"
  },
  {
   "id": "hrrr-smoke",
@@ -1755,7 +1935,10 @@
    "GRIB",
    "Public domain",
    "Hourly",
-   "3 km"
+   "3 km",
+   "Hourly steps",
+   "Smoke",
+   "Forecast"
   ],
   "related": [
    "hrrr",
@@ -1785,7 +1968,10 @@
    "API",
    "JSON",
    "Custom terms",
-   "Near real time"
+   "Near real time",
+   "Point or station",
+   "Air quality",
+   "Smoke"
   ],
   "related": [
    "airnow"
@@ -1818,7 +2004,11 @@
    "Bulk download",
    "CSV",
    "GeoJSON",
-   "Per incident"
+   "Per incident",
+   "Shapefile",
+   "CC BY",
+   "Point or station",
+   "Structure damage"
   ],
   "verified": "2026-11-09"
  },
@@ -1846,7 +2036,9 @@
    "HDF",
    "NASA open data",
    "Daily",
-   "500 m"
+   "500 m",
+   "VIIRS",
+   "Post-fire"
   ],
   "related": [
    "firms",
@@ -1878,7 +2070,13 @@
    "GeoTIFF",
    "Public domain",
    "Per incident",
-   "30 m"
+   "30 m",
+   "Shapefile",
+   "Burn severity",
+   "Post-fire"
+  ],
+  "related": [
+   "mtbs"
   ]
  },
  {
@@ -1906,7 +2104,9 @@
    "Shapefile",
    "GeoJSON",
    "Public domain",
-   "Per incident"
+   "Per incident",
+   "Western US",
+   "Post-fire"
   ]
  },
  {
@@ -1932,7 +2132,8 @@
    "GeoTIFF",
    "Static",
    "30 m",
-   "Public domain"
+   "Public domain",
+   "WUI"
   ],
   "related": [
    "silvis-wui",
@@ -1941,6 +2142,44 @@
   "caveat": "Single 16.9 GB zip. Building locations come from a Microsoft 2018 product, so newer construction is missing. Check the record for the file format.",
   "doi": "10.5066/P94BT6Q7",
   "verified": "2026-11-09"
+ },
+ {
+  "id": "fema-nri",
+  "theme": "Risk, WUI & management",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/fema-nri/",
+  "title": "FEMA National Risk Index",
+  "summary": "Expected annual loss, social vulnerability and community resilience for 18 natural hazards, including wildfire.",
+  "provider": "FEMA",
+  "coverage": "United States",
+  "period": "Periodic releases (latest December 2025, version 1.20.0)",
+  "resolution": "Census tract and county",
+  "format": [
+   "CSV",
+   "Shapefile",
+   "GeoDatabase"
+  ],
+  "license": "See FEMA terms",
+  "update": "Periodic",
+  "access": "https://hazards.fema.gov/nri/data-resources",
+  "docs": "https://hazards.fema.gov/nri/",
+  "tags": [
+   "United States",
+   "Bulk download",
+   "CSV",
+   "Shapefile",
+   "GeoDatabase",
+   "Periodic",
+   "See provider",
+   "Vector",
+   "Risk"
+  ],
+  "related": [
+   "cdc-svi",
+   "wildfire-risk-to-communities",
+   "whp"
+  ],
+  "caveat": "The wildfire score comes from a modeled hazard layer. Check the technical documentation before comparing with local risk assessments. In December 2025 FEMA said NRI data moves into the Resilience Analysis and Planning Tool, so links on hazards.fema.gov may change. Confirm the current download location. GAO reports that DHS plans no further routine NRI updates after folding it into RAPT.",
+  "verified": "2026-11-12"
  },
  {
   "id": "global-wui",
@@ -1967,7 +2206,8 @@
    "CSV",
    "CC BY 4.0",
    "Static",
-   "10 m"
+   "10 m",
+   "WUI"
   ],
   "related": [
    "silvis-wui",
@@ -1998,7 +2238,10 @@
    "Bulk download",
    "Shapefile",
    "GeoDatabase",
-   "Decennial"
+   "Decennial",
+   "Free to use",
+   "Vector",
+   "WUI"
   ],
   "verified": "2026-11-09"
  },
@@ -2024,7 +2267,8 @@
    "Bulk download",
    "GeoTIFF",
    "Public domain",
-   "Periodic"
+   "Periodic",
+   "Risk"
   ],
   "related": [
    "wildfire-risk-to-communities"
@@ -2039,7 +2283,7 @@
   "summary": "Landscape-wide wildfire risk components, including burn probability and exposure, plus a community-level web tool.",
   "provider": "USDA Forest Service Research Data Archive",
   "coverage": "United States",
-  "period": "2020 edition (2nd edition)",
+  "period": "2nd edition (published June 2024); next national update planned for early 2027",
   "resolution": "30 m",
   "format": [
    "GeoTIFF"
@@ -2054,12 +2298,18 @@
    "GeoTIFF",
    "Public domain",
    "Periodic",
-   "30 m"
-  ]
+   "30 m",
+   "Risk"
+  ],
+  "related": [
+   "whp",
+   "fema-nri"
+  ],
+  "verified": "2026-11-12"
  },
  {
   "id": "cdc-svi",
-  "theme": "Social vulnerability & communities",
+  "theme": "Exposure & vulnerability",
   "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/cdc-svi/",
   "title": "CDC/ATSDR Social Vulnerability Index",
   "summary": "Census tract and county rankings of social vulnerability from US Census variables.",
@@ -2083,7 +2333,9 @@
    "Shapefile",
    "GeoDatabase",
    "Public domain",
-   "Periodic"
+   "Periodic",
+   "Vector",
+   "Population"
   ],
   "related": [
    "wildfire-risk-to-communities",
@@ -2093,42 +2345,8 @@
   "verified": "2026-11-09"
  },
  {
-  "id": "fema-nri",
-  "theme": "Social vulnerability & communities",
-  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/fema-nri/",
-  "title": "FEMA National Risk Index",
-  "summary": "Expected annual loss, social vulnerability and community resilience for 18 natural hazards, including wildfire.",
-  "provider": "FEMA",
-  "coverage": "United States",
-  "period": "Periodic releases",
-  "resolution": "Census tract and county",
-  "format": [
-   "CSV",
-   "Shapefile",
-   "GeoDatabase"
-  ],
-  "license": "See FEMA terms",
-  "update": "Periodic",
-  "access": "https://hazards.fema.gov/nri/data-resources",
-  "docs": "https://hazards.fema.gov/nri/",
-  "tags": [
-   "United States",
-   "Bulk download",
-   "CSV",
-   "Shapefile",
-   "GeoDatabase",
-   "Periodic"
-  ],
-  "related": [
-   "cdc-svi",
-   "wildfire-risk-to-communities"
-  ],
-  "caveat": "The wildfire score comes from a modeled hazard layer. Check the technical documentation before comparing with local risk assessments. In December 2025 FEMA said NRI data moves into the Resilience Analysis and Planning Tool, so links on hazards.fema.gov may change. Confirm the current download location.",
-  "verified": "2026-11-09"
- },
- {
   "id": "globpop",
-  "theme": "Social vulnerability & communities",
+  "theme": "Exposure & vulnerability",
   "url": "https://noahweidig.github.io/awesome-fire-data/datasets/social-vulnerability/globpop/",
   "title": "GlobPOP",
   "summary": "Global gridded population counts and density at 30 arc-seconds, fused from five population datasets.",
@@ -2149,7 +2367,8 @@
    "GeoTIFF",
    "CC BY 4.0",
    "Static",
-   "1 km"
+   "1 km",
+   "Population"
   ],
   "related": [
    "global-wui",
@@ -2184,7 +2403,9 @@
    "Shapefile",
    "GeoDatabase",
    "CC0",
-   "Static"
+   "Static",
+   "Vector",
+   "Boundaries"
   ],
   "related": [
    "epa-ecoregions"
@@ -2213,7 +2434,9 @@
    "Bulk download",
    "Shapefile",
    "Public domain",
-   "Periodic"
+   "Periodic",
+   "Vector",
+   "Boundaries"
   ],
   "related": [
    "baileys-ecoregions"
@@ -2244,7 +2467,11 @@
    "API",
    "GeoJSON",
    "Shapefile",
-   "Periodic"
+   "Periodic",
+   "See provider",
+   "Vector",
+   "Boundaries",
+   "Suppression"
   ],
   "related": [
    "nifc-statistics",
@@ -2275,7 +2502,9 @@
    "Bulk download",
    "GeoDatabase",
    "CC0",
-   "Periodic"
+   "Periodic",
+   "Vector",
+   "Boundaries"
   ],
   "related": [
    "usfs-admin-boundaries"
@@ -2304,7 +2533,9 @@
    "Bulk download",
    "Shapefile",
    "Public domain",
-   "Annual"
+   "Annual",
+   "Vector",
+   "Boundaries"
   ],
   "related": [
    "cdc-svi",
@@ -2337,7 +2568,9 @@
    "GeoDatabase",
    "Maps",
    "Public domain",
-   "Ongoing"
+   "Ongoing",
+   "Vector",
+   "Boundaries"
   ],
   "related": [
    "pad-us"
@@ -2368,7 +2601,8 @@
    "TFRecord",
    "CC BY 4.0",
    "Static",
-   "1 km"
+   "1 km",
+   "Fire events"
   ]
  },
  {
@@ -2395,7 +2629,9 @@
    "NumPy",
    "CC BY 4.0",
    "Static",
-   "10 m"
+   "10 m",
+   "Sentinel",
+   "Active fire"
   ]
  },
  {
@@ -2422,7 +2658,9 @@
    "GeoTIFF",
    "CC BY 4.0",
    "Static",
-   "375 m"
+   "375 m",
+   "Western US",
+   "Fire events"
   ]
  },
  {
@@ -2447,7 +2685,10 @@
    "Global",
    "Bulk download",
    "CSV",
-   "Periodic"
+   "Periodic",
+   "Free to use",
+   "Point or station",
+   "Paleo"
   ]
  },
  {
@@ -2474,7 +2715,9 @@
    "North America",
    "Bulk download",
    "Public domain",
-   "Ongoing"
+   "Ongoing",
+   "Point or station",
+   "Paleo"
   ]
  }
 ]

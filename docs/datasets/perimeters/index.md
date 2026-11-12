@@ -57,14 +57,6 @@ Mapped fire footprints and burn severity, from agency perimeters to satellite bu
 
     [:lucide-arrow-right: Details](gabam.md)
 
--   :lucide-globe:{ .lg .middle } __[GlobFire](globfire.md)__
-
-    ---
-
-    Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
-
-    [:lucide-arrow-right: Details](globfire.md)
-
 -   :lucide-satellite:{ .lg .middle } __[MODIS MCD64A1 Burned Area](mcd64a1.md)__
 
     ---
@@ -88,6 +80,14 @@ Mapped fire footprints and burn severity, from agency perimeters to satellite bu
     Annual Canadian burned area polygons compiled from provincial, territorial, Parks Canada and satellite sources.
 
     [:lucide-arrow-right: Details](nbac.md)
+
+-   :lucide-map:{ .lg .middle } __[Southeast FireMap Burned Area](se-firemap.md)__
+
+    ---
+
+    Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.
+
+    [:lucide-arrow-right: Details](se-firemap.md)
 
 -   :lucide-flame:{ .lg .middle } __[USGS Landsat Burned Area](landsat-burned-area.md)__
 

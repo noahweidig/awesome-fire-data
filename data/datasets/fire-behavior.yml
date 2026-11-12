@@ -11,26 +11,27 @@
   update: Static
   access: https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1642
   docs: https://doi.org/10.3334/ORNLDAAC/1642
-  tags: [Global, Bulk download, GeoTIFF, Shapefile, NASA open data, Static, 500 m]
+  tags: [Global, Bulk download, GeoTIFF, Shapefile, NASA open data, Static, 500 m, MODIS, Fire events]
   related: [mcd64a1, fired]
-  caveat: Fires smaller than 21 ha are not included. Direction is only given for multiday fires.
+  caveat: Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20250411) moves to MODIS Collection 6.1 and redefines fire seasons. Its year range was not confirmed here.
+  verified: '2026-11-12'
 - id: fired
   title: FIRED (Fire Events Delineation)
   icon: lucide/flame
   summary: Fire event polygons with daily spread estimates built by grouping MODIS burned area pixels in space and time.
   provider: Earth Lab, University of Colorado Boulder
-  coverage: United States, with regional releases elsewhere
-  period: 2001 to 2019 (US)
+  coverage: CONUS and Alaska (V2), with regional releases elsewhere
+  period: Nov 2000 to Sep 2024 (CONUS and Alaska, V2); the original US release covered 2001 to 2019
   resolution: 500 m
   format: [Shapefile, GeoPackage]
   license: "CC BY-SA 4.0 per the preprint. Check each CU Scholar record."
   update: Static
   access: https://scholar.colorado.edu/concern/datasets/v405sc03w
   docs: https://doi.org/10.3390/rs12213498
-  tags: [United States, Bulk download, Shapefile, Static, 500 m]
+  tags: [United States, Bulk download, Shapefile, Static, 500 m, Alaska, GeoPackage, CC BY-SA 4.0, MODIS, Fire events]
   related: [mcd64a1, global-fire-atlas]
   caveat: Event parameters differ between regional releases. Check the record for the version and MODIS collection used.
-  verified: "2026-11-09"
+  verified: '2026-11-12'
 - id: feds
   title: FEDS (Fire Event Data Suite)
   icon: lucide/wind-arrow-down
@@ -44,7 +45,24 @@
   update: Near real time
   access: https://earth-information-system.github.io/fireatlas/docs/data.html
   docs: https://earth-information-system.github.io/fireatlas/docs/data_overview.html
-  tags: [North America, API, GeoJSON, NASA open data, Near real time, 375 m]
+  tags: [North America, API, GeoJSON, NASA open data, Near real time, 375 m, VIIRS, Fire events, Active fire]
   related: [firms, wfigs-perimeters]
   caveat: Satellite-derived perimeters are less accurate than operational ones. For US incidents the official incident data give a more precise perimeter. Vector output arrives about 4 hours after VIIRS data reach FIRMS.
   verified: "2026-11-09"
+- id: globfire
+  title: GlobFire
+  icon: lucide/globe
+  summary: Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
+  provider: JRC Global Wildfire Information System
+  coverage: Global
+  period: 2001 to 2021
+  resolution: Event polygons (from 500 m MODIS)
+  format: [Shapefile]
+  license: CC BY 4.0
+  update: Static
+  access: https://developers.google.com/earth-engine/datasets/catalog/JRC_GWIS_GlobFire_v2_FinalPerimeters
+  docs: https://doi.org/10.1038/s41597-019-0312-2
+  tags: [Global, Bulk download, Shapefile, CC BY 4.0, Static, Vector, MODIS, Fire events, Fire perimeters]
+  related: [mcd64a1, fired, global-fire-atlas, feds]
+  caveat: Based on 500 m MODIS, so small fires are missed. Earth Engine v2 lists 2001 to 2021 and the PANGAEA record lists 2000 to 2021. Check GWIS for later releases.
+  verified: '2026-11-12'

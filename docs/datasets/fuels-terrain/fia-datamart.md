@@ -8,6 +8,10 @@ tags:
   - CSV
   - SQLite
   - Annual
+  - Free to use
+  - Point or station
+  - Vegetation
+  - Fuels
 ---
 
 # FIA DataMart
@@ -49,6 +53,6 @@ Forest Inventory and Analysis plot, tree, fuel and down woody material measureme
 
 - [TreeMap](../fuels-terrain/treemap.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FIA DataMart", "description": "Forest Inventory and Analysis plot, tree, fuel and down woody material measurements for US forests.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/fia-datamart/", "creator": {"@type": "Organization", "name": "USDA Forest Service FIA program"}, "spatialCoverage": "United States", "temporalCoverage": "Varies by state", "keywords": ["United States", "Bulk download", "CSV", "SQLite", "Annual"], "license": "Free to use, no fees (US Government data). Cite FIA.", "sameAs": "https://research.fs.usda.gov/products/dataandtools/fia-datamart", "distribution": [{"@type": "DataDownload", "contentUrl": "https://apps.fs.usda.gov/fia/datamart/datamart.html", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://apps.fs.usda.gov/fia/datamart/datamart.html", "encodingFormat": "SQLite"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FIA DataMart", "description": "Forest Inventory and Analysis plot, tree, fuel and down woody material measurements for US forests.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/fia-datamart/", "creator": {"@type": "Organization", "name": "USDA Forest Service FIA program"}, "spatialCoverage": "United States", "temporalCoverage": "Varies by state", "keywords": ["United States", "Bulk download", "CSV", "SQLite", "Annual", "Free to use", "Point or station", "Vegetation", "Fuels"], "license": "Free to use, no fees (US Government data). Cite FIA.", "sameAs": "https://research.fs.usda.gov/products/dataandtools/fia-datamart", "distribution": [{"@type": "DataDownload", "contentUrl": "https://apps.fs.usda.gov/fia/datamart/datamart.html", "encodingFormat": "CSV"}, {"@type": "DataDownload", "contentUrl": "https://apps.fs.usda.gov/fia/datamart/datamart.html", "encodingFormat": "SQLite"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

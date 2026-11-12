@@ -33,14 +33,6 @@ Prescribed burn records, permits, treatment footprints and monitoring. MTBS and 
 
     [:lucide-arrow-right: Details](rx-permits-ga-fl.md)
 
--   :lucide-map:{ .lg .middle } __[Southeast FireMap Burned Area](se-firemap.md)__
-
-    ---
-
-    Annual Landsat burned area for the southeastern US, covering prescribed fire and wildfire, with burn date and burn probability.
-
-    [:lucide-arrow-right: Details](se-firemap.md)
-
 -   :lucide-trees:{ .lg .middle } __[USFS Hazardous Fuel Treatment Reduction](facts-hazardous-fuels.md)__
 
     ---

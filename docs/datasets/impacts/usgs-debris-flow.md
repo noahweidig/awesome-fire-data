@@ -9,6 +9,8 @@ tags:
   - GeoJSON
   - Public domain
   - Per incident
+  - Western US
+  - Post-fire
 ---
 
 # USGS Post-Fire Debris-Flow Hazard Assessments
@@ -30,6 +32,6 @@ Likelihood and volume estimates of debris flows in burned basins, with a nationa
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Per incident |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USGS Post-Fire Debris-Flow Hazard Assessments", "description": "Likelihood and volume estimates of debris flows in burned basins, with a national assessment portal.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/usgs-debris-flow/", "creator": {"@type": "Organization", "name": "USGS Landslide Hazards Program"}, "spatialCoverage": "Western United States", "temporalCoverage": "2013 to present", "keywords": ["United States", "Bulk download", "Shapefile", "GeoJSON", "Public domain", "Per incident"], "license": "Public domain", "sameAs": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "Web map"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USGS Post-Fire Debris-Flow Hazard Assessments", "description": "Likelihood and volume estimates of debris flows in burned basins, with a national assessment portal.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/impacts/usgs-debris-flow/", "creator": {"@type": "Organization", "name": "USGS Landslide Hazards Program"}, "spatialCoverage": "Western United States", "temporalCoverage": "2013 to present", "keywords": ["United States", "Bulk download", "Shapefile", "GeoJSON", "Public domain", "Per incident", "Western US", "Post-fire"], "license": "Public domain", "sameAs": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://landslides.usgs.gov/hazards/postfire_debrisflow/", "encodingFormat": "Web map"}]}</script>
 
 [:lucide-arrow-left: Back to Impacts & post-fire](index.md){ .md-button }

@@ -9,6 +9,9 @@ tags:
   - Public domain
   - Annual
   - 30 m
+  - Landsat
+  - Sentinel
+  - Land cover
 ---
 
 # LCMS Landscape Change Monitoring System
@@ -39,6 +42,6 @@ Annual landscape change, land cover and land use from Landsat and Sentinel-2 tim
 - [LCMAP Land Cover and Change](../fuels-terrain/lcmap.md)
 - [MTBS](../perimeters/mtbs.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "LCMS Landscape Change Monitoring System", "description": "Annual landscape change, land cover and land use from Landsat and Sentinel-2 time series.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcms/", "creator": {"@type": "Organization", "name": "USDA Forest Service GTAC"}, "spatialCoverage": "CONUS, Alaska, Hawaii, Puerto Rico and US Virgin Islands", "temporalCoverage": "1985 to 2024", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Annual", "30 m"], "license": "Public domain", "sameAs": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/LCMS-Project-Overview.pdf", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "LCMS Landscape Change Monitoring System", "description": "Annual landscape change, land cover and land use from Landsat and Sentinel-2 time series.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/lcms/", "creator": {"@type": "Organization", "name": "USDA Forest Service GTAC"}, "spatialCoverage": "CONUS, Alaska, Hawaii, Puerto Rico and US Virgin Islands", "temporalCoverage": "1985 to 2024", "keywords": ["United States", "Bulk download", "GeoTIFF", "Public domain", "Annual", "30 m", "Landsat", "Sentinel", "Land cover"], "license": "Public domain", "sameAs": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/LCMS-Project-Overview.pdf", "distribution": [{"@type": "DataDownload", "contentUrl": "https://data.fs.usda.gov/geodata/rastergateway/LCMS/", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

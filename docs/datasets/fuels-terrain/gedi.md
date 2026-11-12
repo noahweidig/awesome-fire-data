@@ -9,6 +9,8 @@ tags:
   - HDF
   - NASA open data
   - Ongoing
+  - Point or station
+  - Vegetation
 ---
 
 # GEDI Spaceborne Lidar
@@ -39,6 +41,6 @@ Lidar footprints with canopy height, cover, vertical structure and biomass from 
 - [LANDFIRE](../fuels-terrain/landfire.md)
 - [TreeMap](../fuels-terrain/treemap.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "GEDI Spaceborne Lidar", "description": "Lidar footprints with canopy height, cover, vertical structure and biomass from the International Space Station.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/gedi/", "creator": {"@type": "Organization", "name": "NASA, University of Maryland"}, "spatialCoverage": "Global, between 51.6 degrees N and S", "temporalCoverage": "2019 to present", "keywords": ["Global", "API", "Bulk download", "HDF", "NASA open data", "Ongoing"], "license": "NASA open data", "sameAs": "https://gedi.umd.edu/data/products/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://lpdaac.usgs.gov/products/gedi02_av002/", "encodingFormat": "HDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "GEDI Spaceborne Lidar", "description": "Lidar footprints with canopy height, cover, vertical structure and biomass from the International Space Station.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/gedi/", "creator": {"@type": "Organization", "name": "NASA, University of Maryland"}, "spatialCoverage": "Global, between 51.6 degrees N and S", "temporalCoverage": "2019 to present", "keywords": ["Global", "API", "Bulk download", "HDF", "NASA open data", "Ongoing", "Point or station", "Vegetation"], "license": "NASA open data", "sameAs": "https://gedi.umd.edu/data/products/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://lpdaac.usgs.gov/products/gedi02_av002/", "encodingFormat": "HDF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

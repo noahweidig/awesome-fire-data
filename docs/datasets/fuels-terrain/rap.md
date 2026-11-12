@@ -9,6 +9,8 @@ tags:
   - GeoTIFF
   - Annual
   - 30 m
+  - See provider
+  - Vegetation
 ---
 
 # Rangeland Analysis Platform
@@ -40,6 +42,6 @@ tags:
 - [RCMAP Rangeland Condition Monitoring](../fuels-terrain/rcmap.md)
 - [LANDFIRE](../fuels-terrain/landfire.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Rangeland Analysis Platform", "description": "30 m annual cover and annual or 16-day biomass for herbaceous, shrub, tree and bare ground.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rap/", "creator": {"@type": "Organization", "name": "University of Montana, USDA ARS and partners"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1986 to present", "keywords": ["United States", "API", "Bulk download", "GeoTIFF", "Annual", "30 m"], "license": "Listings conflict: public domain (USDA) or CC BY-NC 4.0 (community catalog). Confirm at rangelands.app.", "sameAs": "https://rangelands.app/products", "distribution": [{"@type": "DataDownload", "contentUrl": "https://rangelands.app/products", "encodingFormat": "GeoTIFF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Rangeland Analysis Platform", "description": "30 m annual cover and annual or 16-day biomass for herbaceous, shrub, tree and bare ground.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/rap/", "creator": {"@type": "Organization", "name": "University of Montana, USDA ARS and partners"}, "spatialCoverage": "Conterminous US", "temporalCoverage": "1986 to present", "keywords": ["United States", "API", "Bulk download", "GeoTIFF", "Annual", "30 m", "See provider", "Vegetation"], "license": "Listings conflict: public domain (USDA) or CC BY-NC 4.0 (community catalog). Confirm at rangelands.app.", "sameAs": "https://rangelands.app/products", "distribution": [{"@type": "DataDownload", "contentUrl": "https://rangelands.app/products", "encodingFormat": "GeoTIFF"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

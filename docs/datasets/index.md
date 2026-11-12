@@ -46,7 +46,7 @@ edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/scripts/gene
 
     Prescribed burn records, permits, treatment footprints and monitoring. MTBS and WFIGS also contain prescribed fire perimeters.
 
-    5 datasets
+    4 datasets
 
     [:lucide-arrow-right: Explore](prescribed-fire/index.md)
 
@@ -66,7 +66,7 @@ edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/scripts/gene
 
     Individual fire events with daily spread, speed and direction.
 
-    3 datasets
+    4 datasets
 
     [:lucide-arrow-right: Explore](fire-behavior/index.md)
 
@@ -126,17 +126,17 @@ edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/scripts/gene
 
     Community wildfire risk, wildland-urban interface maps and land management layers.
 
-    5 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](risk-management/index.md)
 
--   :lucide-users:{ .lg .middle } __[Social vulnerability & communities](social-vulnerability/index.md)__
+-   :lucide-users:{ .lg .middle } __[Exposure & vulnerability](social-vulnerability/index.md)__
 
     ---
 
-    Community vulnerability and national hazard risk indices for fire exposure studies.
+    Population grids and community vulnerability indices for fire exposure studies.
 
-    3 datasets
+    2 datasets
 
     [:lucide-arrow-right: Explore](social-vulnerability/index.md)
 

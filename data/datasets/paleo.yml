@@ -11,7 +11,7 @@
   update: Periodic
   access: https://www.paleofire.org/
   docs: https://www.paleofire.org/
-  tags: [Global, Bulk download, CSV, Periodic]
+  tags: [Global, Bulk download, CSV, Periodic, Free to use, Point or station, Paleo]
 - id: noaa-fire-history
   title: NOAA Paleoclimatology Fire History
   icon: lucide/history
@@ -25,4 +25,4 @@
   update: Ongoing
   access: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
   docs: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
-  tags: [Global, North America, Bulk download, Public domain, Ongoing]
+  tags: [Global, North America, Bulk download, Public domain, Ongoing, Point or station, Paleo]

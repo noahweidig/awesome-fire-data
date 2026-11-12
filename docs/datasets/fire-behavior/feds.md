@@ -9,6 +9,9 @@ tags:
   - NASA open data
   - Near real time
   - 375 m
+  - VIIRS
+  - Fire events
+  - Active fire
 ---
 
 # FEDS (Fire Event Data Suite)
@@ -40,6 +43,6 @@ Fire event perimeters, new fire pixels and active fire lines updated about every
 - [NASA FIRMS](../active-fire/firms.md)
 - [WFIGS Interagency Fire Perimeters](../perimeters/wfigs-perimeters.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FEDS (Fire Event Data Suite)", "description": "Fire event perimeters, new fire pixels and active fire lines updated about every 12 hours from VIIRS 375 m detections.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/feds/", "creator": {"@type": "Organization", "name": "NASA Earth Information System"}, "spatialCoverage": "CONUS and Canada (Alaska and Hawaii through FIRMS when released)", "temporalCoverage": "Near real time, with static outputs tied to publications", "keywords": ["North America", "API", "GeoJSON", "NASA open data", "Near real time", "375 m"], "license": "NASA open data", "sameAs": "https://earth-information-system.github.io/fireatlas/docs/data_overview.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://earth-information-system.github.io/fireatlas/docs/data.html", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://earth-information-system.github.io/fireatlas/docs/data.html", "encodingFormat": "ArcGIS REST service"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FEDS (Fire Event Data Suite)", "description": "Fire event perimeters, new fire pixels and active fire lines updated about every 12 hours from VIIRS 375 m detections.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/feds/", "creator": {"@type": "Organization", "name": "NASA Earth Information System"}, "spatialCoverage": "CONUS and Canada (Alaska and Hawaii through FIRMS when released)", "temporalCoverage": "Near real time, with static outputs tied to publications", "keywords": ["North America", "API", "GeoJSON", "NASA open data", "Near real time", "375 m", "VIIRS", "Fire events", "Active fire"], "license": "NASA open data", "sameAs": "https://earth-information-system.github.io/fireatlas/docs/data_overview.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://earth-information-system.github.io/fireatlas/docs/data.html", "encodingFormat": "GeoJSON"}, {"@type": "DataDownload", "contentUrl": "https://earth-information-system.github.io/fireatlas/docs/data.html", "encodingFormat": "ArcGIS REST service"}]}</script>
 
 [:lucide-arrow-left: Back to Fire behavior & spread](index.md){ .md-button }

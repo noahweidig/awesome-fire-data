@@ -7,6 +7,10 @@ tags:
   - Bulk download
   - Shapefile
   - Annual
+  - Free with attribution
+  - Vector
+  - Fire perimeters
+  - Burned area
 ---
 
 # NBAC (National Burned Area Composite)
@@ -38,6 +42,6 @@ Annual Canadian burned area polygons compiled from provincial, territorial, Park
 - [Canadian National Fire Database](../perimeters/cnfdb.md)
 - [MODIS MCD64A1 Burned Area](../perimeters/mcd64a1.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NBAC (National Burned Area Composite)", "description": "Annual Canadian burned area polygons compiled from provincial, territorial, Parks Canada and satellite sources.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/nbac/", "creator": {"@type": "Organization", "name": "Canadian Forest Service (NRCan) with provincial, territorial and Parks Canada agencies"}, "spatialCoverage": "Canada", "temporalCoverage": "1972 to 2024", "keywords": ["Canada", "Bulk download", "Shapefile", "Annual"], "license": "Free with attribution (see CWFIS Datamart)", "sameAs": "https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac", "distribution": [{"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart/download/nbac", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NBAC (National Burned Area Composite)", "description": "Annual Canadian burned area polygons compiled from provincial, territorial, Parks Canada and satellite sources.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/nbac/", "creator": {"@type": "Organization", "name": "Canadian Forest Service (NRCan) with provincial, territorial and Parks Canada agencies"}, "spatialCoverage": "Canada", "temporalCoverage": "1972 to 2024", "keywords": ["Canada", "Bulk download", "Shapefile", "Annual", "Free with attribution", "Vector", "Fire perimeters", "Burned area"], "license": "Free with attribution (see CWFIS Datamart)", "sameAs": "https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac", "distribution": [{"@type": "DataDownload", "contentUrl": "https://cwfis.cfs.nrcan.gc.ca/datamart/download/nbac", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

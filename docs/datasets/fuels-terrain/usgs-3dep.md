@@ -10,6 +10,7 @@ tags:
   - Public domain
   - Continuous
   - 10 m
+  - Terrain
 ---
 
 # USGS 3DEP Elevation
@@ -31,6 +32,6 @@ High-resolution elevation, from lidar-derived DEMs to 1/3 arc-second national co
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Continuous |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USGS 3DEP Elevation", "description": "High-resolution elevation, from lidar-derived DEMs to 1/3 arc-second national coverage.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/usgs-3dep/", "creator": {"@type": "Organization", "name": "USGS"}, "spatialCoverage": "United States", "temporalCoverage": "Continuously updated", "keywords": ["United States", "Bulk download", "API", "GeoTIFF", "Public domain", "Continuous", "10 m"], "license": "Public domain", "sameAs": "https://www.usgs.gov/3d-elevation-program", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/3d-elevation-program", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/3d-elevation-program", "encodingFormat": "LAZ"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "USGS 3DEP Elevation", "description": "High-resolution elevation, from lidar-derived DEMs to 1/3 arc-second national coverage.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fuels-terrain/usgs-3dep/", "creator": {"@type": "Organization", "name": "USGS"}, "spatialCoverage": "United States", "temporalCoverage": "Continuously updated", "keywords": ["United States", "Bulk download", "API", "GeoTIFF", "Public domain", "Continuous", "10 m", "Terrain"], "license": "Public domain", "sameAs": "https://www.usgs.gov/3d-elevation-program", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/3d-elevation-program", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://www.usgs.gov/3d-elevation-program", "encodingFormat": "LAZ"}]}</script>
 
 [:lucide-arrow-left: Back to Fuels, vegetation & terrain](index.md){ .md-button }

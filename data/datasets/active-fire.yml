@@ -11,9 +11,9 @@
   update: Near real time
   access: https://firms.modaps.eosdis.nasa.gov/active_fire/
   docs: https://firms.modaps.eosdis.nasa.gov/
-  tags: [Global, API, Bulk download, CSV, Shapefile, NASA open data, Near real time, 375 m]
-  caveat: "MODIS detections depend on Terra and Aqua, which NASA expects to shut down in late 2026 to early 2027. VIIRS detections continue."
-  verified: "2026-11-09"
+  tags: [Global, API, Bulk download, CSV, Shapefile, NASA open data, Near real time, 375 m, GeoJSON, KML, MODIS, VIIRS, Active fire]
+  caveat: MODIS detections depend on Terra and Aqua. NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). VIIRS detections continue.
+  verified: '2026-11-12'
 - id: goes-fdc
   title: GOES-R Fire/Hot Spot Characterization on AWS
   icon: lucide/satellite
@@ -27,7 +27,9 @@
   update: 5 to 15 minutes
   access: https://registry.opendata.aws/noaa-goes/
   docs: https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/goes-r-series-data-products
-  tags: [Americas, Cloud bucket, NetCDF, Public domain, Near real time, 2 km]
+  tags: [Americas, Cloud bucket, NetCDF, Public domain, Near real time, 2 km, GOES, Active fire]
+  caveat: GOES-19 operational data production began April 7, 2025, and earlier GOES-19 data are provisional. NOAA advises users with low false-alarm tolerance to use mask codes 10, 11, 30 and 31.
+  verified: '2026-11-12'
 - id: noaa-hms
   title: NOAA Hazard Mapping System (HMS) Fire and Smoke
   icon: lucide/wind
@@ -41,4 +43,5 @@
   update: Daily
   access: https://www.ospo.noaa.gov/products/land/hms.html
   docs: https://www.ospo.noaa.gov/products/land/hms.html
-  tags: [North America, Bulk download, Shapefile, KML, Public domain, Daily]
+  tags: [North America, Bulk download, Shapefile, KML, Public domain, Daily, Vector, Active fire, Smoke]
+  related: [firms, hrrr-smoke]

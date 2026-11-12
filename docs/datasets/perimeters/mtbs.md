@@ -10,6 +10,9 @@ tags:
   - Public domain
   - Annual
   - 30 m
+  - Landsat
+  - Fire perimeters
+  - Burn severity
 ---
 
 # MTBS (Monitoring Trends in Burn Severity)
@@ -37,9 +40,10 @@ Burn severity mosaics and perimeters for large US fires, mapped from Landsat.
 
 ## Related datasets
 
-- [Southeast FireMap Burned Area](../prescribed-fire/se-firemap.md)
+- [Southeast FireMap Burned Area](../perimeters/se-firemap.md)
 - [USFS Hazardous Fuel Treatment Reduction](../prescribed-fire/facts-hazardous-fuels.md)
+- [RAVG](../impacts/ravg.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "MTBS (Monitoring Trends in Burn Severity)", "description": "Burn severity mosaics and perimeters for large US fires, mapped from Landsat.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/mtbs/", "creator": {"@type": "Organization", "name": "USGS EROS and USDA Forest Service"}, "spatialCoverage": "CONUS, Alaska, Hawaii, Puerto Rico", "temporalCoverage": "1984 to present", "keywords": ["United States", "Bulk download", "GeoTIFF", "Shapefile", "Public domain", "Annual", "30 m"], "license": "Public domain", "sameAs": "https://www.mtbs.gov/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mtbs.gov/direct-download", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://www.mtbs.gov/direct-download", "encodingFormat": "Shapefile"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "MTBS (Monitoring Trends in Burn Severity)", "description": "Burn severity mosaics and perimeters for large US fires, mapped from Landsat.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/perimeters/mtbs/", "creator": {"@type": "Organization", "name": "USGS EROS and USDA Forest Service"}, "spatialCoverage": "CONUS, Alaska, Hawaii, Puerto Rico", "temporalCoverage": "1984 to present", "keywords": ["United States", "Bulk download", "GeoTIFF", "Shapefile", "Public domain", "Annual", "30 m", "Landsat", "Fire perimeters", "Burn severity"], "license": "Public domain", "sameAs": "https://www.mtbs.gov/", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.mtbs.gov/direct-download", "encodingFormat": "GeoTIFF"}, {"@type": "DataDownload", "contentUrl": "https://www.mtbs.gov/direct-download", "encodingFormat": "Shapefile"}]}</script>
 
 [:lucide-arrow-left: Back to Perimeters & burned area](index.md){ .md-button }

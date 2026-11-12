@@ -10,6 +10,8 @@ tags:
   - Custom terms
   - Periodic
   - GeoPackage
+  - Point or station
+  - Fire records
 ---
 
 # FPA-FOD (Fire Program Analysis Fire-Occurrence Database)
@@ -42,6 +44,6 @@ Short, K.C. 2026. Spatial wildfire occurrence data for the United States, 1992-2
 
 DOI: [10.2737/RDS-2013-0009.7](https://doi.org/10.2737/RDS-2013-0009.7)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FPA-FOD (Fire Program Analysis Fire-Occurrence Database)", "description": "Point locations, discovery dates, causes and sizes of 2.66 million US wildfires from federal, state and local records.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/fpa-fod/", "creator": {"@type": "Organization", "name": "USDA Forest Service Research Data Archive"}, "spatialCoverage": "United States", "temporalCoverage": "1992 to 2024", "keywords": ["United States", "Bulk download", "GeoDatabase", "SQLite", "Custom terms", "Periodic", "GeoPackage"], "license": "US Government data, free to use. See the archive Conditions of Use.", "sameAs": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "Access"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "GeoDatabase"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "GeoPackage"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "SQLite"}], "identifier": "https://doi.org/10.2737/RDS-2013-0009.7"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "FPA-FOD (Fire Program Analysis Fire-Occurrence Database)", "description": "Point locations, discovery dates, causes and sizes of 2.66 million US wildfires from federal, state and local records.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/fpa-fod/", "creator": {"@type": "Organization", "name": "USDA Forest Service Research Data Archive"}, "spatialCoverage": "United States", "temporalCoverage": "1992 to 2024", "keywords": ["United States", "Bulk download", "GeoDatabase", "SQLite", "Custom terms", "Periodic", "GeoPackage", "Point or station", "Fire records"], "license": "US Government data, free to use. See the archive Conditions of Use.", "sameAs": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "Access"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "GeoDatabase"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "GeoPackage"}, {"@type": "DataDownload", "contentUrl": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.7", "encodingFormat": "SQLite"}], "identifier": "https://doi.org/10.2737/RDS-2013-0009.7"}</script>
 
 [:lucide-arrow-left: Back to Occurrence & ignitions](index.md){ .md-button }

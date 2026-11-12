@@ -9,6 +9,9 @@ tags:
   - KML
   - Public domain
   - Daily
+  - Vector
+  - Active fire
+  - Smoke
 ---
 
 # NOAA Hazard Mapping System (HMS) Fire and Smoke
@@ -30,6 +33,11 @@ Analyst-reviewed fire detections and smoke plume polygons for North America.
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Daily |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NOAA Hazard Mapping System (HMS) Fire and Smoke", "description": "Analyst-reviewed fire detections and smoke plume polygons for North America.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/noaa-hms/", "creator": {"@type": "Organization", "name": "NOAA OSPO"}, "spatialCoverage": "North America", "temporalCoverage": "2003 to present", "keywords": ["North America", "Bulk download", "Shapefile", "KML", "Public domain", "Daily"], "license": "Public domain", "sameAs": "https://www.ospo.noaa.gov/products/land/hms.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "KML"}, {"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "GIS data"}]}</script>
+## Related datasets
+
+- [NASA FIRMS](../active-fire/firms.md)
+- [HRRR-Smoke](../smoke-emissions/hrrr-smoke.md)
+
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NOAA Hazard Mapping System (HMS) Fire and Smoke", "description": "Analyst-reviewed fire detections and smoke plume polygons for North America.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/active-fire/noaa-hms/", "creator": {"@type": "Organization", "name": "NOAA OSPO"}, "spatialCoverage": "North America", "temporalCoverage": "2003 to present", "keywords": ["North America", "Bulk download", "Shapefile", "KML", "Public domain", "Daily", "Vector", "Active fire", "Smoke"], "license": "Public domain", "sameAs": "https://www.ospo.noaa.gov/products/land/hms.html", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "Shapefile"}, {"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "KML"}, {"@type": "DataDownload", "contentUrl": "https://www.ospo.noaa.gov/products/land/hms.html", "encodingFormat": "GIS data"}]}</script>
 
 [:lucide-arrow-left: Back to Active fire & detection](index.md){ .md-button }

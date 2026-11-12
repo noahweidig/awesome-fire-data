@@ -7,6 +7,7 @@ tags:
   - Tabular
   - Public domain
   - Annual
+  - Fire records
 ---
 
 # NIFC Wildfire Statistics
@@ -28,6 +29,6 @@ Annual US fire counts and acres burned by year, agency and state.
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | Public domain |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Annual |
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NIFC Wildfire Statistics", "description": "Annual US fire counts and acres burned by year, agency and state.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/nifc-statistics/", "creator": {"@type": "Organization", "name": "NIFC"}, "spatialCoverage": "United States", "temporalCoverage": "1983 to present", "keywords": ["United States", "Tabular", "Public domain", "Annual"], "license": "Public domain", "sameAs": "https://www.nifc.gov/fire-information/statistics", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.nifc.gov/fire-information/statistics", "encodingFormat": "HTML"}, {"@type": "DataDownload", "contentUrl": "https://www.nifc.gov/fire-information/statistics", "encodingFormat": "PDF"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "NIFC Wildfire Statistics", "description": "Annual US fire counts and acres burned by year, agency and state.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/occurrence/nifc-statistics/", "creator": {"@type": "Organization", "name": "NIFC"}, "spatialCoverage": "United States", "temporalCoverage": "1983 to present", "keywords": ["United States", "Tabular", "Public domain", "Annual", "Fire records"], "license": "Public domain", "sameAs": "https://www.nifc.gov/fire-information/statistics", "distribution": [{"@type": "DataDownload", "contentUrl": "https://www.nifc.gov/fire-information/statistics", "encodingFormat": "HTML"}, {"@type": "DataDownload", "contentUrl": "https://www.nifc.gov/fire-information/statistics", "encodingFormat": "PDF"}]}</script>
 
 [:lucide-arrow-left: Back to Occurrence & ignitions](index.md){ .md-button }

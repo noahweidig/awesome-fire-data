@@ -9,6 +9,7 @@ tags:
   - Static
   - 30 m
   - Public domain
+  - WUI
 ---
 
 # Building-based WUI maps (CONUS)
@@ -44,6 +45,6 @@ DOI: [10.5066/P94BT6Q7](https://doi.org/10.5066/P94BT6Q7)
 - [SILVIS Lab Wildland-Urban Interface Change](../risk-management/silvis-wui.md)
 - [Global WUI map 2020](../risk-management/global-wui.md)
 
-<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Building-based WUI maps (CONUS)", "description": "Intermix and interface WUI maps for the conterminous US built from 125 million building point locations, at several neighborhood radii.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/building-based-wui/", "creator": {"@type": "Organization", "name": "USGS, with University of Wisconsin-Madison SILVIS Lab"}, "spatialCoverage": "Conterminous United States", "temporalCoverage": "Buildings from a 2018 release; vegetation from NLCD 2016", "keywords": ["United States", "Bulk download", "GeoTIFF", "Static", "30 m", "Public domain"], "license": "Public domain", "sameAs": "https://doi.org/10.1002/eap.2597", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5066/P94BT6Q7", "encodingFormat": "GeoTIFF"}], "identifier": "https://doi.org/10.5066/P94BT6Q7"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org/", "@type": "Dataset", "name": "Building-based WUI maps (CONUS)", "description": "Intermix and interface WUI maps for the conterminous US built from 125 million building point locations, at several neighborhood radii.", "url": "https://noahweidig.github.io/awesome-fire-data/datasets/risk-management/building-based-wui/", "creator": {"@type": "Organization", "name": "USGS, with University of Wisconsin-Madison SILVIS Lab"}, "spatialCoverage": "Conterminous United States", "temporalCoverage": "Buildings from a 2018 release; vegetation from NLCD 2016", "keywords": ["United States", "Bulk download", "GeoTIFF", "Static", "30 m", "Public domain", "WUI"], "license": "Public domain", "sameAs": "https://doi.org/10.1002/eap.2597", "distribution": [{"@type": "DataDownload", "contentUrl": "https://doi.org/10.5066/P94BT6Q7", "encodingFormat": "GeoTIFF"}], "identifier": "https://doi.org/10.5066/P94BT6Q7"}</script>
 
 [:lucide-arrow-left: Back to Risk, WUI & management](index.md){ .md-button }

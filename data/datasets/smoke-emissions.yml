@@ -4,16 +4,16 @@
   summary: Burned area, fuel consumption and fire emissions of carbon and trace gases, globally.
   provider: GFED team (Vrije Universiteit Amsterdam and partners)
   coverage: Global
-  period: "1997 to 2020 (GFED5 burned area)"
+  period: 1997 to 2022 (GFED5.1); near-real-time product from 2023
   resolution: "0.25 degrees (1 degree for 1997 to 2000)"
-  format: [HDF5, ASCII]
+  format: [HDF5, NetCDF, ASCII]
   license: Free for research (see site)
   update: "Periodic"
   access: https://www.globalfiredata.org/data.html
   docs: https://www.globalfiredata.org/
-  tags: [Global, Bulk download, HDF, Periodic]
-  caveat: "GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. Emissions years differ by version."
-  verified: "2026-11-09"
+  tags: [Global, Bulk download, HDF, NetCDF, Periodic, Free for research, Grid over 5 km, MODIS, Emissions, Burned area]
+  caveat: GFED5 burned area has discontinuities in 1998, 2001 and 2003 where new sensor data enter. Use caution for pre-MODIS trends. GFED5.1 adds emissions for 1997 to 2022. GFED4s runs through 2025 at 0.25 degrees, but the site recommends GFED5 where possible and notes that after 2016 GFED4s emissions no longer come from burned area. Emissions years differ by version.
+  verified: '2026-11-12'
 - id: cams-gfas
   title: CAMS GFAS (Global Fire Assimilation System)
   icon: lucide/wind
@@ -27,21 +27,23 @@
   update: Daily
   access: https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas
   docs: https://ads.atmosphere.copernicus.eu/datasets/cams-global-fire-emissions-gfas
-  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily]
+  tags: [Global, API, NetCDF, GRIB, Copernicus licence, Daily, Grid over 5 km, Emissions]
 - id: finn
   title: FINN (Fire INventory from NCAR)
   icon: lucide/wind
   summary: Daily, high-resolution fire emissions estimates for chemical transport models.
   provider: NCAR Atmospheric Chemistry Observations and Modeling
   coverage: Global
-  period: 2002 to present
+  period: 2002 onward (latest year not confirmed)
   resolution: 1 km
   format: [CSV, Text]
   license: Free for research (see site)
   update: Daily
   access: https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar
   docs: https://www2.acom.ucar.edu/modeling/finn-fire-inventory-ncar
-  tags: [Global, Bulk download, CSV, Daily, 1 km]
+  tags: [Global, Bulk download, CSV, Daily, 1 km, Free for research, Emissions]
+  caveat: The FINNv2.5 documentation I could check lists input fire data through 2020 (README, February 2022). Confirm the latest year on the NCAR ACOM or GDEX pages. ACOM files are gzip-compressed comma-delimited text, one file per year.
+  verified: '2026-11-12'
 - id: airnow
   title: EPA AirNow API
   icon: lucide/wind
@@ -55,7 +57,7 @@
   update: Hourly
   access: https://docs.airnowapi.org/
   docs: https://docs.airnowapi.org/
-  tags: [North America, API, JSON, CSV, Public domain, Hourly]
+  tags: [North America, API, JSON, CSV, Public domain, Hourly, Point or station, Air quality]
 - id: hrrr-smoke
   title: HRRR-Smoke
   icon: lucide/wind
@@ -69,7 +71,7 @@
   update: Hourly
   access: https://registry.opendata.aws/noaa-hrrr-pds/
   docs: https://rapidrefresh.noaa.gov/hrrr/
-  tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km]
+  tags: [United States, Cloud bucket, GRIB, Public domain, Hourly, 3 km, Hourly steps, Smoke, Forecast]
   related: [hrrr, firms]
   caveat: Smoke fields are variables inside the HRRR GRIB2 files. A forecast is not an observation.
 - id: purpleair
@@ -85,6 +87,6 @@
   update: Continuous
   access: https://api.purpleair.com/
   docs: https://api.purpleair.com/
-  tags: [Global, API, JSON, Custom terms, Near real time]
+  tags: [Global, API, JSON, Custom terms, Near real time, Point or station, Air quality, Smoke]
   related: [airnow]
   caveat: Needs an API key. Raw PM2.5 reads high in smoke, so apply a correction such as the EPA US-wide one.

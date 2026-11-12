@@ -18,7 +18,7 @@ icon: lucide/search
 
     ---
 
-    Filter by region, access method, format, license, update cadence or resolution.
+    Filter by region, access method, format, license, update cadence, resolution, topic, sensor or time step.
 
     [:lucide-arrow-right: Open tags](tags.md)
 

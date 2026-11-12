@@ -33,4 +33,12 @@ Individual fire events with daily spread, speed and direction.
 
     [:lucide-arrow-right: Details](global-fire-atlas.md)
 
+-   :lucide-globe:{ .lg .middle } __[GlobFire](globfire.md)__
+
+    ---
+
+    Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
+
+    [:lucide-arrow-right: Details](globfire.md)
+
 </div>
