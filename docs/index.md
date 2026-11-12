@@ -6,6 +6,9 @@ hide:
   - tags
 ---
 
+<div class="hero" markdown>
+<div class="hero-text" markdown>
+
 # Awesome Fire Datasets
 
 A curated catalog of datasets for fire science, management and modeling. Each entry lists provider, coverage, resolution, format, license and a direct link to the data.
@@ -13,6 +16,37 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 [:lucide-database: Browse datasets](datasets/index.md){ .md-button .md-button--primary }
 [:lucide-tag: Filter by tag](browse/tags.md){ .md-button }
 [:lucide-git-pull-request: Add a dataset](contribute/index.md){ .md-button }
+
+<div class="hero-chips"><span>Perimeters</span><span>Active fire</span><span>Fuels</span><span>Weather</span><span>Smoke</span><span>Risk</span></div>
+
+</div>
+<div class="hero-art" aria-hidden="true">
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="hg" cx="50%" cy="55%" r="55%"><stop offset="0" stop-color="#ffb300" stop-opacity=".95"/><stop offset=".45" stop-color="#f4511e" stop-opacity=".75"/><stop offset="1" stop-color="#f4511e" stop-opacity="0"/></radialGradient>
+<linearGradient id="fl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#f4511e"/><stop offset="1" stop-color="#ffb300"/></linearGradient>
+<pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="currentColor" opacity=".22"/></pattern>
+<clipPath id="disc"><circle cx="200" cy="200" r="180"/></clipPath>
+</defs>
+<circle cx="200" cy="200" r="180" fill="url(#hg)" opacity=".35"/>
+<g clip-path="url(#disc)">
+<rect width="400" height="400" fill="url(#dots)" style="color:var(--md-default-fg-color)"/>
+<g fill="none" stroke="#f4511e" stroke-linejoin="round">
+<path d="M70 215C60 150 120 95 190 90c70-5 135 40 140 115 4 70-55 120-125 122C130 329 78 285 70 215Z" stroke-opacity=".22" stroke-width="1.5"/>
+<path d="M105 210c-5-55 40-95 95-98 60-3 105 38 108 95 3 58-42 98-100 99-55 1-98-38-103-96Z" stroke-opacity=".4" stroke-width="1.8"/>
+<path d="M140 205c-3-38 25-66 62-68 42-2 70 27 71 65 1 40-30 68-70 68-38 0-61-27-63-65Z" stroke-opacity=".65" stroke-width="2"/>
+</g>
+</g>
+<circle cx="200" cy="200" r="180" fill="none" stroke="currentColor" stroke-opacity=".18" style="color:var(--md-default-fg-color)"/>
+<ellipse cx="200" cy="200" rx="210" ry="70" fill="none" stroke="#ffb300" stroke-opacity=".5" stroke-dasharray="3 7" transform="rotate(-28 200 200)"/>
+<g transform="translate(335 108) rotate(-28)"><rect x="-9" y="-5" width="18" height="10" rx="2" fill="#f4511e"/><rect x="-24" y="-3" width="13" height="6" fill="#ffb300"/><rect x="11" y="-3" width="13" height="6" fill="#ffb300"/></g>
+<g fill="#f4511e"><circle cx="150" cy="170" r="4"/><circle cx="250" cy="150" r="3"/><circle cx="275" cy="235" r="4"/><circle cx="165" cy="268" r="3"/><circle cx="118" cy="225" r="3"/><circle cx="232" cy="290" r="2.5"/><circle cx="215" cy="122" r="2.5"/></g>
+<g fill="none" stroke="#f4511e" stroke-opacity=".5"><circle cx="150" cy="170" r="9"/><circle cx="275" cy="235" r="9"/><circle cx="250" cy="150" r="7"/></g>
+<path d="M200 118c14 28 42 44 42 82 0 28-19 48-42 48s-42-20-42-48c0-18 9-30 18-42 2 14 9 22 16 26-4-26 2-46 8-66Z" fill="url(#fl)"/>
+<path d="M200 206c9 14 20 22 20 38 0 14-9 22-20 22s-20-8-20-22c0-10 6-17 12-24 1 7 4 11 8 13-2-12-1-20 0-27Z" fill="#fff" fill-opacity=".85"/>
+</svg>
+</div>
+</div>
 
 ## Themes
 
