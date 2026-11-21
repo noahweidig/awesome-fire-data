@@ -60,8 +60,10 @@ nav = [
           "datasets/fire-behavior/index.md",
           { "FEDS" = "datasets/fire-behavior/feds.md" },
           { "FIRED" = "datasets/fire-behavior/fired.md" },
+          { "FireSpread_MedEU" = "datasets/fire-behavior/firespread-medeu.md" },
           { "Global Fire Atlas" = "datasets/fire-behavior/global-fire-atlas.md" },
           { "GlobFire" = "datasets/fire-behavior/globfire.md" },
+          { "Western US Daily Fire Perimeter Progression" = "datasets/fire-behavior/nirops-daily-perimeters.md" },
       ] },
       { "Fuels, vegetation & terrain" = [
           "datasets/fuels-terrain/index.md",

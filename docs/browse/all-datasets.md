@@ -7,7 +7,7 @@ hide:
 
 # All datasets
 
-82 datasets. Click a column header to sort. Type to filter.
+84 datasets. Click a column header to sort. Type to filter.
 
 <input type="search" id="dataset-filter" class="dataset-filter" placeholder="Filter datasets" aria-label="Filter datasets">
 
@@ -42,8 +42,10 @@ hide:
 | [ICS-209-PLUS](../datasets/suppression/ics209-plus.md) | Suppression & resources | United States | 1999 to 2020 | Incident reports | CC BY 4.0 |
 | [FEDS](../datasets/fire-behavior/feds.md) | Fire behavior & spread | CONUS and Canada (Alaska and Hawaii through FIRMS when released) | Near real time, with static outputs tied to publications | 375 m detections, vector events | NASA open data |
 | [FIRED](../datasets/fire-behavior/fired.md) | Fire behavior & spread | CONUS and Alaska (V2), with regional releases elsewhere | Nov 2000 to Sep 2024 (CONUS and Alaska, V2); the original US release covered 2001 to 2019 | 500 m | CC BY-SA 4.0 per the preprint. Check each CU Scholar record. |
+| [FireSpread_MedEU](../datasets/fire-behavior/firespread-medeu.md) | Fire behavior & spread | Mediterranean and Europe | 2017 to 2023 | Event polygons (from daily Planet imagery) | CC BY 4.0 |
 | [Global Fire Atlas](../datasets/fire-behavior/global-fire-atlas.md) | Fire behavior & spread | Global | 2003 to 2016 | 500 m (annual grids), 0.25 degrees (monthly) | NASA open data |
 | [GlobFire](../datasets/fire-behavior/globfire.md) | Fire behavior & spread | Global | 2001 to 2021 | Event polygons (from 500 m MODIS) | CC BY 4.0 |
+| [Western US Daily Fire Perimeter Progression](../datasets/fire-behavior/nirops-daily-perimeters.md) | Fire behavior & spread | Western United States | 2020 to 2024 | Vector | CC BY 4.0 (Mendeley Data record) |
 | [FIA DataMart](../datasets/fuels-terrain/fia-datamart.md) | Fuels, vegetation & terrain | United States | Varies by state | Plots | Free to use, no fees (US Government data). Cite FIA. |
 | [GEDI Spaceborne Lidar](../datasets/fuels-terrain/gedi.md) | Fuels, vegetation & terrain | Global, between 51.6 degrees N and S | 2019 to present | 25 m footprints | NASA open data |
 | [Globe-LFMC 2.0](../datasets/fuels-terrain/globe-lfmc.md) | Fuels, vegetation & terrain | Global | 1977 to 2023 | Site records | See the Figshare record |
@@ -51,7 +53,7 @@ hide:
 | [LANDFIRE](../datasets/fuels-terrain/landfire.md) | Fuels, vegetation & terrain | United States | Annual updates since 2001 (varies by layer) | 30 m | Public domain |
 | [LCMAP Land Cover and Change](../datasets/fuels-terrain/lcmap.md) | Fuels, vegetation & terrain | Conterminous US | 1985 to 2021 | 30 m | Public domain |
 | [LCMS Landscape Change Monitoring System](../datasets/fuels-terrain/lcms.md) | Fuels, vegetation & terrain | CONUS, Alaska, Hawaii, Puerto Rico and US Virgin Islands | 1985 to 2024 | 30 m | Public domain |
-| [NLCD and Tree Canopy Cover](../datasets/fuels-terrain/nlcd-tcc.md) | Fuels, vegetation & terrain | United States (Annual NLCD: conterminous US) | 1985 to 2024 (land cover); tree canopy cover to 2023 | 30 m | Public domain |
+| [NLCD and Tree Canopy Cover](../datasets/fuels-terrain/nlcd-tcc.md) | Fuels, vegetation & terrain | United States (Annual NLCD: conterminous US) | 1985 to 2025 | 30 m | Public domain |
 | [Rangeland Analysis Platform](../datasets/fuels-terrain/rap.md) | Fuels, vegetation & terrain | Conterminous US | 1986 to present | 30 m | Listings conflict: public domain (USDA) or CC BY-NC 4.0 (community catalog). Confirm at rangelands.app. |
 | [RCMAP Rangeland Condition Monitoring](../datasets/fuels-terrain/rcmap.md) | Fuels, vegetation & terrain | Western US | 1985 to 2025 | 30 m | Public domain |
 | [TreeMap](../datasets/fuels-terrain/treemap.md) | Fuels, vegetation & terrain | Conterminous US | Editions for 2014, 2016, 2020 and 2022 | 30 m | Public domain |

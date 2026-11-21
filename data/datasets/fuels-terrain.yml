@@ -34,7 +34,7 @@
   summary: "Annual land cover, impervious surface and tree canopy cover for the conterminous US."
   provider: USGS and MRLC
   coverage: "United States (Annual NLCD: conterminous US)"
-  period: "1985 to 2024 (land cover); tree canopy cover to 2023"
+  period: "1985 to 2025"
   resolution: 30 m
   format: [GeoTIFF]
   license: Public domain
@@ -42,7 +42,7 @@
   access: https://www.mrlc.gov/data
   docs: https://www.mrlc.gov/
   tags: [United States, Bulk download, GeoTIFF, Public domain, 30 m, Annual, Land cover, Vegetation]
-  caveat: "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series."
+  caveat: "Annual NLCD Collection 1.2 (June 30, 2026) added 2025 to the six annual land cover products. Tree canopy cover (TCC v2025-6, USFS) spans 1985 to 2025 for CONUS, Southeast Alaska, Hawaii and Puerto Rico. Do not mix collections in one time series."
   verified: "2026-11-09"
 - id: gedi
   title: GEDI Spaceborne Lidar

@@ -25,6 +25,14 @@ Individual fire events with daily spread, speed and direction.
 
     [:lucide-arrow-right: Details](fired.md)
 
+-   :lucide-wind-arrow-down:{ .lg .middle } __[FireSpread_MedEU](firespread-medeu.md)__
+
+    ---
+
+    Multi-day fire propagation steps for 103 wildfires in the Mediterranean and Europe, mapped from daily Planet imagery.
+
+    [:lucide-arrow-right: Details](firespread-medeu.md)
+
 -   :lucide-globe:{ .lg .middle } __[Global Fire Atlas](global-fire-atlas.md)__
 
     ---
@@ -40,5 +48,13 @@ Individual fire events with daily spread, speed and direction.
     Global fire event polygons with daily progression, built from MODIS MCD64A1 burned area.
 
     [:lucide-arrow-right: Details](globfire.md)
+
+-   :lucide-flame:{ .lg .middle } __[Western US Daily Fire Perimeter Progression](nirops-daily-perimeters.md)__
+
+    ---
+
+    Curated airborne infrared fire perimeter snapshots for Western US wildfires, for reconstructing daily fire progression.
+
+    [:lucide-arrow-right: Details](nirops-daily-perimeters.md)
 
 </div>

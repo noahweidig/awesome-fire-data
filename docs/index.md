@@ -102,7 +102,7 @@ A curated catalog of datasets for fire science, management and modeling. Each en
 
     Individual fire events with daily spread, speed and direction.
 
-    4 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](datasets/fire-behavior/index.md)
 
