@@ -140,7 +140,7 @@
   license: CC BY (per catalog metadata)
   update: Annual
   access: https://catalog.data.gov/dataset/california-fire-perimeters-all
-  docs: https://lab.data.ca.gov/dataset/california-fire-perimeters-all
+  docs: https://data.ca.gov/dataset/california-fire-perimeters-all
   tags: [California, United States, Bulk download, Shapefile, GeoJSON, GeoDatabase, CSV, Annual, CC BY, Vector, Fire perimeters]
   related: [wfigs-perimeters, mtbs, cal-fire-dins]
   caveat: Updated each spring with the prior fire season. CAL FIRE says the record is the most complete digital one for California but still incomplete, especially before 1950. Inclusion thresholds can differ from NIFC data.
