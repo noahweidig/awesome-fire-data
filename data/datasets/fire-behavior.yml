@@ -13,8 +13,8 @@
   docs: https://doi.org/10.3334/ORNLDAAC/1642
   tags: [Global, Bulk download, GeoTIFF, Shapefile, NASA open data, Static, 500 m, MODIS, Fire events]
   related: [mcd64a1, fired]
-  caveat: Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20250411) moves to MODIS Collection 6.1 and redefines fire seasons. Its year range was not confirmed here.
-  verified: '2026-11-12'
+  caveat: Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20260408, CC BY 4.0, doi 10.5281/zenodo.17669692) uses MODIS Collection 6.1 and covers 2002 to February 2026. Its year strings are local fire seasons, not calendar years.
+  verified: '2026-11-21'
 - id: fired
   title: FIRED (Fire Events Delineation)
   icon: lucide/flame
@@ -66,3 +66,39 @@
   related: [mcd64a1, fired, global-fire-atlas, feds]
   caveat: Based on 500 m MODIS, so small fires are missed. Earth Engine v2 lists 2001 to 2021 and the PANGAEA record lists 2000 to 2021. Check GWIS for later releases.
   verified: '2026-11-12'
+- id: firespread-medeu
+  title: FireSpread_MedEU
+  icon: lucide/wind-arrow-down
+  summary: Multi-day fire propagation steps for 103 wildfires in the Mediterranean and Europe, mapped from daily Planet imagery.
+  provider: Scientific Data authors, Zenodo
+  coverage: Mediterranean and Europe
+  period: 2017 to 2023
+  resolution: Event polygons (from daily Planet imagery)
+  format: [Shapefile]
+  license: CC BY 4.0
+  update: Static
+  access: https://zenodo.org/records/18200075
+  docs: https://doi.org/10.1038/s41597-026-06965-2
+  doi: 10.5281/zenodo.18200075
+  tags: [Europe, Bulk download, Shapefile, CC BY 4.0, Static, Vector, Fire events]
+  related: [globfire, feds]
+  caveat: 320 propagation steps across 103 events, so it is small. Burned areas come from semi-automated NIR thresholding with manual refinement.
+  verified: '2026-11-21'
+- id: nirops-daily-perimeters
+  title: Western US Daily Fire Perimeter Progression (NIROPS)
+  icon: lucide/flame
+  summary: Curated airborne infrared fire perimeter snapshots for Western US wildfires, for reconstructing daily fire progression.
+  provider: Scientific Data authors, Mendeley Data (from USFS NIROPS)
+  coverage: Western United States
+  period: 2020 to 2024
+  resolution: Vector
+  format: [Shapefile]
+  license: CC BY 4.0 (Mendeley Data record)
+  update: Static
+  access: https://doi.org/10.17632/95rj5d379g.1
+  docs: https://doi.org/10.1038/s41597-026-07695-1
+  doi: 10.17632/95rj5d379g.1
+  tags: [Western US, United States, Bulk download, Shapefile, CC BY 4.0, Static, Vector, Fire perimeters, Fire events]
+  related: [wfigs-perimeters, feds]
+  caveat: 12,705 perimeter snapshots for 737 incidents. NIROPS flies only when requested, so coverage is uneven. The article is CC BY-NC-ND 4.0; the data record states CC BY 4.0.
+  verified: '2026-11-21'

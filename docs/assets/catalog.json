@@ -237,7 +237,7 @@
    "MODIS",
    "Burned area"
   ],
-  "caveat": "NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). Earthdata describes shutdown as beginning in late 2026 to early 2027, with both orbits drifting. VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.",
+  "caveat": "NASA ended Terra science observations on December 1, 2026 (announced November 17, 2026); Terra spacecraft systems shut off in January 2027. Aqua is the only MODIS left; its end date was not confirmed here (the LAADS DAAC page lists September 2027). VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.",
   "related": [
    "vnp64a1",
    "fire-cci51"
@@ -520,7 +520,7 @@
    "VIIRS",
    "Active fire"
   ],
-  "caveat": "MODIS detections depend on Terra and Aqua. NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). VIIRS detections continue.",
+  "caveat": "MODIS detections depend on Terra and Aqua. NASA ended Terra science observations on December 1, 2026 (announced November 17, 2026); Terra spacecraft systems shut off in January 2027. Aqua is the only MODIS left; its end date was not confirmed here (the LAADS DAAC page lists September 2027). VIIRS detections continue.",
   "verified": "2026-11-12"
  },
  {
@@ -923,6 +923,40 @@
   "verified": "2026-11-12"
  },
  {
+  "id": "firespread-medeu",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/firespread-medeu/",
+  "title": "FireSpread_MedEU",
+  "summary": "Multi-day fire propagation steps for 103 wildfires in the Mediterranean and Europe, mapped from daily Planet imagery.",
+  "provider": "Scientific Data authors, Zenodo",
+  "coverage": "Mediterranean and Europe",
+  "period": "2017 to 2023",
+  "resolution": "Event polygons (from daily Planet imagery)",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "CC BY 4.0",
+  "update": "Static",
+  "access": "https://zenodo.org/records/18200075",
+  "docs": "https://doi.org/10.1038/s41597-026-06965-2",
+  "doi": "10.5281/zenodo.18200075",
+  "tags": [
+   "Europe",
+   "Bulk download",
+   "Shapefile",
+   "CC BY 4.0",
+   "Static",
+   "Vector",
+   "Fire events"
+  ],
+  "related": [
+   "globfire",
+   "feds"
+  ],
+  "caveat": "320 propagation steps across 103 events, so it is small. Burned areas come from semi-automated NIR thresholding with manual refinement.",
+  "verified": "2026-11-21"
+ },
+ {
   "id": "global-fire-atlas",
   "theme": "Fire behavior & spread",
   "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/global-fire-atlas/",
@@ -955,8 +989,8 @@
    "mcd64a1",
    "fired"
   ],
-  "caveat": "Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20250411) moves to MODIS Collection 6.1 and redefines fire seasons. Its year range was not confirmed here.",
-  "verified": "2026-11-12"
+  "caveat": "Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20260408, CC BY 4.0, doi 10.5281/zenodo.17669692) uses MODIS Collection 6.1 and covers 2002 to February 2026. Its year strings are local fire seasons, not calendar years.",
+  "verified": "2026-11-21"
  },
  {
   "id": "globfire",
@@ -994,6 +1028,42 @@
   ],
   "caveat": "Based on 500 m MODIS, so small fires are missed. Earth Engine v2 lists 2001 to 2021 and the PANGAEA record lists 2000 to 2021. Check GWIS for later releases.",
   "verified": "2026-11-12"
+ },
+ {
+  "id": "nirops-daily-perimeters",
+  "theme": "Fire behavior & spread",
+  "url": "https://noahweidig.github.io/awesome-fire-data/datasets/fire-behavior/nirops-daily-perimeters/",
+  "title": "Western US Daily Fire Perimeter Progression (NIROPS)",
+  "summary": "Curated airborne infrared fire perimeter snapshots for Western US wildfires, for reconstructing daily fire progression.",
+  "provider": "Scientific Data authors, Mendeley Data (from USFS NIROPS)",
+  "coverage": "Western United States",
+  "period": "2020 to 2024",
+  "resolution": "Vector",
+  "format": [
+   "Shapefile"
+  ],
+  "license": "CC BY 4.0 (Mendeley Data record)",
+  "update": "Static",
+  "access": "https://doi.org/10.17632/95rj5d379g.1",
+  "docs": "https://doi.org/10.1038/s41597-026-07695-1",
+  "doi": "10.17632/95rj5d379g.1",
+  "tags": [
+   "Western US",
+   "United States",
+   "Bulk download",
+   "Shapefile",
+   "CC BY 4.0",
+   "Static",
+   "Vector",
+   "Fire perimeters",
+   "Fire events"
+  ],
+  "related": [
+   "wfigs-perimeters",
+   "feds"
+  ],
+  "caveat": "12,705 perimeter snapshots for 737 incidents. NIROPS flies only when requested, so coverage is uneven. The article is CC BY-NC-ND 4.0; the data record states CC BY 4.0.",
+  "verified": "2026-11-21"
  },
  {
   "id": "fia-datamart",
@@ -1242,7 +1312,7 @@
   "summary": "Annual land cover, impervious surface and tree canopy cover for the conterminous US.",
   "provider": "USGS and MRLC",
   "coverage": "United States (Annual NLCD: conterminous US)",
-  "period": "1985 to 2024 (land cover); tree canopy cover to 2023",
+  "period": "1985 to 2025",
   "resolution": "30 m",
   "format": [
    "GeoTIFF"
@@ -1261,7 +1331,7 @@
    "Land cover",
    "Vegetation"
   ],
-  "caveat": "Annual NLCD Collection 1.1 (June 2025) added 2024 to the six annual land cover products. Tree canopy cover runs to 2023. Do not mix Collection 1.0 and 1.1 in one time series.",
+  "caveat": "Annual NLCD Collection 1.2 (June 30, 2026) added 2025 to the six annual land cover products. Tree canopy cover (TCC v2025-6, USFS) spans 1985 to 2025 for CONUS, Southeast Alaska, Hawaii and Puerto Rico. Do not mix collections in one time series.",
   "verified": "2026-11-09"
  },
  {

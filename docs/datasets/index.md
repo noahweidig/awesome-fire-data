@@ -66,7 +66,7 @@ edit_url: https://github.com/noahweidig/awesome-fire-data/edit/main/scripts/gene
 
     Individual fire events with daily spread, speed and direction.
 
-    4 datasets
+    6 datasets
 
     [:lucide-arrow-right: Explore](fire-behavior/index.md)
 

@@ -12,7 +12,7 @@
   access: https://firms.modaps.eosdis.nasa.gov/active_fire/
   docs: https://firms.modaps.eosdis.nasa.gov/
   tags: [Global, API, Bulk download, CSV, Shapefile, NASA open data, Near real time, 375 m, GeoJSON, KML, MODIS, VIIRS, Active fire]
-  caveat: MODIS detections depend on Terra and Aqua. NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). VIIRS detections continue.
+  caveat: MODIS detections depend on Terra and Aqua. NASA ended Terra science observations on December 1, 2026 (announced November 17, 2026); Terra spacecraft systems shut off in January 2027. Aqua is the only MODIS left; its end date was not confirmed here (the LAADS DAAC page lists September 2027). VIIRS detections continue.
   verified: '2026-11-12'
 - id: goes-fdc
   title: GOES-R Fire/Hot Spot Characterization on AWS

@@ -32,11 +32,11 @@ Individual fire size, duration, daily expansion, speed and direction derived fro
 | :lucide-file:{ title="File and service formats" } Format | GeoTIFF, Shapefile |
 | :lucide-scale:{ title="Terms of use. Check the provider before redistributing" } License | NASA open data |
 | :lucide-refresh-cw:{ title="How often new data is published" } Updates | Static |
-| :lucide-badge-check:{ title="Date this entry was last checked against the provider" } Last verified | 2026-11-12 |
+| :lucide-badge-check:{ title="Date this entry was last checked against the provider" } Last verified | 2026-11-21 |
 
 !!! warning "Caveat"
 
-    Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20250411) moves to MODIS Collection 6.1 and redefines fire seasons. Its year range was not confirmed here.
+    Fires smaller than 21 ha are not included. Direction is only given for multiday fires. The ORNL release covers 2003 to 2016. A Zenodo update (v20260408, CC BY 4.0, doi 10.5281/zenodo.17669692) uses MODIS Collection 6.1 and covers 2002 to February 2026. Its year strings are local fire seasons, not calendar years.
 
 ## Related datasets
 

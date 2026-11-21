@@ -38,7 +38,7 @@ Global monthly burned-area product with burn date, from MODIS surface reflectanc
 
 !!! warning "Caveat"
 
-    NASA plans to stop Terra MODIS science data collection in February 2027 and Aqua in September 2027 (LAADS DAAC). Earthdata describes shutdown as beginning in late 2026 to early 2027, with both orbits drifting. VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.
+    NASA ended Terra science observations on December 1, 2026 (announced November 17, 2026); Terra spacecraft systems shut off in January 2027. Aqua is the only MODIS left; its end date was not confirmed here (the LAADS DAAC page lists September 2027). VNP64A1 is the VIIRS continuity product, but see its caveat on S-NPP.
 
 ## Related datasets
 
