@@ -1,4 +1,5 @@
 ---
+title: Awesome Fire Datasets
 icon: lucide/flame
 hide:
   - navigation
@@ -9,7 +10,7 @@ hide:
 <div class="hero" markdown>
 <div class="hero-text" markdown>
 
-# Awesome Fire Datasets
+# Every dataset for <span class="hl">fire science</span>, in one catalog
 
 A curated catalog of datasets for fire science, management and modeling. Each entry lists provider, coverage, resolution, format, license and a direct link to the data.
 
